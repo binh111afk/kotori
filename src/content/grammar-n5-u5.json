@@ -1,0 +1,100 @@
+{
+  "units": [
+    { "id": "u5", "title": "Ngữ pháp Unit 5 — Miêu tả", "order": 25 }
+  ],
+  "points": [
+    {
+      "id": "g-u5-1",
+      "unit_id": "u5",
+      "title": "Tính từ い: quá khứ & phủ định",
+      "structure": "高い → 高かったです / 高くないです / 高くなかったです",
+      "explanation_vi": "Tính từ い chia bằng cách đổi đuôi い: quá khứ → かったです, phủ định → くないです, quá khứ phủ định → くなかったです. Riêng いい chia BẤT QUY TẮC: よかったです / よくないです (không nói いかったです).",
+      "mistakes_vi": [
+        "“いいかったです” sai — quá khứ của いい là よかったです.",
+        "Quên です khi nói lịch sự: “高い。” nghe cộc, nên nói 高いです。"
+      ],
+      "examples": [
+        { "segments": [{ "t": "昨日", "r": "きのう" }, { "t": "は" }, { "t": "暑", "r": "あつ" }, { "t": "かったです。" }], "vi": "Hôm qua trời nóng." },
+        { "segments": [{ "t": "この" }, { "t": "部屋", "r": "へや" }, { "t": "は" }, { "t": "広", "r": "ひろ" }, { "t": "くないです。" }], "vi": "Căn phòng này không rộng." }
+      ],
+      "source": "Minna no Nihongo I, bài 8–9; Genki I bài 5",
+      "verified": true
+    },
+    {
+      "id": "g-u5-2",
+      "unit_id": "u5",
+      "title": "Tính từ な: quá khứ & phủ định",
+      "structure": "静かです → 静かでした / 静かじゃありません / 静かじゃありませんでした",
+      "explanation_vi": "Tính từ な chia GIỐNG HỆT danh từ + です: な-adjective + でした (quá khứ), じゃありません (phủ định). Khi đứng trước danh từ mới thêm な: きれいな花.",
+      "mistakes_vi": [
+        "“静かかったです” sai — chỉ tính từ い mới đổi かった.",
+        "Quên な khi bổ nghĩa: “きれい花です” sai — phải là きれいな花."
+      ],
+      "examples": [
+        { "segments": [{ "t": "昨日", "r": "きのう" }, { "t": "の" }, { "t": "町", "r": "まち" }, { "t": "は" }, { "t": "賑", "r": "にぎ" }, { "t": "やかでした。" }], "vi": "Hôm qua phố nhộn nhịp." },
+        { "segments": [{ "t": "この" }, { "t": "部屋", "r": "へや" }, { "t": "は" }, { "t": "静", "r": "しず" }, { "t": "かじゃありません。" }], "vi": "Căn phòng này không yên tĩnh." }
+      ],
+      "source": "Minna no Nihongo I, bài 8–9; Genki I bài 5",
+      "verified": true
+    },
+    {
+      "id": "g-u5-3",
+      "unit_id": "u5",
+      "title": "とても / あまり〜ない",
+      "structure": "とても + khẳng định ・ あまり + phủ định",
+      "explanation_vi": "とても = rất (chỉ đi với ý KHẲNG ĐỊNH); あまり = không mấy (chỉ đi với ý PHỦ ĐỊNH): あまり高くないです. Đặt trước tính từ/động từ.",
+      "mistakes_vi": [
+        "“あまり高いです” sai — あまり bắt buộc đi với phủ định.",
+        "“とても高くないです” nghĩa là “không cao chút nào” — khác “không cao mấy”, cẩn thận chọn từ."
+      ],
+      "examples": [
+        { "segments": [{ "t": "この" }, { "t": "本", "r": "ほん" }, { "t": "は" }, { "t": "とても" }, { "t": "おもしろいです。" }], "vi": "Cuốn sách này rất hay." },
+        { "segments": [{ "t": "この" }, { "t": "町", "r": "まち" }, { "t": "は" }, { "t": "あまり" }, { "t": "賑", "r": "にぎ" }, { "t": "やかじゃありません。" }], "vi": "Phố này không nhộn nhịp mấy." }
+      ],
+      "source": "Minna no Nihongo I, bài 9",
+      "verified": true
+    },
+    {
+      "id": "g-u5-4",
+      "unit_id": "u5",
+      "title": "そして / でも: nối câu",
+      "structure": "Câu 1。そして Câu 2 ・ Câu 1。でも Câu 2",
+      "explanation_vi": "そして = và, rồi (nối ý CÙNG hướng); でも = nhưng (nối ý TRÁI ngược). Đứng đầu câu phía sau, câu trước kết thúc trọn vẹn bằng です/ます.",
+      "mistakes_vi": [
+        "Nối hai câu bằng dấu phẩy như tiếng Việt: “安いです、そしておいしいです” — nên tách bằng dấu 。.",
+        "Dùng でも để nối ý cùng hướng."
+      ],
+      "examples": [
+        { "segments": [{ "t": "この" }, { "t": "店", "r": "みせ" }, { "t": "は" }, { "t": "安", "r": "やす" }, { "t": "いです。" }, { "t": "そして" }, { "t": "おいしいです。" }], "vi": "Quán này rẻ. Và ngon." },
+        { "segments": [{ "t": "日本語", "r": "にほんご" }, { "t": "は" }, { "t": "難", "r": "むずか" }, { "t": "しいです。" }, { "t": "でも" }, { "t": "楽", "r": "たの" }, { "t": "しいです。" }], "vi": "Tiếng Nhật khó. Nhưng vui." }
+      ],
+      "source": "Minna no Nihongo I, bài 9",
+      "verified": true
+    },
+    {
+      "id": "g-u5-5",
+      "unit_id": "u5",
+      "title": "どうですか: mời đánh giá",
+      "structure": "[N] は どうですか  →  “… thế nào?”",
+      "explanation_vi": "Hỏi ý kiến về một thứ đã biết rõ: 日本語の勉強はどうですか. Trả lời: たのしいです / とても難しいです… Khác いかがですか (trang trọng hơn).",
+      "mistakes_vi": [
+        "Dùng どうですか cho câu hỏi thu thập thông tin (“trường ở đâu” sai) — đây là câu hỏi MỜI ĐÁNH GIÁ."
+      ],
+      "examples": [
+        { "segments": [{ "t": "この" }, { "t": "花", "r": "はな" }, { "t": "は" }, { "t": "どう" }, { "t": "です" }, { "t": "か" }, { "t": "。" }], "vi": "Bông hoa này thế nào (bạn thấy)?" },
+        { "segments": [{ "t": "とても" }, { "t": "きれいです。" }], "vi": "Đẹp lắm." }
+      ],
+      "source": "Minna no Nihongo I, bài 9",
+      "verified": true
+    }
+  ],
+  "exercises": [
+    { "id": "x-u5-1-1", "grammar_id": "g-u5-1", "unit_id": "u5", "type": "choice", "payload": { "question": "「Hôm qua trời nóng」 — câu nào đúng?", "options": ["昨日は暑かったです。", "昨日は暑いです。", "昨日は暑いでした。"], "answerIndex": 0 }, "explanation_vi": "Tính từ い quá khứ = かったです; tuyệt đối không nói いでした.", "item_ref": "u5-01", "source": "kotori — soạn theo mẫu Minna VIII–IX", "verified": true, "order_index": 38 },
+    { "id": "x-u5-1-2", "grammar_id": "g-u5-1", "unit_id": "u5", "type": "conjugate", "payload": { "base": "いいです", "task": "Quá khứ của いい (bất quy tắc!)", "accepted": ["よかったです", "良かったです"], "hint": "いい → よ…でした" }, "explanation_vi": "いい chia bất quy tắc: よかったです / よくないです.", "item_ref": "u5-06", "source": "kotori — soạn theo lỗi thường gặp", "verified": true, "order_index": 39 },
+    { "id": "x-u5-2-1", "grammar_id": "g-u5-2", "unit_id": "u5", "type": "choice", "payload": { "question": "「Thư viện yên tĩnh」 (quá khứ) — câu nào đúng?", "options": ["図書館は静かでした。", "図書館は静かかったです。", "図書館は静かですでした。"], "answerIndex": 0 }, "explanation_vi": "Tính từ な chia bằng でした — không đổi かった.", "item_ref": "u5-09", "source": "kotori — soạn theo mẫu Minna VIII–IX", "verified": true, "order_index": 40 },
+    { "id": "x-u5-2-2", "grammar_id": "g-u5-2", "unit_id": "u5", "type": "fill", "payload": { "before": "きれい", "after": "花ですね。", "accepted": ["な"], "full": "きれいな花ですね。", "translation": "Bông hoa đẹp nhỉ.", "speak": "きれいな花ですね。" }, "explanation_vi": "Tính từ な bổ nghĩa danh từ phải thêm な.", "item_ref": "u5-08", "source": "kotori — soạn theo lỗi thường gặp", "verified": true, "order_index": 41 },
+    { "id": "x-u5-3-1", "grammar_id": "g-u5-3", "unit_id": "u5", "type": "choice", "payload": { "question": "「Quán này không đắt mấy」 — câu nào đúng?", "options": ["この店はあまり高くないです。", "この店はあまり高いです。", "この店はとても高くないです。"], "answerIndex": 0 }, "explanation_vi": "あまり luôn đi với PHỦ ĐỊNH.", "item_ref": "u5-20", "source": "kotori — soạn theo mẫu Minna IX", "verified": true, "order_index": 42 },
+    { "id": "x-u5-4-1", "grammar_id": "g-u5-4", "unit_id": "u5", "type": "match", "payload": { "pairs": [ { "jp": "そして", "vi": "và, rồi", "item_ref": "u5-21" }, { "jp": "でも", "vi": "nhưng", "item_ref": "u5-22" }, { "jp": "とても", "vi": "rất", "item_ref": "u5-19" }, { "jp": "あまり", "vi": "không mấy (+phủ định)", "item_ref": "u5-20" } ] }, "explanation_vi": "Các từ nối và trạng từ mức độ Unit 5.", "source": "kotori — ôn Unit 5", "verified": true, "order_index": 43 },
+    { "id": "x-u5-5-1", "grammar_id": "g-u5-5", "unit_id": "u5", "type": "choice", "payload": { "question": "Mời bạn đánh giá về tiếng Nhật: hỏi thế nào?", "options": ["日本語の勉強はどうですか。", "日本語の勉強は何ですか。", "日本語の勉強はだれですか。"], "answerIndex": 0 }, "explanation_vi": "どうですか = mời đánh giá; 何/だれ hỏi thông tin.", "item_ref": "u5-23", "source": "kotori — soạn theo mẫu Minna IX", "verified": true, "order_index": 44 }
+  ]
+}

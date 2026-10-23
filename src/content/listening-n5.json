@@ -1,0 +1,1436 @@
+{
+ "units": [
+  {
+   "id": "l1",
+   "title": "Nghe 1 — Gặp gỡ & giới thiệu",
+   "order": 31
+  },
+  {
+   "id": "l2",
+   "title": "Nghe 2 — Đây là cái gì?",
+   "order": 32
+  },
+  {
+   "id": "l3",
+   "title": "Nghe 3 — Nhà vệ sinh ở đâu?",
+   "order": 33
+  },
+  {
+   "id": "l4",
+   "title": "Nghe 4 — Ngày của Mai",
+   "order": 34
+  }
+ ],
+ "lessons": [
+  {
+   "id": "l1",
+   "unit_id": "l1",
+   "title": "はじめまして — Gặp gỡ lần đầu",
+   "topic": "Chào hỏi, giới thiệu bản thân, hỏi nghề nghiệp",
+   "theory": {
+    "tips": [
+     "Câu hỏi tiếng Nhật không đổi trật tự — tai bạn chỉ cần bám vào trợ từ か cuối câu; ngữ điệu cuối câu hỏi thường đi lên.",
+     "は khi làm trợ từ đọc “wa”, không phải “ha” — trong hội thoại tốc độ thường rất dễ nhầm; để ý chữ theo sau luôn là phần nói về chủ đề.",
+     "Nghi thức làm quen cố định: はじめまして → (tên mình) → よろしくお願いします. Nghe thấy はじめまして là biết trước sắp có hai câu còn lại."
+    ],
+    "keywords": [
+     {
+      "jp": "はじめまして",
+      "vi": "Rất vui được gặp lần đầu"
+     },
+     {
+      "jp": "よろしくお願いします",
+      "r": "よろしくおねがいします",
+      "vi": "Rất mong được giúp đỡ"
+     },
+     {
+      "jp": "先生",
+      "r": "せんせい",
+      "vi": "giáo viên"
+     },
+     {
+      "jp": "会社員",
+      "r": "かいしゃいん",
+      "vi": "nhân viên công ty"
+     },
+     {
+      "jp": "だれ",
+      "vi": "ai"
+     }
+    ]
+   },
+   "dialogue": {
+    "lines": [
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "はじめまして。"
+       },
+       {
+        "t": "マイ"
+       },
+       {
+        "t": "です。"
+       }
+      ],
+      "vi": "Rất vui được gặp anh. Tôi là Mai."
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "はじめまして。"
+       },
+       {
+        "t": "タナカ"
+       },
+       {
+        "t": "です。"
+       },
+       {
+        "t": "よろしく"
+       },
+       {
+        "t": "お願い",
+        "r": "おねがい"
+       },
+       {
+        "t": "します。"
+       }
+      ],
+      "vi": "Rất vui được gặp chị. Tôi là Tanaka. Rất mong được giúp đỡ."
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "タナカ"
+       },
+       {
+        "t": "さん"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "先生",
+        "r": "せんせい"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Anh Tanaka là giáo viên phải không?"
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "いいえ、"
+       },
+       {
+        "t": "先生",
+        "r": "せんせい"
+       },
+       {
+        "t": "じゃ"
+       },
+       {
+        "t": "ありません。"
+       },
+       {
+        "t": "会社員",
+        "r": "かいしゃいん"
+       },
+       {
+        "t": "です。"
+       }
+      ],
+      "vi": "Không, tôi không phải là giáo viên. Tôi là nhân viên công ty."
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "あ、"
+       },
+       {
+        "t": "そうです"
+       },
+       {
+        "t": "か。"
+       },
+       {
+        "t": "マイ"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "学生",
+        "r": "がくせい"
+       },
+       {
+        "t": "です。"
+       }
+      ],
+      "vi": "À, vậy ạ. Mai là học sinh."
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "マイ"
+       },
+       {
+        "t": "さん"
+       },
+       {
+        "t": "も"
+       },
+       {
+        "t": "日本語",
+        "r": "にほんご"
+       },
+       {
+        "t": "の"
+       },
+       {
+        "t": "学生",
+        "r": "がくせい"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Mai cũng là học sinh tiếng Nhật à?"
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "はい、"
+       },
+       {
+        "t": "そうです。"
+       },
+       {
+        "t": "山田",
+        "r": "やまだ"
+       },
+       {
+        "t": "先生",
+        "r": "せんせい"
+       },
+       {
+        "t": "の"
+       },
+       {
+        "t": "学生",
+        "r": "がくせい"
+       },
+       {
+        "t": "です。"
+       }
+      ],
+      "vi": "Vâng, đúng vậy. Học sinh của thầy Yamada."
+     }
+    ]
+   },
+   "source": "kotori — hội thoại soạn theo ngữ pháp Minna I bài 1–2 (U1)",
+   "verified": true,
+   "order_index": 1
+  },
+  {
+   "id": "l2",
+   "unit_id": "l2",
+   "title": "これは何ですか — Đây là cái gì?",
+   "topic": "Chỉ vật これ/それ/あれ, hỏi sở hữu với の",
+   "theory": {
+    "tips": [
+     "Bám âm đầu こ・そ・あ để đo khoảng cách: これ gần người NÓI, それ gần người NGHE, あれ xa cả hai — trong hội thoại, ai phóng ra chữ こ thì vật đang ở tay người đó.",
+     "Nghe thấy だれの là biết câu hỏi về CHỦ SỞ HỮU (của ai), không phải hỏi tên đồ vật.",
+     "の = “của” nhưng thứ tự ngược tiếng Việt: 山田先生の = “của thầy Yamada”. Nghe cụm [tên người + の] là đoán câu trả lời ngay phía sau."
+    ],
+    "keywords": [
+     {
+      "jp": "これ / それ / あれ",
+      "vi": "cái này / cái đó / cái kia"
+     },
+     {
+      "jp": "辞書",
+      "r": "じしょ",
+      "vi": "từ điển"
+     },
+     {
+      "jp": "傘",
+      "r": "かさ",
+      "vi": "cây dù"
+     },
+     {
+      "jp": "ペン",
+      "vi": "bút mực"
+     },
+     {
+      "jp": "だれの",
+      "vi": "của ai?"
+     }
+    ]
+   },
+   "dialogue": {
+    "lines": [
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "タナカ"
+       },
+       {
+        "t": "さん、"
+       },
+       {
+        "t": "これ"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "何",
+        "r": "なん"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Anh Tanaka ơi, cái này là gì vậy?"
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "それ"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "日本語",
+        "r": "にほんご"
+       },
+       {
+        "t": "の"
+       },
+       {
+        "t": "辞書",
+        "r": "じしょ"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "よ。"
+       }
+      ],
+      "vi": "Cái đó là từ điển tiếng Nhật đấy."
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "そうです"
+       },
+       {
+        "t": "か。"
+       },
+       {
+        "t": "あの"
+       },
+       {
+        "t": "傘",
+        "r": "かさ"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "だれ"
+       },
+       {
+        "t": "の"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Vậy ạ. Cây dù kia là của ai?"
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "あれ"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "山田",
+        "r": "やまだ"
+       },
+       {
+        "t": "先生",
+        "r": "せんせい"
+       },
+       {
+        "t": "の"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Cái kia là của thầy Yamada."
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "この"
+       },
+       {
+        "t": "ペン"
+       },
+       {
+        "t": "も"
+       },
+       {
+        "t": "山田",
+        "r": "やまだ"
+       },
+       {
+        "t": "先生",
+        "r": "せんせい"
+       },
+       {
+        "t": "の"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Cây bút này cũng của thầy Yamada à?"
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "いいえ、"
+       },
+       {
+        "t": "それ"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "マイ"
+       },
+       {
+        "t": "さん"
+       },
+       {
+        "t": "の"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Không, cái đó (bên chị) là của Mai."
+     }
+    ]
+   },
+   "source": "kotori — hội thoại soạn theo ngữ pháp Minna I bài 2–3 (U2)",
+   "verified": true,
+   "order_index": 2
+  },
+  {
+   "id": "l3",
+   "unit_id": "l3",
+   "title": "トイレはどこですか — Nhà vệ sinh ở đâu?",
+   "topic": "Hỏi đường, chỉ nơi chốn, cảm ơn và đáp lời cảm ơn",
+   "theory": {
+    "tips": [
+     "Hỏi/chỉ đường ở N5 xoay quanh ここ・そこ・あそこ・どこ — nghe người ta trả lời bằng chữ nào là biết vật/nơi đó gần hay xa.",
+     "すみません không chỉ là “xin lỗi” — khi gọi người lạ để hỏi đường, nó chính là “cho tôi hỏi”.",
+     "Nghe ありがとう… thì câu đáp lời chuẩn phía sau là どういたしまして (“không có gì”)."
+    ],
+    "keywords": [
+     {
+      "jp": "トイレ",
+      "vi": "nhà vệ sinh"
+     },
+     {
+      "jp": "図書館",
+      "r": "としょかん",
+      "vi": "thư viện"
+     },
+     {
+      "jp": "どこ",
+      "vi": "ở đâu"
+     },
+     {
+      "jp": "すみません",
+      "vi": "cho tôi hỏi / xin lỗi"
+     },
+     {
+      "jp": "どういたしまして",
+      "vi": "không có gì"
+     }
+    ]
+   },
+   "dialogue": {
+    "lines": [
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "すみません、"
+       },
+       {
+        "t": "トイレ"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "どこ"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Cho tôi hỏi, nhà vệ sinh ở đâu ạ?"
+     },
+     {
+      "speaker": "山田",
+      "segments": [
+       {
+        "t": "トイレ"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "あそこ"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Nhà vệ sinh ở kia ạ."
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "あそこ"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "か。"
+       },
+       {
+        "t": "ありがとう"
+       },
+       {
+        "t": "ございます。"
+       }
+      ],
+      "vi": "Ở kia ạ. Cảm ơn thầy."
+     },
+     {
+      "speaker": "山田",
+      "segments": [
+       {
+        "t": "どういたしまして。"
+       }
+      ],
+      "vi": "Không có gì."
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "図書館",
+        "r": "としょかん"
+       },
+       {
+        "t": "も"
+       },
+       {
+        "t": "あそこ"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Thư viện cũng ở kia không ạ?"
+     },
+     {
+      "speaker": "山田",
+      "segments": [
+       {
+        "t": "いいえ、"
+       },
+       {
+        "t": "図書館",
+        "r": "としょかん"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "ここ"
+       },
+       {
+        "t": "です"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Không, thư viện ở đây."
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "そうです"
+       },
+       {
+        "t": "か。"
+       },
+       {
+        "t": "ありがとう"
+       },
+       {
+        "t": "ございます。"
+       }
+      ],
+      "vi": "Vậy ạ. Cảm ơn thầy."
+     }
+    ]
+   },
+   "source": "kotori — hội thoại soạn theo ngữ pháp Minna I bài 3 (U2)",
+   "verified": true,
+   "order_index": 3
+  },
+  {
+   "id": "l4",
+   "unit_id": "l4",
+   "title": "毎日の生活 — Ngày của Mai",
+   "topic": "Thói quen hằng ngày, giờ giấc, phương tiện đi lại",
+   "theory": {
+    "tips": [
+     "Hội thoại về thói quen hằng ngày chia động từ ます/ます — nghe thời điểm (七時に, 六時に) để dựng lại một ngày của người nói.",
+     "Giờ trong tiếng Nhật đọc không đều: 4時 = よじ, 7時 = しちじ, 9時 = くじ — nghe kĩ ba giờ này trước tiên.",
+     "Phương tiện đi lại đứng trước で: バスで, 電車で — nghe chữ nào trước で là biết đi bằng gì."
+    ],
+    "keywords": [
+     {
+      "jp": "起きます",
+      "r": "おきます",
+      "vi": "thức dậy"
+     },
+     {
+      "jp": "帰ります",
+      "r": "かえります",
+      "vi": "về nhà"
+     },
+     {
+      "jp": "バス / 電車 / 自転車",
+      "vi": "xe buýt / tàu điện / xe đạp"
+     },
+     {
+      "jp": "毎日",
+      "r": "まいにち",
+      "vi": "mỗi ngày"
+     },
+     {
+      "jp": "〜から〜まで",
+      "vi": "từ … đến …"
+     }
+    ]
+   },
+   "dialogue": {
+    "lines": [
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "マイ"
+       },
+       {
+        "t": "さん"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "毎日",
+        "r": "まいにち"
+       },
+       {
+        "t": "何",
+        "r": "なん"
+       },
+       {
+        "t": "時",
+        "r": "じ"
+       },
+       {
+        "t": "に起",
+        "r": "お"
+       },
+       {
+        "t": "きます"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Mai dậy lúc mấy giờ mỗi ngày?"
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "六",
+        "r": "ろく"
+       },
+       {
+        "t": "時",
+        "r": "じ"
+       },
+       {
+        "t": "に起",
+        "r": "お"
+       },
+       {
+        "t": "きます。"
+       },
+       {
+        "t": "それから"
+       },
+       {
+        "t": "朝",
+        "r": "あさ"
+       },
+       {
+        "t": "ご飯",
+        "r": "はん"
+       },
+       {
+        "t": "を食",
+        "r": "た"
+       },
+       {
+        "t": "べます。"
+       }
+      ],
+      "vi": "Sáu giờ tôi dậy. Sau đó tôi ăn sáng."
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "学校",
+        "r": "がっこう"
+       },
+       {
+        "t": "まで"
+       },
+       {
+        "t": "何",
+        "r": "なに"
+       },
+       {
+        "t": "で行",
+        "r": "い"
+       },
+       {
+        "t": "きます"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Đi đến trường bằng gì?"
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "電車",
+        "r": "でんしゃ"
+       },
+       {
+        "t": "で行",
+        "r": "い"
+       },
+       {
+        "t": "きます。"
+       },
+       {
+        "t": "九",
+        "r": "く"
+       },
+       {
+        "t": "時",
+        "r": "じ"
+       },
+       {
+        "t": "から三",
+        "r": "さん"
+       },
+       {
+        "t": "時",
+        "r": "じ"
+       },
+       {
+        "t": "まで日本語",
+        "r": "にほんご"
+       },
+       {
+        "t": "を勉強",
+        "r": "べんきょう"
+       },
+       {
+        "t": "します。"
+       }
+      ],
+      "vi": "Tôi đi bằng tàu điện. Từ 9 giờ đến 3 giờ tôi học tiếng Nhật."
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "学校",
+        "r": "がっこう"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "楽",
+        "r": "たの"
+       },
+       {
+        "t": "しいです"
+       },
+       {
+        "t": "か"
+       },
+       {
+        "t": "。"
+       }
+      ],
+      "vi": "Trường học vui không?"
+     },
+     {
+      "speaker": "マイ",
+      "segments": [
+       {
+        "t": "はい、"
+       },
+       {
+        "t": "とても"
+       },
+       {
+        "t": "楽",
+        "r": "たの"
+       },
+       {
+        "t": "しいです。"
+       },
+       {
+        "t": "夜",
+        "r": "よる"
+       },
+       {
+        "t": "は"
+       },
+       {
+        "t": "家",
+        "r": "いえ"
+       },
+       {
+        "t": "で"
+       },
+       {
+        "t": "宿題",
+        "r": "しゅくだい"
+       },
+       {
+        "t": "をします。"
+       }
+      ],
+      "vi": "Vâng, rất vui. Buổi tối tôi làm bài tập ở nhà."
+     },
+     {
+      "speaker": "タナカ",
+      "segments": [
+       {
+        "t": "大変",
+        "r": "たいへん"
+       },
+       {
+        "t": "ですね。"
+       },
+       {
+        "t": "頑張",
+        "r": "がんば"
+       },
+       {
+        "t": "って"
+       },
+       {
+        "t": "ください。"
+       }
+      ],
+      "vi": "Vất vả nhỉ. Cố lên nhé!"
+     }
+    ]
+   },
+   "source": "kotori — hội thoại soạn theo ngữ pháp Minna I bài 4–5 (U3)",
+   "verified": true,
+   "order_index": 4
+  }
+ ],
+ "exercises": [
+  {
+   "id": "x-l1-1",
+   "unit_id": "l1",
+   "grammar_id": null,
+   "type": "choice",
+   "payload": {
+    "question": "Nghe cả đoạn hội thoại: Tanaka làm nghề gì?",
+    "speak": "はじめまして。マイです。はじめまして。タナカです。よろしくお願いします。タナカさんは、先生ですか。いいえ、先生じゃありません。会社員です。",
+    "options": [
+     "会社員",
+     "先生",
+     "学生"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Tanaka nói 「先生じゃありません。会社員です。」 — không phải giáo viên, mà là nhân viên công ty.",
+   "item_ref": "u1-28",
+   "source": "kotori — soạn theo hội thoại L1",
+   "verified": true,
+   "order_index": 1
+  },
+  {
+   "id": "x-l1-2",
+   "unit_id": "l1",
+   "grammar_id": null,
+   "type": "choice",
+   "payload": {
+    "question": "Ai là học sinh của thầy Yamada?",
+    "speak": "はい、そうです。山田先生の学生です。",
+    "options": [
+     "マイさん",
+     "タナカさん",
+     "山田先生"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Mai nói 「山田先生の学生です」 — học sinh CỦA thầy Yamada là Mai.",
+   "source": "kotori — soạn theo hội thoại L1",
+   "verified": true,
+   "order_index": 2
+  },
+  {
+   "id": "x-l1-3",
+   "unit_id": "l1",
+   "grammar_id": null,
+   "type": "fill",
+   "payload": {
+    "before": "タナカさんは、先生です",
+    "after": "。",
+    "accepted": [
+     "か",
+     "ka"
+    ],
+    "full": "タナカさんは、先生ですか。",
+    "translation": "Anh Tanaka là giáo viên phải không?",
+    "speak": "タナカさんは、先生ですか。"
+   },
+   "explanation_vi": "Câu hỏi chỉ cần thêm か cuối câu — nghe câu hỏi bằng dấu ๆ đi lên này.",
+   "source": "kotori — soạn theo hội thoại L1",
+   "verified": true,
+   "order_index": 3
+  },
+  {
+   "id": "x-l1-4",
+   "unit_id": "l1",
+   "grammar_id": null,
+   "type": "fill",
+   "payload": {
+    "before": "いいえ、先生じゃ",
+    "after": "。",
+    "accepted": [
+     "ありません"
+    ],
+    "full": "いいえ、先生じゃありません。",
+    "translation": "Không, tôi không phải là giáo viên.",
+    "speak": "いいえ、先生じゃありません。"
+   },
+   "explanation_vi": "Phủ định lịch sự của です là じゃありません.",
+   "source": "kotori — soạn theo hội thoại L1",
+   "verified": true,
+   "order_index": 4
+  },
+  {
+   "id": "x-l1-5",
+   "unit_id": "l1",
+   "grammar_id": null,
+   "type": "match",
+   "payload": {
+    "pairs": [
+     {
+      "jp": "はじめまして。",
+      "vi": "Rất vui được gặp lần đầu.",
+      "item_ref": "u1-13"
+     },
+     {
+      "jp": "よろしくお願いします。",
+      "vi": "Rất mong được giúp đỡ.",
+      "item_ref": "u1-14"
+     },
+     {
+      "jp": "はい、そうです。",
+      "vi": "Vâng, đúng vậy.",
+      "item_ref": "u1-01"
+     },
+     {
+      "jp": "いいえ、ちがいます。",
+      "vi": "Không, không phải vậy.",
+      "item_ref": "u1-02"
+     }
+    ]
+   },
+   "explanation_vi": "Các câu chào làm quen trong bài nghe.",
+   "source": "kotori — ôn từ Unit 1",
+   "verified": true,
+   "order_index": 5
+  },
+  {
+   "id": "x-l2-1",
+   "unit_id": "l2",
+   "grammar_id": null,
+   "type": "choice",
+   "payload": {
+    "question": "「これは何ですか」 — câu này dùng khi vật ở gần ai?",
+    "options": [
+     "Gần người nói",
+     "Gần người nghe",
+     "Xa cả hai người"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "これ = vật gần người NÓI; それ gần người nghe; あれ xa cả hai.",
+   "item_ref": "u2-01",
+   "source": "kotori — soạn theo hội thoại L2",
+   "verified": true,
+   "order_index": 6
+  },
+  {
+   "id": "x-l2-2",
+   "unit_id": "l2",
+   "grammar_id": null,
+   "type": "fill",
+   "payload": {
+    "before": "",
+    "after": "は日本語の辞書です。(vật gần người nghe)",
+    "accepted": [
+     "それ",
+     "sore"
+    ],
+    "full": "それは日本語の辞書です。",
+    "translation": "Cái đó là từ điển tiếng Nhật.",
+    "speak": "それは日本語の辞書です。"
+   },
+   "explanation_vi": "Vật gần người NGHE → それ.",
+   "item_ref": "u2-02",
+   "source": "kotori — soạn theo hội thoại L2",
+   "verified": true,
+   "order_index": 7
+  },
+  {
+   "id": "x-l2-3",
+   "unit_id": "l2",
+   "grammar_id": null,
+   "type": "choice",
+   "payload": {
+    "question": "「あの傘はだれのですか」 — câu này hỏi điều gì?",
+    "speak": "あの傘はだれのですか。",
+    "options": [
+     "Cây dù kia là của ai?",
+     "Cây dù kia là gì?",
+     "Cây dù kia ở đâu?"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "だれの = “của ai” — nghe だれの là biết câu hỏi về chủ sở hữu.",
+   "item_ref": "u2-13",
+   "source": "kotori — soạn theo hội thoại L2",
+   "verified": true,
+   "order_index": 8
+  },
+  {
+   "id": "x-l2-4",
+   "unit_id": "l2",
+   "grammar_id": null,
+   "type": "reorder",
+   "payload": {
+    "tokens": [
+     "あれは",
+     "山田先生",
+     "の",
+     "です"
+    ],
+    "translation": "Cái kia là của thầy Yamada."
+   },
+   "explanation_vi": "Sở hữu: người sở hữu + の; あれは + [của ai] + です.",
+   "source": "kotori — soạn theo hội thoại L2",
+   "verified": true,
+   "order_index": 9
+  },
+  {
+   "id": "x-l2-5",
+   "unit_id": "l2",
+   "grammar_id": null,
+   "type": "match",
+   "payload": {
+    "pairs": [
+     {
+      "jp": "これは本です。",
+      "vi": "Đây là sách.",
+      "item_ref": "u2-15"
+     },
+     {
+      "jp": "それはマイさんのです。",
+      "vi": "Cái đó là của Mai."
+     },
+     {
+      "jp": "あの傘",
+      "vi": "Cây dù kia"
+     },
+     {
+      "jp": "どれですか。",
+      "vi": "Cái nào vậy?",
+      "item_ref": "u2-04"
+     }
+    ]
+   },
+   "explanation_vi": "Ôn こそあど + sở hữu の trong bài nghe.",
+   "source": "kotori — ôn từ Unit 2",
+   "verified": true,
+   "order_index": 10
+  },
+  {
+   "id": "x-l3-1",
+   "unit_id": "l3",
+   "grammar_id": null,
+   "type": "fill",
+   "payload": {
+    "before": "トイレは",
+    "after": "ですか。",
+    "accepted": [
+     "どこ",
+     "doko"
+    ],
+    "full": "トイレはどこですか。",
+    "translation": "Nhà vệ sinh ở đâu ạ?",
+    "speak": "トイレはどこですか。"
+   },
+   "explanation_vi": "Hỏi vị trí: N は どこですか。",
+   "item_ref": "u2-12",
+   "source": "kotori — soạn theo hội thoại L3",
+   "verified": true,
+   "order_index": 11
+  },
+  {
+   "id": "x-l3-2",
+   "unit_id": "l3",
+   "grammar_id": null,
+   "type": "choice",
+   "payload": {
+    "question": "Nghe cả đoạn: theo hội thoại, nhà vệ sinh ở đâu?",
+    "speak": "すみません、トイレはどこですか。トイレはあそこです。あそこですか。ありがとうございます。",
+    "options": [
+     "あそこ (nơi kia)",
+     "ここ (nơi này)",
+     "そこ (nơi đó, gần người nghe)"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Yamada trả lời 「トイレはあそこです」 — ở nơi kia.",
+   "item_ref": "u2-11",
+   "source": "kotori — soạn theo hội thoại L3",
+   "verified": true,
+   "order_index": 12
+  },
+  {
+   "id": "x-l3-3",
+   "unit_id": "l3",
+   "grammar_id": null,
+   "type": "choice",
+   "payload": {
+    "question": "「図書館もあそこですか。」 — trong hội thoại, câu trả lời là 「いいえ、図書館はここです。」",
+    "speak": "図書館もあそこですか。いいえ、図書館はここです。",
+    "options": [
+     "Đúng",
+     "Sai"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Yamada nói thư viện KHÔNG ở kia mà ở đây (ここ).",
+   "source": "kotori — soạn theo hội thoại L3",
+   "verified": true,
+   "order_index": 13
+  },
+  {
+   "id": "x-l3-4",
+   "unit_id": "l3",
+   "grammar_id": null,
+   "type": "fill",
+   "payload": {
+    "before": "図書館",
+    "after": "あそこですか。",
+    "accepted": [
+     "も",
+     "mo"
+    ],
+    "full": "図書館もあそこですか。",
+    "translation": "Thư viện cũng ở kia không ạ?",
+    "speak": "図書館もあそこですか。"
+   },
+   "explanation_vi": "“Cũng” = も, thay cho は.",
+   "source": "kotori — soạn theo hội thoại L3",
+   "verified": true,
+   "order_index": 14
+  },
+  {
+   "id": "x-l3-5",
+   "unit_id": "l3",
+   "grammar_id": null,
+   "type": "match",
+   "payload": {
+    "pairs": [
+     {
+      "jp": "どこですか。",
+      "vi": "Ở đâu ạ?",
+      "item_ref": "u2-12"
+     },
+     {
+      "jp": "あそこです。",
+      "vi": "Ở kia.",
+      "item_ref": "u2-11"
+     },
+     {
+      "jp": "すみません。",
+      "vi": "Cho tôi hỏi / Xin lỗi.",
+      "item_ref": "u1-11"
+     },
+     {
+      "jp": "どういたしまして。",
+      "vi": "Không có gì."
+     }
+    ]
+   },
+   "explanation_vi": "Các câu hỏi đường và đáp lời trong bài nghe.",
+   "source": "kotori — ôn từ Unit 1–2",
+   "verified": true,
+   "order_index": 15
+  },
+  {
+   "id": "x-l4-1",
+   "unit_id": "l4",
+   "grammar_id": null,
+   "type": "choice",
+   "payload": {
+    "question": "Nghe cả đoạn: Mai dậy lúc mấy giờ?",
+    "speak": "毎日は何時に起きますか。六時に起きます。",
+    "options": [
+     "六時 (6 giờ)",
+     "七時 (7 giờ)",
+     "九時 (9 giờ)"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Mai nói 「六時に起きます」 — dậy lúc 6 giờ.",
+   "item_ref": "u3-01",
+   "source": "kotori — soạn theo hội thoại L4",
+   "verified": true,
+   "order_index": 16
+  },
+  {
+   "id": "x-l4-2",
+   "unit_id": "l4",
+   "grammar_id": null,
+   "type": "choice",
+   "payload": {
+    "question": "Mai đến trường bằng gì?",
+    "speak": "学校まで何で行きますか。電車で行きます。",
+    "options": [
+     "電車 (tàu điện)",
+     "バス (xe buýt)",
+     "自転車 (xe đạp)"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "「電車で行きます」 — đi bằng tàu điện.",
+   "item_ref": "u3-15",
+   "source": "kotori — soạn theo hội thoại L4",
+   "verified": true,
+   "order_index": 17
+  },
+  {
+   "id": "x-l4-3",
+   "unit_id": "l4",
+   "grammar_id": null,
+   "type": "fill",
+   "payload": {
+    "before": "九時から三時",
+    "after": "日本語を勉強します。",
+    "accepted": [
+     "まで"
+    ],
+    "full": "九時から三時まで日本語を勉強します。",
+    "translation": "Từ 9 giờ đến 3 giờ tôi học tiếng Nhật.",
+    "speak": "九時から三時まで日本語を勉強します。"
+   },
+   "explanation_vi": "から…まで = từ … đến …",
+   "item_ref": "u3-05",
+   "source": "kotori — soạn theo hội thoại L4",
+   "verified": true,
+   "order_index": 18
+  },
+  {
+   "id": "x-l4-4",
+   "unit_id": "l4",
+   "grammar_id": null,
+   "type": "fill",
+   "payload": {
+    "before": "夜は家で",
+    "after": "をします。",
+    "accepted": [
+     "宿題",
+     "しゅくだい"
+    ],
+    "full": "夜は家で宿題をします。",
+    "translation": "Buổi tối tôi làm bài tập ở nhà.",
+    "speak": "夜は家で宿題をします。"
+   },
+   "explanation_vi": "宿題をします = làm bài tập.",
+   "item_ref": "u7-06",
+   "source": "kotori — soạn theo hội thoại L4",
+   "verified": true,
+   "order_index": 19
+  },
+  {
+   "id": "x-l4-5",
+   "unit_id": "l4",
+   "grammar_id": null,
+   "type": "match",
+   "payload": {
+    "pairs": [
+     {
+      "jp": "起きます",
+      "vi": "thức dậy",
+      "item_ref": "u3-01"
+     },
+     {
+      "jp": "帰ります",
+      "vi": "về nhà",
+      "item_ref": "u3-07"
+     },
+     {
+      "jp": "歩きます",
+      "vi": "đi bộ",
+      "item_ref": "u3-17"
+     },
+     {
+      "jp": "勉強します",
+      "vi": "học",
+      "item_ref": "u3-05"
+     }
+    ]
+   },
+   "explanation_vi": "Động từ thói quen hằng ngày trong bài nghe.",
+   "source": "kotori — ôn Unit 3",
+   "verified": true,
+   "order_index": 20
+  }
+ ]
+}

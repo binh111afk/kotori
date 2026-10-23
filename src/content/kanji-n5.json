@@ -1,0 +1,2813 @@
+{
+ "items": [
+  {
+   "id": "k5-001",
+   "char": "日",
+   "meaning_vi": "ngày, mặt trời",
+   "on_reading": [
+    "ニチ",
+    "ジツ"
+   ],
+   "kun_reading": [
+    "ひ",
+    "か"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "日本",
+     "reading": "にほん",
+     "vi": "Nhật Bản"
+    },
+    {
+     "word": "毎日",
+     "reading": "まいにち",
+     "vi": "mỗi ngày"
+    },
+    {
+     "word": "日曜日",
+     "reading": "にちようび",
+     "vi": "chủ nhật"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 1
+  },
+  {
+   "id": "k5-002",
+   "char": "一",
+   "meaning_vi": "một",
+   "on_reading": [
+    "イチ"
+   ],
+   "kun_reading": [
+    "ひと"
+   ],
+   "stroke_count": 1,
+   "examples": [
+    {
+     "word": "一人",
+     "reading": "ひとり",
+     "vi": "một người"
+    },
+    {
+     "word": "一日",
+     "reading": "いちにち",
+     "vi": "một ngày"
+    },
+    {
+     "word": "一回",
+     "reading": "いっかい",
+     "vi": "một lần"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 2
+  },
+  {
+   "id": "k5-003",
+   "char": "二",
+   "meaning_vi": "hai",
+   "on_reading": [
+    "ニ"
+   ],
+   "kun_reading": [
+    "ふた"
+   ],
+   "stroke_count": 2,
+   "examples": [
+    {
+     "word": "二人",
+     "reading": "ふたり",
+     "vi": "hai người"
+    },
+    {
+     "word": "二月",
+     "reading": "にがつ",
+     "vi": "tháng hai"
+    },
+    {
+     "word": "二日",
+     "reading": "ふつか",
+     "vi": "hai ngày, ngày mùng 2"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 3
+  },
+  {
+   "id": "k5-004",
+   "char": "三",
+   "meaning_vi": "ba",
+   "on_reading": [
+    "サン"
+   ],
+   "kun_reading": [
+    "み"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "三人",
+     "reading": "さんにん",
+     "vi": "ba người"
+    },
+    {
+     "word": "三月",
+     "reading": "さんがつ",
+     "vi": "tháng ba"
+    },
+    {
+     "word": "三日",
+     "reading": "さんにち",
+     "vi": "ba ngày"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 4
+  },
+  {
+   "id": "k5-005",
+   "char": "四",
+   "meaning_vi": "bốn",
+   "on_reading": [
+    "シ"
+   ],
+   "kun_reading": [
+    "よん",
+    "よ"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "四月",
+     "reading": "しがつ",
+     "vi": "tháng tư"
+    },
+    {
+     "word": "四日",
+     "reading": "よっか",
+     "vi": "bốn ngày, ngày mùng 4"
+    },
+    {
+     "word": "四人",
+     "reading": "よにん",
+     "vi": "bốn người"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 5
+  },
+  {
+   "id": "k5-006",
+   "char": "五",
+   "meaning_vi": "năm",
+   "on_reading": [
+    "ゴ"
+   ],
+   "kun_reading": [
+    "いつ"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "五月",
+     "reading": "ごがつ",
+     "vi": "tháng năm"
+    },
+    {
+     "word": "五日",
+     "reading": "いつか",
+     "vi": "năm ngày, ngày mùng 5"
+    },
+    {
+     "word": "五人",
+     "reading": "ごにん",
+     "vi": "năm người"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 6
+  },
+  {
+   "id": "k5-007",
+   "char": "六",
+   "meaning_vi": "sáu",
+   "on_reading": [
+    "ロク"
+   ],
+   "kun_reading": [
+    "む"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "六月",
+     "reading": "ろくがつ",
+     "vi": "tháng sáu"
+    },
+    {
+     "word": "六日",
+     "reading": "むいか",
+     "vi": "sáu ngày"
+    },
+    {
+     "word": "六人",
+     "reading": "ろくにん",
+     "vi": "sáu người"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 7
+  },
+  {
+   "id": "k5-008",
+   "char": "七",
+   "meaning_vi": "bảy",
+   "on_reading": [
+    "シチ"
+   ],
+   "kun_reading": [
+    "なな"
+   ],
+   "stroke_count": 2,
+   "examples": [
+    {
+     "word": "七月",
+     "reading": "しちがつ",
+     "vi": "tháng bảy"
+    },
+    {
+     "word": "七日",
+     "reading": "なのか",
+     "vi": "bảy ngày"
+    },
+    {
+     "word": "七人",
+     "reading": "しちにん",
+     "vi": "bảy người"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 8
+  },
+  {
+   "id": "k5-009",
+   "char": "八",
+   "meaning_vi": "tám",
+   "on_reading": [
+    "ハチ"
+   ],
+   "kun_reading": [
+    "や"
+   ],
+   "stroke_count": 2,
+   "examples": [
+    {
+     "word": "八月",
+     "reading": "はちがつ",
+     "vi": "tháng tám"
+    },
+    {
+     "word": "八日",
+     "reading": "ようか",
+     "vi": "tám ngày"
+    },
+    {
+     "word": "八人",
+     "reading": "はちにん",
+     "vi": "tám người"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 9
+  },
+  {
+   "id": "k5-010",
+   "char": "九",
+   "meaning_vi": "chín",
+   "on_reading": [
+    "キュウ",
+    "ク"
+   ],
+   "kun_reading": [
+    "ここの"
+   ],
+   "stroke_count": 2,
+   "examples": [
+    {
+     "word": "九月",
+     "reading": "くがつ",
+     "vi": "tháng chín"
+    },
+    {
+     "word": "九日",
+     "reading": "ここのか",
+     "vi": "chín ngày"
+    },
+    {
+     "word": "九時",
+     "reading": "くじ",
+     "vi": "chín giờ"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 10
+  },
+  {
+   "id": "k5-011",
+   "char": "十",
+   "meaning_vi": "mười",
+   "on_reading": [
+    "ジュウ"
+   ],
+   "kun_reading": [
+    "とお"
+   ],
+   "stroke_count": 2,
+   "examples": [
+    {
+     "word": "十日",
+     "reading": "とおか",
+     "vi": "mười ngày"
+    },
+    {
+     "word": "十分",
+     "reading": "じゅっぷん",
+     "vi": "mười phút"
+    },
+    {
+     "word": "十月",
+     "reading": "じゅうがつ",
+     "vi": "tháng mười"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 11
+  },
+  {
+   "id": "k5-012",
+   "char": "百",
+   "meaning_vi": "trăm",
+   "on_reading": [
+    "ヒャク"
+   ],
+   "kun_reading": [],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "三百",
+     "reading": "さんびゃく",
+     "vi": "ba trăm"
+    },
+    {
+     "word": "八百",
+     "reading": "はっぴゃく",
+     "vi": "tám trăm"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 12
+  },
+  {
+   "id": "k5-013",
+   "char": "千",
+   "meaning_vi": "nghìn",
+   "on_reading": [
+    "セン"
+   ],
+   "kun_reading": [
+    "ち"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "一千",
+     "reading": "いっせん",
+     "vi": "một nghìn"
+    },
+    {
+     "word": "二千",
+     "reading": "にせん",
+     "vi": "hai nghìn"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 13
+  },
+  {
+   "id": "k5-014",
+   "char": "万",
+   "meaning_vi": "vạn, mười nghìn",
+   "on_reading": [
+    "マン",
+    "バン"
+   ],
+   "kun_reading": [],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "一万",
+     "reading": "いちまん",
+     "vi": "mười nghìn"
+    },
+    {
+     "word": "三万",
+     "reading": "さんまん",
+     "vi": "ba mươi nghìn"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 14
+  },
+  {
+   "id": "k5-015",
+   "char": "円",
+   "meaning_vi": "yên (tiền Nhật); hình tròn",
+   "on_reading": [
+    "エン"
+   ],
+   "kun_reading": [],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "円",
+     "reading": "えん",
+     "vi": "yên"
+    },
+    {
+     "word": "百円",
+     "reading": "ひゃくえん",
+     "vi": "trăm yên"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 15
+  },
+  {
+   "id": "k5-016",
+   "char": "時",
+   "meaning_vi": "giờ, thời gian",
+   "on_reading": [
+    "ジ"
+   ],
+   "kun_reading": [
+    "とき"
+   ],
+   "stroke_count": 10,
+   "examples": [
+    {
+     "word": "時間",
+     "reading": "じかん",
+     "vi": "thời gian"
+    },
+    {
+     "word": "一時",
+     "reading": "いちじ",
+     "vi": "một giờ"
+    },
+    {
+     "word": "時々",
+     "reading": "ときどき",
+     "vi": "thỉnh thoảng"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 16
+  },
+  {
+   "id": "k5-017",
+   "char": "分",
+   "meaning_vi": "phút; hiểu",
+   "on_reading": [
+    "フン",
+    "ブン"
+   ],
+   "kun_reading": [
+    "わ"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "十分",
+     "reading": "じゅっぷん",
+     "vi": "mười phút"
+    },
+    {
+     "word": "三分",
+     "reading": "さんぷん",
+     "vi": "ba phút"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 17
+  },
+  {
+   "id": "k5-018",
+   "char": "半",
+   "meaning_vi": "một nửa",
+   "on_reading": [
+    "ハン"
+   ],
+   "kun_reading": [
+    "なか"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "半分",
+     "reading": "はんぶん",
+     "vi": "một nửa"
+    },
+    {
+     "word": "七時半",
+     "reading": "しちじはん",
+     "vi": "bảy giờ rưỡi"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 18
+  },
+  {
+   "id": "k5-019",
+   "char": "毎",
+   "meaning_vi": "mỗi, hằng",
+   "on_reading": [
+    "マイ"
+   ],
+   "kun_reading": [],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "毎日",
+     "reading": "まいにち",
+     "vi": "hằng ngày"
+    },
+    {
+     "word": "毎朝",
+     "reading": "まいあさ",
+     "vi": "mỗi sáng"
+    },
+    {
+     "word": "毎週",
+     "reading": "まいしゅう",
+     "vi": "hằng tuần"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 19
+  },
+  {
+   "id": "k5-020",
+   "char": "年",
+   "meaning_vi": "năm",
+   "on_reading": [
+    "ネン"
+   ],
+   "kun_reading": [
+    "とし"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "今年",
+     "reading": "ことし",
+     "vi": "năm nay"
+    },
+    {
+     "word": "一年",
+     "reading": "いちねん",
+     "vi": "một năm"
+    },
+    {
+     "word": "去年",
+     "reading": "きょねん",
+     "vi": "năm ngoái"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 20
+  },
+  {
+   "id": "k5-021",
+   "char": "午",
+   "meaning_vi": "buổi trưa trước (a.m.)",
+   "on_reading": [
+    "ゴ"
+   ],
+   "kun_reading": [],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "午前",
+     "reading": "ごぜn",
+     "vi": "buổi sáng (trước trưa)"
+    },
+    {
+     "word": "午後",
+     "reading": "ごご",
+     "vi": "buổi chiều"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 21
+  },
+  {
+   "id": "k5-022",
+   "char": "前",
+   "meaning_vi": "trước, phía trước",
+   "on_reading": [
+    "ゼン"
+   ],
+   "kun_reading": [
+    "まえ"
+   ],
+   "stroke_count": 9,
+   "examples": [
+    {
+     "word": "午前",
+     "reading": "ごぜん",
+     "vi": "buổi sáng"
+    },
+    {
+     "word": "駅の前",
+     "reading": "えきのまえ",
+     "vi": "trước nhà ga"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 22
+  },
+  {
+   "id": "k5-023",
+   "char": "後",
+   "meaning_vi": "sau, phía sau",
+   "on_reading": [
+    "ゴ"
+   ],
+   "kun_reading": [
+    "あと",
+    "うし"
+   ],
+   "stroke_count": 9,
+   "examples": [
+    {
+     "word": "午後",
+     "reading": "ごご",
+     "vi": "buổi chiều"
+    },
+    {
+     "word": "一週間後",
+     "reading": "いっしゅうかんご",
+     "vi": "một tuần sau"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 23
+  },
+  {
+   "id": "k5-024",
+   "char": "今",
+   "meaning_vi": "bây giờ",
+   "on_reading": [
+    "コン"
+   ],
+   "kun_reading": [
+    "いま"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "今日",
+     "reading": "きょう",
+     "vi": "hôm nay"
+    },
+    {
+     "word": "今朝",
+     "reading": "けさ",
+     "vi": "sáng nay"
+    },
+    {
+     "word": "今",
+     "reading": "いま",
+     "vi": "bây giờ"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 24
+  },
+  {
+   "id": "k5-025",
+   "char": "人",
+   "meaning_vi": "người",
+   "on_reading": [
+    "ジン",
+    "ニン"
+   ],
+   "kun_reading": [
+    "ひと"
+   ],
+   "stroke_count": 2,
+   "examples": [
+    {
+     "word": "人",
+     "reading": "ひと",
+     "vi": "người"
+    },
+    {
+     "word": "日本人",
+     "reading": "にほんじん",
+     "vi": "người Nhật"
+    },
+    {
+     "word": "三人",
+     "reading": "さんにん",
+     "vi": "ba người"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 25
+  },
+  {
+   "id": "k5-026",
+   "char": "名",
+   "meaning_vi": "tên",
+   "on_reading": [
+    "メイ",
+    "ミョウ"
+   ],
+   "kun_reading": [
+    "な"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "名前",
+     "reading": "なまえ",
+     "vi": "tên"
+    },
+    {
+     "word": "有名",
+     "reading": "ゆうめい",
+     "vi": "nổi tiếng"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 26
+  },
+  {
+   "id": "k5-027",
+   "char": "男",
+   "meaning_vi": "đàn ông, nam",
+   "on_reading": [
+    "ダン",
+    "ナン"
+   ],
+   "kun_reading": [
+    "おとこ"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "男の人",
+     "reading": "おとこのひと",
+     "vi": "đàn ông"
+    },
+    {
+     "word": "男の子",
+     "reading": "おとこのこ",
+     "vi": "con trai"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 27
+  },
+  {
+   "id": "k5-028",
+   "char": "女",
+   "meaning_vi": "đàn bà, nữ",
+   "on_reading": [
+    "ジョ",
+    "ニョ"
+   ],
+   "kun_reading": [
+    "おんな"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "女の人",
+     "reading": "おんなのひと",
+     "vi": "đàn bà"
+    },
+    {
+     "word": "女の子",
+     "reading": "おんなのこ",
+     "vi": "con gái"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 28
+  },
+  {
+   "id": "k5-029",
+   "char": "子",
+   "meaning_vi": "trẻ con",
+   "on_reading": [
+    "シ"
+   ],
+   "kun_reading": [
+    "こ"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "子ども",
+     "reading": "こども",
+     "vi": "trẻ con"
+    },
+    {
+     "word": "男の子",
+     "reading": "おとこのこ",
+     "vi": "con trai"
+    },
+    {
+     "word": "女の子",
+     "reading": "おんなのこ",
+     "vi": "con gái"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 29
+  },
+  {
+   "id": "k5-030",
+   "char": "父",
+   "meaning_vi": "cha",
+   "on_reading": [
+    "フ"
+   ],
+   "kun_reading": [
+    "ちち"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "お父さん",
+     "reading": "おとうさん",
+     "vi": "bố (của người khác)"
+    },
+    {
+     "word": "父母",
+     "reading": "ふぼ",
+     "vi": "cha mẹ"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 30
+  },
+  {
+   "id": "k5-031",
+   "char": "母",
+   "meaning_vi": "mẹ",
+   "on_reading": [
+    "ボ"
+   ],
+   "kun_reading": [
+    "はは"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "お母さん",
+     "reading": "おかあさん",
+     "vi": "mẹ (của người khác)"
+    },
+    {
+     "word": "母",
+     "reading": "はは",
+     "vi": "mẹ (của tôi)"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 31
+  },
+  {
+   "id": "k5-032",
+   "char": "友",
+   "meaning_vi": "bạn",
+   "on_reading": [
+    "ユウ"
+   ],
+   "kun_reading": [
+    "とも"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "友達",
+     "reading": "ともだち",
+     "vi": "bạn bè"
+    },
+    {
+     "word": "友人",
+     "reading": "ゆうじん",
+     "vi": "bạn bè (trang trọng)"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 32
+  },
+  {
+   "id": "k5-033",
+   "char": "先",
+   "meaning_vi": "trước, đầu",
+   "on_reading": [
+    "セン"
+   ],
+   "kun_reading": [],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "先生",
+     "reading": "せんせい",
+     "vi": "giáo viên"
+    },
+    {
+     "word": "先週",
+     "reading": "せんしゅう",
+     "vi": "tuần trước"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 33
+  },
+  {
+   "id": "k5-034",
+   "char": "生",
+   "meaning_vi": "đời sống, học sinh; sống",
+   "on_reading": [
+    "セイ"
+   ],
+   "kun_reading": [
+    "い",
+    "う"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "学生",
+     "reading": "がくせい",
+     "vi": "học sinh"
+    },
+    {
+     "word": "生活",
+     "reading": "せいかつ",
+     "vi": "cuộc sống"
+    },
+    {
+     "word": "生まれる",
+     "reading": "うまれる",
+     "vi": "được sinh ra"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 34
+  },
+  {
+   "id": "k5-035",
+   "char": "学",
+   "meaning_vi": "học",
+   "on_reading": [
+    "ガク"
+   ],
+   "kun_reading": [
+    "まな"
+   ],
+   "stroke_count": 8,
+   "examples": [
+    {
+     "word": "学生",
+     "reading": "がくせい",
+     "vi": "học sinh"
+    },
+    {
+     "word": "学校",
+     "reading": "がっこう",
+     "vi": "trường học"
+    },
+    {
+     "word": "大学",
+     "reading": "だいがく",
+     "vi": "đại học"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 35
+  },
+  {
+   "id": "k5-036",
+   "char": "校",
+   "meaning_vi": "trường",
+   "on_reading": [
+    "コウ"
+   ],
+   "kun_reading": [],
+   "stroke_count": 10,
+   "examples": [
+    {
+     "word": "学校",
+     "reading": "がっこう",
+     "vi": "trường học"
+    },
+    {
+     "word": "日本語学校",
+     "reading": "にほんごがっこう",
+     "vi": "trường tiếng Nhật"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 36
+  },
+  {
+   "id": "k5-037",
+   "char": "語",
+   "meaning_vi": "ngôn ngữ",
+   "on_reading": [
+    "ゴ"
+   ],
+   "kun_reading": [],
+   "stroke_count": 14,
+   "examples": [
+    {
+     "word": "日本語",
+     "reading": "にほんご",
+     "vi": "tiếng Nhật"
+    },
+    {
+     "word": "英語",
+     "reading": "えいご",
+     "vi": "tiếng Anh"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 37
+  },
+  {
+   "id": "k5-038",
+   "char": "読",
+   "meaning_vi": "đọc",
+   "on_reading": [
+    "ドク"
+   ],
+   "kun_reading": [
+    "よ"
+   ],
+   "stroke_count": 14,
+   "examples": [
+    {
+     "word": "読みます",
+     "reading": "よみます",
+     "vi": "đọc"
+    },
+    {
+     "word": "読む",
+     "reading": "よむ",
+     "vi": "đọc (nguyên mẫu)"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 38
+  },
+  {
+   "id": "k5-039",
+   "char": "書",
+   "meaning_vi": "viết",
+   "on_reading": [
+    "ショ"
+   ],
+   "kun_reading": [
+    "か"
+   ],
+   "stroke_count": 10,
+   "examples": [
+    {
+     "word": "書きます",
+     "reading": "かきます",
+     "vi": "viết"
+    },
+    {
+     "word": "辞書",
+     "reading": "じしょ",
+     "vi": "từ điển"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 39
+  },
+  {
+   "id": "k5-040",
+   "char": "聞",
+   "meaning_vi": "nghe",
+   "on_reading": [
+    "ブン"
+   ],
+   "kun_reading": [
+    "き"
+   ],
+   "stroke_count": 14,
+   "examples": [
+    {
+     "word": "聞きます",
+     "reading": "ききます",
+     "vi": "nghe, hỏi"
+    },
+    {
+     "word": "聞く",
+     "reading": "きく",
+     "vi": "nghe"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 40
+  },
+  {
+   "id": "k5-041",
+   "char": "見",
+   "meaning_vi": "nhìn, xem",
+   "on_reading": [
+    "ケン"
+   ],
+   "kun_reading": [
+    "み"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "見ます",
+     "reading": "みます",
+     "vi": "nhìn, xem"
+    },
+    {
+     "word": "見る",
+     "reading": "みる",
+     "vi": "nhìn"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 41
+  },
+  {
+   "id": "k5-042",
+   "char": "話",
+   "meaning_vi": "nói chuyện; câu chuyện",
+   "on_reading": [
+    "ワ"
+   ],
+   "kun_reading": [
+    "はな"
+   ],
+   "stroke_count": 13,
+   "examples": [
+    {
+     "word": "話します",
+     "reading": "はなします",
+     "vi": "nói"
+    },
+    {
+     "word": "電話",
+     "reading": "でんわ",
+     "vi": "điện thoại"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 42
+  },
+  {
+   "id": "k5-043",
+   "char": "行",
+   "meaning_vi": "đi",
+   "on_reading": [
+    "コウ"
+   ],
+   "kun_reading": [
+    "い"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "行きます",
+     "reading": "いきます",
+     "vi": "đi"
+    },
+    {
+     "word": "銀行",
+     "reading": "ぎんこう",
+     "vi": "ngân hàng"
+    },
+    {
+     "word": "旅行",
+     "reading": "りょこう",
+     "vi": "du lịch"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 43
+  },
+  {
+   "id": "k5-044",
+   "char": "来",
+   "meaning_vi": "đến",
+   "on_reading": [
+    "ライ"
+   ],
+   "kun_reading": [
+    "く"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "来ます",
+     "reading": "きます",
+     "vi": "đến"
+    },
+    {
+     "word": "来週",
+     "reading": "らいしゅう",
+     "vi": "tuần sau"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 44
+  },
+  {
+   "id": "k5-045",
+   "char": "出",
+   "meaning_vi": "ra, xuất",
+   "on_reading": [
+    "シュツ"
+   ],
+   "kun_reading": [
+    "で",
+    "だ"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "出ます",
+     "reading": "でます",
+     "vi": "ra khỏi"
+    },
+    {
+     "word": "出口",
+     "reading": "でぐち",
+     "vi": "lối ra"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 45
+  },
+  {
+   "id": "k5-046",
+   "char": "入",
+   "meaning_vi": "vào",
+   "on_reading": [
+    "ニュウ"
+   ],
+   "kun_reading": [
+    "はい",
+    "い"
+   ],
+   "stroke_count": 2,
+   "examples": [
+    {
+     "word": "入ります",
+     "reading": "はいります",
+     "vi": "vào"
+    },
+    {
+     "word": "入口",
+     "reading": "いりぐち",
+     "vi": "lối vào"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 46
+  },
+  {
+   "id": "k5-047",
+   "char": "立",
+   "meaning_vi": "đứng",
+   "on_reading": [
+    "リツ"
+   ],
+   "kun_reading": [
+    "た"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "立ちます",
+     "reading": "たちます",
+     "vi": "đứng"
+    },
+    {
+     "word": "自動販売機",
+     "reading": "じどうはんばいき",
+     "vi": "máy bán hàng tự động"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 47
+  },
+  {
+   "id": "k5-048",
+   "char": "休",
+   "meaning_vi": "nghỉ",
+   "on_reading": [
+    "キュウ"
+   ],
+   "kun_reading": [
+    "やす"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "休みます",
+     "reading": "やすみます",
+     "vi": "nghỉ"
+    },
+    {
+     "word": "お休みなさい",
+     "reading": "おやすみなさい",
+     "vi": "chúc ngủ ngon"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 48
+  },
+  {
+   "id": "k5-049",
+   "char": "買",
+   "meaning_vi": "mua",
+   "on_reading": [
+    "バイ"
+   ],
+   "kun_reading": [
+    "か"
+   ],
+   "stroke_count": 12,
+   "examples": [
+    {
+     "word": "買います",
+     "reading": "かいます",
+     "vi": "mua"
+    },
+    {
+     "word": "買い物",
+     "reading": "かいもの",
+     "vi": "đi mua sắm"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 49
+  },
+  {
+   "id": "k5-050",
+   "char": "売",
+   "meaning_vi": "bán",
+   "on_reading": [
+    "バイ"
+   ],
+   "kun_reading": [
+    "う"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "売ります",
+     "reading": "うります",
+     "vi": "bán"
+    },
+    {
+     "word": "売り場",
+     "reading": "うりば",
+     "vi": "quầy bán"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 50
+  },
+  {
+   "id": "k5-051",
+   "char": "食",
+   "meaning_vi": "ăn",
+   "on_reading": [
+    "ショク"
+   ],
+   "kun_reading": [
+    "た"
+   ],
+   "stroke_count": 9,
+   "examples": [
+    {
+     "word": "食べます",
+     "reading": "たべます",
+     "vi": "ăn"
+    },
+    {
+     "word": "食堂",
+     "reading": "しょくどう",
+     "vi": "căng tin, quán ăn"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 51
+  },
+  {
+   "id": "k5-052",
+   "char": "飲",
+   "meaning_vi": "uống",
+   "on_reading": [
+    "イン"
+   ],
+   "kun_reading": [
+    "の"
+   ],
+   "stroke_count": 12,
+   "examples": [
+    {
+     "word": "飲みます",
+     "reading": "のみます",
+     "vi": "uống"
+    },
+    {
+     "word": "飲み物",
+     "reading": "のみもの",
+     "vi": "đồ uống"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 52
+  },
+  {
+   "id": "k5-053",
+   "char": "東",
+   "meaning_vi": "đông",
+   "on_reading": [
+    "トウ"
+   ],
+   "kun_reading": [
+    "ひがし"
+   ],
+   "stroke_count": 8,
+   "examples": [
+    {
+     "word": "東",
+     "reading": "ひがし",
+     "vi": "hướng đông"
+    },
+    {
+     "word": "東京",
+     "reading": "とうきょう",
+     "vi": "Tokyo"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 53
+  },
+  {
+   "id": "k5-054",
+   "char": "西",
+   "meaning_vi": "tây",
+   "on_reading": [
+    "セイ",
+    "サイ"
+   ],
+   "kun_reading": [
+    "にし"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "西",
+     "reading": "にし",
+     "vi": "hướng tây"
+    },
+    {
+     "word": "関西",
+     "reading": "かんさい",
+     "vi": "vùng Kansai"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 54
+  },
+  {
+   "id": "k5-055",
+   "char": "南",
+   "meaning_vi": "nam",
+   "on_reading": [
+    "ナン"
+   ],
+   "kun_reading": [
+    "みなみ"
+   ],
+   "stroke_count": 9,
+   "examples": [
+    {
+     "word": "南",
+     "reading": "みなみ",
+     "vi": "hướng nam"
+    },
+    {
+     "word": "南口",
+     "reading": "みなみぐち",
+     "vi": "lối nam (nhà ga)"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 55
+  },
+  {
+   "id": "k5-056",
+   "char": "北",
+   "meaning_vi": "bắc",
+   "on_reading": [
+    "ホク"
+   ],
+   "kun_reading": [
+    "きた"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "北",
+     "reading": "きた",
+     "vi": "hướng bắc"
+    },
+    {
+     "word": "北海道",
+     "reading": "ほっかいどう",
+     "vi": "Hokkaido"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 56
+  },
+  {
+   "id": "k5-057",
+   "char": "上",
+   "meaning_vi": "trên, lên",
+   "on_reading": [
+    "ジョウ"
+   ],
+   "kun_reading": [
+    "うえ",
+    "あ",
+    "のぼ"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "机の上",
+     "reading": "つくえのうえ",
+     "vi": "trên bàn"
+    },
+    {
+     "word": "上手",
+     "reading": "じょうず",
+     "vi": "giỏi, khéo"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 57
+  },
+  {
+   "id": "k5-058",
+   "char": "下",
+   "meaning_vi": "dưới, xuống",
+   "on_reading": [
+    "カ",
+    "ゲ"
+   ],
+   "kun_reading": [
+    "した",
+    "さ",
+    "お"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "下",
+     "reading": "した",
+     "vi": "phía dưới"
+    },
+    {
+     "word": "下ります",
+     "reading": "おります",
+     "vi": "xuống (xe)"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 58
+  },
+  {
+   "id": "k5-059",
+   "char": "中",
+   "meaning_vi": "trong, giữa",
+   "on_reading": [
+    "チュウ"
+   ],
+   "kun_reading": [
+    "なか"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "中",
+     "reading": "なか",
+     "vi": "bên trong"
+    },
+    {
+     "word": "中国",
+     "reading": "ちゅうごく",
+     "vi": "Trung Quốc"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 59
+  },
+  {
+   "id": "k5-060",
+   "char": "外",
+   "meaning_vi": "ngoài",
+   "on_reading": [
+    "ガイ"
+   ],
+   "kun_reading": [
+    "そと"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "外国",
+     "reading": "がいこく",
+     "vi": "nước ngoài"
+    },
+    {
+     "word": "外",
+     "reading": "そと",
+     "vi": "bên ngoài"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 60
+  },
+  {
+   "id": "k5-061",
+   "char": "口",
+   "meaning_vi": "miệng; lối",
+   "on_reading": [
+    "コウ"
+   ],
+   "kun_reading": [
+    "くち"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "入口",
+     "reading": "いりぐち",
+     "vi": "lối vào"
+    },
+    {
+     "word": "口",
+     "reading": "くち",
+     "vi": "miệng"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 61
+  },
+  {
+   "id": "k5-062",
+   "char": "手",
+   "meaning_vi": "tay",
+   "on_reading": [
+    "シュ"
+   ],
+   "kun_reading": [
+    "て"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "手",
+     "reading": "て",
+     "vi": "tay"
+    },
+    {
+     "word": "手紙",
+     "reading": "てがみ",
+     "vi": "thư tay"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 62
+  },
+  {
+   "id": "k5-063",
+   "char": "目",
+   "meaning_vi": "mắt",
+   "on_reading": [
+    "モク"
+   ],
+   "kun_reading": [
+    "め"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "目",
+     "reading": "め",
+     "vi": "mắt"
+    },
+    {
+     "word": "一目",
+     "reading": "ひとめ",
+     "vi": "một ánh nhìn"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 63
+  },
+  {
+   "id": "k5-064",
+   "char": "耳",
+   "meaning_vi": "tai",
+   "on_reading": [
+    "ジ"
+   ],
+   "kun_reading": [
+    "みみ"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "耳",
+     "reading": "みみ",
+     "vi": "tai"
+    },
+    {
+     "word": "大きい耳",
+     "reading": "おおきいみみ",
+     "vi": "tai to"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 64
+  },
+  {
+   "id": "k5-065",
+   "char": "足",
+   "meaning_vi": "chân; đủ",
+   "on_reading": [
+    "ソク"
+   ],
+   "kun_reading": [
+    "あし",
+    "た"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "足",
+     "reading": "あし",
+     "vi": "chân, bàn chân"
+    },
+    {
+     "word": "足りる",
+     "reading": "たりる",
+     "vi": "đủ"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 65
+  },
+  {
+   "id": "k5-066",
+   "char": "天",
+   "meaning_vi": "trời",
+   "on_reading": [
+    "テン"
+   ],
+   "kun_reading": [],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "天気",
+     "reading": "てんき",
+     "vi": "thời tiết"
+    },
+    {
+     "word": "天ぷら",
+     "reading": "てんぷら",
+     "vi": "tempura"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 66
+  },
+  {
+   "id": "k5-067",
+   "char": "気",
+   "meaning_vi": "khí, tinh thần",
+   "on_reading": [
+    "キ"
+   ],
+   "kun_reading": [],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "天気",
+     "reading": "てんき",
+     "vi": "thời tiết"
+    },
+    {
+     "word": "元気",
+     "reading": "げんき",
+     "vi": "khỏe mạnh"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 67
+  },
+  {
+   "id": "k5-068",
+   "char": "雨",
+   "meaning_vi": "mưa",
+   "on_reading": [
+    "ウ"
+   ],
+   "kun_reading": [
+    "あめ"
+   ],
+   "stroke_count": 8,
+   "examples": [
+    {
+     "word": "雨",
+     "reading": "あめ",
+     "vi": "mưa"
+    },
+    {
+     "word": "大雨",
+     "reading": "おおあめ",
+     "vi": "mưa to"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 68
+  },
+  {
+   "id": "k5-069",
+   "char": "電",
+   "meaning_vi": "điện",
+   "on_reading": [
+    "デン"
+   ],
+   "kun_reading": [],
+   "stroke_count": 13,
+   "examples": [
+    {
+     "word": "電車",
+     "reading": "でんしゃ",
+     "vi": "tàu điện"
+    },
+    {
+     "word": "電話",
+     "reading": "でんわ",
+     "vi": "điện thoại"
+    },
+    {
+     "word": "電気",
+     "reading": "でんき",
+     "vi": "đèn, điện"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 69
+  },
+  {
+   "id": "k5-070",
+   "char": "車",
+   "meaning_vi": "xe",
+   "on_reading": [
+    "シャ"
+   ],
+   "kun_reading": [
+    "くるま"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "車",
+     "reading": "くるま",
+     "vi": "xe hơi"
+    },
+    {
+     "word": "電車",
+     "reading": "でんしゃ",
+     "vi": "tàu điện"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 70
+  },
+  {
+   "id": "k5-071",
+   "char": "山",
+   "meaning_vi": "núi",
+   "on_reading": [
+    "サン"
+   ],
+   "kun_reading": [
+    "やま"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "山",
+     "reading": "やま",
+     "vi": "núi"
+    },
+    {
+     "word": "富士山",
+     "reading": "ふじさん",
+     "vi": "núi Phú Sĩ"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 71
+  },
+  {
+   "id": "k5-072",
+   "char": "川",
+   "meaning_vi": "sông",
+   "on_reading": [
+    "セン"
+   ],
+   "kun_reading": [
+    "かわ"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "川",
+     "reading": "かわ",
+     "vi": "sông"
+    },
+    {
+     "word": "小川",
+     "reading": "おがわ",
+     "vi": "dòng suối"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 72
+  },
+  {
+   "id": "k5-073",
+   "char": "花",
+   "meaning_vi": "hoa",
+   "on_reading": [
+    "カ"
+   ],
+   "kun_reading": [
+    "はな"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "花",
+     "reading": "はな",
+     "vi": "hoa"
+    },
+    {
+     "word": "花見",
+     "reading": "はなみ",
+     "vi": "ngắm hoa"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 73
+  },
+  {
+   "id": "k5-074",
+   "char": "大",
+   "meaning_vi": "to, lớn",
+   "on_reading": [
+    "ダイ",
+    "タイ"
+   ],
+   "kun_reading": [
+    "おお"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "大学",
+     "reading": "だいがく",
+     "vi": "đại học"
+    },
+    {
+     "word": "大きい",
+     "reading": "おおきい",
+     "vi": "to lớn"
+    },
+    {
+     "word": "大雨",
+     "reading": "おおあめ",
+     "vi": "mưa to"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 74
+  },
+  {
+   "id": "k5-075",
+   "char": "小",
+   "meaning_vi": "nhỏ",
+   "on_reading": [
+    "ショウ"
+   ],
+   "kun_reading": [
+    "ちい"
+   ],
+   "stroke_count": 3,
+   "examples": [
+    {
+     "word": "小さい",
+     "reading": "ちいさい",
+     "vi": "nhỏ bé"
+    },
+    {
+     "word": "小学校",
+     "reading": "しょうがっこう",
+     "vi": "tiểu học"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 75
+  },
+  {
+   "id": "k5-076",
+   "char": "高",
+   "meaning_vi": "cao; đắt",
+   "on_reading": [
+    "コウ"
+   ],
+   "kun_reading": [
+    "たか"
+   ],
+   "stroke_count": 10,
+   "examples": [
+    {
+     "word": "高い",
+     "reading": "たかい",
+     "vi": "cao, đắt"
+    },
+    {
+     "word": "大学",
+     "reading": "だいがく",
+     "vi": "đại học"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 76
+  },
+  {
+   "id": "k5-077",
+   "char": "安",
+   "meaning_vi": "rẻ; an",
+   "on_reading": [
+    "アン"
+   ],
+   "kun_reading": [
+    "やす"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "安い",
+     "reading": "やすい",
+     "vi": "rẻ"
+    },
+    {
+     "word": "安全",
+     "reading": "あんぜん",
+     "vi": "an toàn"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 77
+  },
+  {
+   "id": "k5-078",
+   "char": "新",
+   "meaning_vi": "mới",
+   "on_reading": [
+    "シン"
+   ],
+   "kun_reading": [
+    "あたら"
+   ],
+   "stroke_count": 13,
+   "examples": [
+    {
+     "word": "新しい",
+     "reading": "あたらしい",
+     "vi": "mới"
+    },
+    {
+     "word": "新聞",
+     "reading": "しんぶん",
+     "vi": "báo"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 78
+  },
+  {
+   "id": "k5-079",
+   "char": "古",
+   "meaning_vi": "cũ, cổ",
+   "on_reading": [
+    "コ"
+   ],
+   "kun_reading": [
+    "ふる"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "古い",
+     "reading": "ふるい",
+     "vi": "cũ"
+    },
+    {
+     "word": "中古",
+     "reading": "ちゅうこ",
+     "vi": "đã qua sử dụng"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 79
+  },
+  {
+   "id": "k5-080",
+   "char": "長",
+   "meaning_vi": "dài, dài (thời gian)",
+   "on_reading": [
+    "チョウ"
+   ],
+   "kun_reading": [
+    "なが"
+   ],
+   "stroke_count": 8,
+   "examples": [
+    {
+     "word": "長い",
+     "reading": "ながい",
+     "vi": "dài"
+    },
+    {
+     "word": "社長",
+     "reading": "しゃちょう",
+     "vi": "giám đốc"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 80
+  },
+  {
+   "id": "k5-081",
+   "char": "少",
+   "meaning_vi": "ít",
+   "on_reading": [
+    "ショウ"
+   ],
+   "kun_reading": [
+    "すこ",
+    "すく"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "少し",
+     "reading": "すこし",
+     "vi": "một ít"
+    },
+    {
+     "word": "少ない",
+     "reading": "すくない",
+     "vi": "ít"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 81
+  },
+  {
+   "id": "k5-082",
+   "char": "多",
+   "meaning_vi": "nhiều",
+   "on_reading": [
+    "タ"
+   ],
+   "kun_reading": [
+    "おお"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "多い",
+     "reading": "おおい",
+     "vi": "nhiều"
+    },
+    {
+     "word": "多分",
+     "reading": "たぶん",
+     "vi": "có lẽ"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 82
+  },
+  {
+   "id": "k5-083",
+   "char": "早",
+   "meaning_vi": "sớm, sớm muộn",
+   "on_reading": [
+    "ソウ"
+   ],
+   "kun_reading": [
+    "はや"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "早い",
+     "reading": "はやい",
+     "vi": "sớm"
+    },
+    {
+     "word": "朝早く",
+     "reading": "あさはやく",
+     "vi": "sớm buổi sáng"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 83
+  },
+  {
+   "id": "k5-084",
+   "char": "白",
+   "meaning_vi": "trắng",
+   "on_reading": [
+    "ハク"
+   ],
+   "kun_reading": [
+    "しろ"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "白い",
+     "reading": "しろい",
+     "vi": "trắng"
+    },
+    {
+     "word": "白人",
+     "reading": "はくじん",
+     "vi": "người da trắng"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 84
+  },
+  {
+   "id": "k5-085",
+   "char": "元",
+   "meaning_vi": "nguồn; khỏe",
+   "on_reading": [
+    "ゲン"
+   ],
+   "kun_reading": [
+    "もと"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "元気",
+     "reading": "げんき",
+     "vi": "khỏe mạnh"
+    },
+    {
+     "word": "元",
+     "reading": "もと",
+     "vi": "nguồn gốc"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 85
+  },
+  {
+   "id": "k5-086",
+   "char": "会",
+   "meaning_vi": "gặp; hội",
+   "on_reading": [
+    "カイ"
+   ],
+   "kun_reading": [
+    "あ"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "会います",
+     "reading": "あいます",
+     "vi": "gặp"
+    },
+    {
+     "word": "会社",
+     "reading": "かいしゃ",
+     "vi": "công ty"
+    },
+    {
+     "word": "会議",
+     "reading": "かいぎ",
+     "vi": "cuộc họp"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 86
+  },
+  {
+   "id": "k5-087",
+   "char": "社",
+   "meaning_vi": "công ty, đền",
+   "on_reading": [
+    "シャ"
+   ],
+   "kun_reading": [],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "会社",
+     "reading": "かいしゃ",
+     "vi": "công ty"
+    },
+    {
+     "word": "神社",
+     "reading": "じんじゃ",
+     "vi": "đền Thần đạo"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 87
+  },
+  {
+   "id": "k5-088",
+   "char": "国",
+   "meaning_vi": "nước, quốc gia",
+   "on_reading": [
+    "コク"
+   ],
+   "kun_reading": [
+    "くに"
+   ],
+   "stroke_count": 8,
+   "examples": [
+    {
+     "word": "外国",
+     "reading": "がいこく",
+     "vi": "nước ngoài"
+    },
+    {
+     "word": "国",
+     "reading": "くに",
+     "vi": "nước, quê hương"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 88
+  },
+  {
+   "id": "k5-089",
+   "char": "間",
+   "meaning_vi": "khoảng; giữa; phòng",
+   "on_reading": [
+    "カン",
+    "ケン"
+   ],
+   "kun_reading": [
+    "あいだ"
+   ],
+   "stroke_count": 12,
+   "examples": [
+    {
+     "word": "時間",
+     "reading": "じかん",
+     "vi": "thời gian"
+    },
+    {
+     "word": "間",
+     "reading": "あいだ",
+     "vi": "khoảng giữa"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 89
+  },
+  {
+   "id": "k5-090",
+   "char": "何",
+   "meaning_vi": "cái gì; bao nhiêu",
+   "on_reading": [
+    "ナン"
+   ],
+   "kun_reading": [
+    "なに"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "何",
+     "reading": "なに,なん",
+     "vi": "cái gì"
+    },
+    {
+     "word": "何時",
+     "reading": "なんじ",
+     "vi": "mấy giờ"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 90
+  },
+  {
+   "id": "k5-091",
+   "char": "私",
+   "meaning_vi": "tôi",
+   "on_reading": [
+    "シ"
+   ],
+   "kun_reading": [
+    "わたし"
+   ],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "私",
+     "reading": "わたし",
+     "vi": "tôi"
+    },
+    {
+     "word": "私たち",
+     "reading": "わたしたち",
+     "vi": "chúng tôi"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 91
+  },
+  {
+   "id": "k5-092",
+   "char": "犬",
+   "meaning_vi": "chó",
+   "on_reading": [
+    "ケン"
+   ],
+   "kun_reading": [
+    "いぬ"
+   ],
+   "stroke_count": 4,
+   "examples": [
+    {
+     "word": "犬",
+     "reading": "いぬ",
+     "vi": "con chó"
+    },
+    {
+     "word": "大きい犬",
+     "reading": "おおきいいぬ",
+     "vi": "con chó to"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 92
+  },
+  {
+   "id": "k5-093",
+   "char": "魚",
+   "meaning_vi": "cá",
+   "on_reading": [
+    "ギョ"
+   ],
+   "kun_reading": [
+    "さかな"
+   ],
+   "stroke_count": 11,
+   "examples": [
+    {
+     "word": "魚",
+     "reading": "さかな",
+     "vi": "con cá"
+    },
+    {
+     "word": "白い魚",
+     "reading": "しろいさかな",
+     "vi": "con cá trắng"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 93
+  },
+  {
+   "id": "k5-094",
+   "char": "米",
+   "meaning_vi": "gạo",
+   "on_reading": [
+    "マイ"
+   ],
+   "kun_reading": [
+    "こめ"
+   ],
+   "stroke_count": 6,
+   "examples": [
+    {
+     "word": "米",
+     "reading": "こめ",
+     "vi": "gạo"
+    },
+    {
+     "word": "アメリカ",
+     "reading": "アメリカ",
+     "vi": "nước Mỹ (米国)"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 94
+  },
+  {
+   "id": "k5-095",
+   "char": "駅",
+   "meaning_vi": "nhà ga",
+   "on_reading": [
+    "エキ"
+   ],
+   "kun_reading": [],
+   "stroke_count": 14,
+   "examples": [
+    {
+     "word": "駅",
+     "reading": "えき",
+     "vi": "nhà ga"
+    },
+    {
+     "word": "駅前",
+     "reading": "えきまえ",
+     "vi": "trước nhà ga"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 95
+  },
+  {
+   "id": "k5-096",
+   "char": "右",
+   "meaning_vi": "phải",
+   "on_reading": [
+    "ウ"
+   ],
+   "kun_reading": [
+    "みぎ"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "右",
+     "reading": "みぎ",
+     "vi": "bên phải"
+    },
+    {
+     "word": "右手",
+     "reading": "みぎて",
+     "vi": "bàn tay phải"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 96
+  },
+  {
+   "id": "k5-097",
+   "char": "左",
+   "meaning_vi": "trái",
+   "on_reading": [
+    "サ"
+   ],
+   "kun_reading": [
+    "ひだり"
+   ],
+   "stroke_count": 5,
+   "examples": [
+    {
+     "word": "左",
+     "reading": "ひだり",
+     "vi": "bên trái"
+    },
+    {
+     "word": "左手",
+     "reading": "ひだりて",
+     "vi": "bàn tay trái"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 97
+  },
+  {
+   "id": "k5-098",
+   "char": "店",
+   "meaning_vi": "cửa hàng",
+   "on_reading": [
+    "テン"
+   ],
+   "kun_reading": [
+    "みせ"
+   ],
+   "stroke_count": 8,
+   "examples": [
+    {
+     "word": "店",
+     "reading": "みせ",
+     "vi": "cửa hàng"
+    },
+    {
+     "word": "書店",
+     "reading": "しょてん",
+     "vi": "hiệu sách"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 98
+  },
+  {
+   "id": "k5-099",
+   "char": "図",
+   "meaning_vi": "hình, sơ đồ",
+   "on_reading": [
+    "ズ"
+   ],
+   "kun_reading": [],
+   "stroke_count": 7,
+   "examples": [
+    {
+     "word": "図書館",
+     "reading": "としょかん",
+     "vi": "thư viện"
+    },
+    {
+     "word": "地図",
+     "reading": "ちず",
+     "vi": "bản đồ"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 99
+  },
+  {
+   "id": "k5-100",
+   "char": "銀",
+   "meaning_vi": "bạc; ngân hàng",
+   "on_reading": [
+    "ギン"
+   ],
+   "kun_reading": [],
+   "stroke_count": 14,
+   "examples": [
+    {
+     "word": "銀行",
+     "reading": "ぎんこう",
+     "vi": "ngân hàng"
+    },
+    {
+     "word": "銀",
+     "reading": "ぎん",
+     "vi": "bạc"
+    }
+   ],
+   "source": "nghĩa/âm: Kotori đối chiếu KANJIDIC2 (EDRDG); nét: KanjiVG",
+   "verified": true,
+   "order_index": 100
+  }
+ ]
+}

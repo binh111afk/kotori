@@ -1,0 +1,103 @@
+{
+  "units": [
+    { "id": "u4", "title": "Ngữ pháp Unit 4 — Ăn uống & mua sắm", "order": 24 }
+  ],
+  "points": [
+    {
+      "id": "g-u4-1",
+      "unit_id": "u4",
+      "title": "〜が好きです / 〜が嫌いです",
+      "structure": "[Danh từ] が 好きです / 嫌いです",
+      "explanation_vi": "“Thích/ghét” là tính từ, đối tượng thích/ghét gắn trợ từ が (không phải を): 音楽が好きです. Người/đồ vật muốn nói chủ đề vẫn đứng は phía trước: わたしは犬が好きです.",
+      "mistakes_vi": [
+        "Dùng を: “音楽を好きです” sai — phải là が.",
+        "Chia です như động từ: 好きでした (thích - quá khứ) là đúng cách nói, không có “好きました”."
+      ],
+      "examples": [
+        { "segments": [{ "t": "わたし" }, { "t": "は" }, { "t": "犬", "r": "いぬ" }, { "t": "が" }, { "t": "好", "r": "す" }, { "t": "きです。" }], "vi": "Tôi thích chó." },
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "肉", "r": "にく" }, { "t": "が" }, { "t": "嫌", "r": "きら" }, { "t": "いです。" }], "vi": "Mai ghét thịt." }
+      ],
+      "source": "Minna no Nihongo I, bài 8; Genki I bài 3",
+      "verified": true
+    },
+    {
+      "id": "g-u4-2",
+      "unit_id": "u4",
+      "title": "〜が欲しいです: muốn có cái gì",
+      "structure": "[Danh từ] が 欲しいです",
+      "explanation_vi": "Muốn MỘT ĐỒ VẬT: が欲しいです (新しい辞書が欲しいです). Muốn LÀM MỘT VIỆC thì dùng 〜たいです (mục dưới) — hai dạng này không trộn được.",
+      "mistakes_vi": [
+        "“辞書を欲しいです” sai — đối tượng của 欲しい là が.",
+        "Dùng 欲しい cho hành động: “行く欲しいです” sai — muốn đi phải là 行きたいです."
+      ],
+      "examples": [
+        { "segments": [{ "t": "車", "r": "くるま" }, { "t": "が" }, { "t": "欲", "r": "ほ" }, { "t": "しいです。" }], "vi": "Tôi muốn có một chiếc xe." },
+        { "segments": [{ "t": "いい" }, { "t": "友達", "r": "ともだち" }, { "t": "が欲しいです。" }], "vi": "Tôi muốn có bạn tốt." }
+      ],
+      "source": "Minna no Nihongo I, bài 13; Genki I bài 4",
+      "verified": true
+    },
+    {
+      "id": "g-u4-3",
+      "unit_id": "u4",
+      "title": "〜たいです: muốn làm gì đó",
+      "structure": "[Động từ bỏ ます] たいです  →  “muốn làm …”",
+      "explanation_vi": "Bỏ ます của động từ lịch sự rồi thêm たいです: 食べます → 食べたいです, 行きます → 行きたいです. Phủ định: たくないです. Hỏi người khác cẩn thận — 〜たいですか hơi xâm phạm, người Nhật hay mời bằng 〜ませんか.",
+      "mistakes_vi": [
+        "Giữ nguyên ます: “食べますたいです” sai.",
+        "Chia sai quá khứ: “食べたかったです” mới là “đã muốn ăn”."
+      ],
+      "examples": [
+        { "segments": [{ "t": "日本", "r": "にほん" }, { "t": "へ" }, { "t": "行", "r": "い" }, { "t": "きたいです。" }], "vi": "Tôi muốn đi Nhật." },
+        { "segments": [{ "t": "ケーキ" }, { "t": "を" }, { "t": "食", "r": "た" }, { "t": "べたくないです。" }], "vi": "Tôi không muốn ăn bánh ngọt." }
+      ],
+      "source": "Minna no Nihongo I, bài 13; Genki I bài 4",
+      "verified": true
+    },
+    {
+      "id": "g-u4-4",
+      "unit_id": "u4",
+      "title": "Đếm đồ vật: 〜つ・個・本・枚・匹",
+      "structure": "ひとつ・ふたつ・みっつ… / 一個・二本・三枚・一匹",
+      "explanation_vi": "Tiếng Nhật đếm đồ vật phải chọn LƯỢNG TỪ theo hình dạng: vật tròn nhỏ → 個 (こ); vật dài (bút, chai) → 本 (ほん); vật mỏng (giấy, vé) → 枚 (まい); động vật nhỏ → 匹 (ひき). 1–10 đồ vật chung dùng ひとつ・ふたつ・みっつ・よっつ・いつつ・むっつ・ななつ・やっつ・ここのつ・とお.",
+      "mistakes_vi": [
+        "Dùng 枚 cho bút — bút dài dùng 本 (ぼん/ほん có biến đổi âm đầu).",
+        "Đọc sai biến âm: 一本 = いっぽん, 三本 = さんぼん (không phải さんほん)."
+      ],
+      "examples": [
+        { "segments": [{ "t": "りんご" }, { "t": "を" }, { "t": "三", "r": "みっ" }, { "t": "つ" }, { "t": "ください。" }], "vi": "Cho tôi 3 quả táo." },
+        { "segments": [{ "t": "ペン" }, { "t": "を" }, { "t": "二", "r": "に" }, { "t": "本", "r": "ほん" }, { "t": "買いました。" }], "vi": "Tôi đã mua 2 cây bút." }
+      ],
+      "source": "Minna no Nihongo I, bài 11; Genki I bài 5",
+      "verified": true
+    },
+    {
+      "id": "g-u4-5",
+      "unit_id": "u4",
+      "title": "いくらですか: hỏi giá",
+      "structure": "これは いくらですか  →  “Cái này bao nhiêu tiền?”",
+      "explanation_vi": "いくら = bao nhiêu tiền. Trả lời bằng số + 円: 三百円です. Kèm こちらで (ở quầy này) khi thanh toán. Muốn nói “xin cái này” dùng それをください.",
+      "mistakes_vi": [
+        "Nhầm いくら (bao nhiêu tiền) với いくつ (bao nhiêu cái).",
+        "Quên 円 khi trả lời giá."
+      ],
+      "examples": [
+        { "segments": [{ "t": "すみません、" }, { "t": "この" }, { "t": "傘", "r": "かさ" }, { "t": "は" }, { "t": "いくら" }, { "t": "です" }, { "t": "か" }, { "t": "。" }], "vi": "Cho tôi hỏi, cây dù này bao nhiêu ạ?" },
+        { "segments": [{ "t": "三百", "r": "さんびゃく" }, { "t": "円", "r": "えん" }, { "t": "です。" }], "vi": "Ba trăm yên ạ." }
+      ],
+      "source": "Minna no Nihongo I, bài 3・11; Genki I bài 5",
+      "verified": true
+    }
+  ],
+  "exercises": [
+    { "id": "x-u4-1-1", "grammar_id": "g-u4-1", "unit_id": "u4", "type": "choice", "payload": { "question": "「Tôi thích cà phê」 — câu nào đúng?", "options": ["コーヒーが好きです。", "コーヒーを好きです。", "コーヒーは好きをです。"], "answerIndex": 0 }, "explanation_vi": "Đối tượng của 好き gắn trợ từ が.", "item_ref": "u4-11", "source": "kotori — soạn theo mẫu Minna VIII", "verified": true, "order_index": 29 },
+    { "id": "x-u4-1-2", "grammar_id": "g-u4-1", "unit_id": "u4", "type": "fill", "payload": { "before": "わたしは犬", "after": "嫌いです。", "accepted": ["が", "ga"], "full": "わたしは犬が嫌いです。", "translation": "Tôi ghét chó.", "speak": "わたしは犬が嫌いです。" }, "explanation_vi": "好き/嫌い luôn đi với が.", "source": "kotori — soạn theo mẫu Minna VIII", "verified": true, "order_index": 30 },
+    { "id": "x-u4-2-1", "grammar_id": "g-u4-2", "unit_id": "u4", "type": "choice", "payload": { "question": "「Tôi muốn có xe đạp」 — câu nào đúng?", "options": ["自転車が欲しいです。", "自転車を欲しいです。", "自転車は欲しいなです。"], "answerIndex": 0 }, "explanation_vi": "欲しい = muốn CÓ đồ vật, đối tượng dùng が.", "item_ref": "u4-16", "source": "kotori — soạn theo mẫu Minna XIII", "verified": true, "order_index": 31 },
+    { "id": "x-u4-3-1", "grammar_id": "g-u4-3", "unit_id": "u4", "type": "conjugate", "payload": { "base": "食べます", "task": "Chuyển thành “muốn ăn”", "accepted": ["食べたいです", "たべたいです"], "hint": "Bỏ ます, thêm たいです" }, "explanation_vi": "食べます → 食べ + たいです = 食べたいです.", "item_ref": "u4-01", "source": "kotori — soạn theo mẫu Minna XIII", "verified": true, "order_index": 32 },
+    { "id": "x-u4-3-2", "grammar_id": "g-u4-3", "unit_id": "u4", "type": "fill", "payload": { "before": "日本へ", "after": "です。", "accepted": ["行きたい"], "full": "日本へ行きたいです。", "translation": "Tôi muốn đi Nhật." }, "explanation_vi": "行きます → 行き + たいです.", "item_ref": "u3-24", "source": "kotori — soạn theo mẫu Minna XIII", "verified": true, "order_index": 33 },
+    { "id": "x-u4-4-1", "grammar_id": "g-u4-4", "unit_id": "u4", "type": "choice", "payload": { "question": "Đếm 2 cây bút (vật dài) dùng lượng từ nào?", "options": ["二本 (にほん)", "二枚 (にまい)", "二匹 (にひき)"], "answerIndex": 0 }, "explanation_vi": "Vật dài → 本; vật mỏng → 枚; động vật nhỏ → 匹.", "source": "kotori — soạn theo mẫu Minna XI", "verified": true, "order_index": 34 },
+    { "id": "x-u4-4-2", "grammar_id": "g-u4-4", "unit_id": "u4", "type": "fill", "payload": { "before": "りんごを三", "after": "ください。", "accepted": ["つ"], "full": "りんごを三つください。", "translation": "Cho tôi 3 quả táo." }, "explanation_vi": "Đếm vật nhỏ chung: 一つ・二つ・三つ…", "source": "kotori — soạn theo mẫu Minna XI", "verified": true, "order_index": 35 },
+    { "id": "x-u4-5-1", "grammar_id": "g-u4-5", "unit_id": "u4", "type": "choice", "payload": { "question": "「Cái này bao nhiêu tiền?」 — hỏi thế nào?", "options": ["これはいくらですか。", "これはいくつですか。", "これはなんですか。"], "answerIndex": 0 }, "explanation_vi": "いくら = hỏi GIÁ TIỀN; いくつ = hỏi SỐ LƯỢNG cái; なん = hỏi tên gọi.", "item_ref": "u4-17", "source": "kotori — soạn theo mẫu Minna III・XI", "verified": true, "order_index": 36 },
+    { "id": "x-u4-5-2", "grammar_id": "g-u4-5", "unit_id": "u4", "type": "match", "payload": { "pairs": [ { "jp": "いくらですか。", "vi": "Bao nhiêu tiền ạ?", "item_ref": "u4-17" }, { "jp": "それをください。", "vi": "Cho tôi cái đó." }, { "jp": "おいしいですね。", "vi": "Ngon nhỉ.", "item_ref": "u4-13" }, { "jp": "高いです。", "vi": "Đắt quá.", "item_ref": "u4-18" } ] }, "explanation_vi": "Các câu quen thuộc khi mua sắm.", "source": "kotori — ôn Unit 4", "verified": true, "order_index": 37 }
+  ]
+}

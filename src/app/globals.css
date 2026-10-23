@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+/* Dark mode theo class .dark (script inline trong layout chống chớp màu lúc tải trang) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #fff8f4;
+  --surface: #ffffff;
+  --surface-2: #fdf1f3;
+  --foreground: #40303c;
+  --muted: #7a6270;
+  --border: #f0dfe2;
+  --ring: #c43f68;
+
+  --primary: #c43f68;
+  --primary-hover: #a93457;
+  --primary-foreground: #ffffff;
+  --primary-text: #c43f68;
+  --primary-soft: #fce1ea;
+
+  --secondary: #2b74a6;
+  --secondary-hover: #235f89;
+  --secondary-foreground: #ffffff;
+  --secondary-text: #2b74a6;
+  --secondary-soft: #e1f1fa;
+
+  --mint: #1f7a5c;
+  --mint-soft: #ddf3e7;
+  --mint-vivid: #6fcba4;
+
+  --butter: #8a6a00;
+  --butter-soft: #fff1cc;
+  --butter-vivid: #f6c85f;
+
+  --danger: #c63d3d;
+  --danger-soft: #fbe3e3;
+  --danger-text: #c63d3d;
+}
+
+.dark {
+  --background: #201726;
+  --surface: #2a1e31;
+  --surface-2: #352743;
+  --foreground: #f7eff4;
+  --muted: #c9b6c4;
+  --border: #3e2e48;
+  --ring: #f49dbb;
+
+  --primary: #d95e85;
+  --primary-hover: #e0708f;
+  --primary-foreground: #201726;
+  --primary-text: #f49dbb;
+  --primary-soft: #3d2534;
+
+  --secondary: #4e9ccb;
+  --secondary-hover: #5fa9d5;
+  --secondary-foreground: #201726;
+  --secondary-text: #9ccfea;
+  --secondary-soft: #22333f;
+
+  --mint: #93d9b9;
+  --mint-soft: #22382e;
+  --mint-vivid: #93d9b9;
+
+  --butter: #f6d996;
+  --butter-soft: #3a3123;
+  --butter-vivid: #f6d996;
+
+  --danger: #f08c8c;
+  --danger-soft: #3d2429;
+  --danger-text: #f08c8c;
+}
+
+@theme inline {
+  --font-sans: var(--font-quicksand), "Zen Maru Gothic", ui-sans-serif, system-ui,
+    sans-serif;
+  --font-jp: "Zen Maru Gothic", var(--font-quicksand), ui-sans-serif, sans-serif;
+
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-text: var(--primary-text);
+  --color-primary-soft: var(--primary-soft);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary-text: var(--secondary-text);
+  --color-secondary-soft: var(--secondary-soft);
+
+  --color-mint: var(--mint);
+  --color-mint-soft: var(--mint-soft);
+  --color-mint-vivid: var(--mint-vivid);
+
+  --color-butter: var(--butter);
+  --color-butter-soft: var(--butter-soft);
+  --color-butter-vivid: var(--butter-vivid);
+
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-danger-text: var(--danger-text);
+
+  --shadow-soft: 0 8px 24px -12px rgb(64 48 60 / 0.16);
+  --shadow-lift: 0 16px 40px -16px rgb(64 48 60 / 0.24);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--primary-soft);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

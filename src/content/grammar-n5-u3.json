@@ -1,0 +1,637 @@
+{
+ "units": [
+  {
+   "id": "u3",
+   "title": "Ngữ pháp Unit 3 — Ngày thường",
+   "order": 23
+  }
+ ],
+ "points": [
+  {
+   "id": "g-u3-1",
+   "unit_id": "u3",
+   "title": "Thời gian + に: lúc mấy giờ",
+   "structure": "[Thời gian] に 〜ます  →  “lúc … thì làm gì”",
+   "explanation_vi": "Mốc thời gian cụ thể (7時, 月曜日…) cần trợ từ に đứng trước động từ: 七時に起きます. NHƯNG các từ hôm qua/hôm nay/mai/mỗi ngày (昨日・今日・明日・毎日) KHÔNG dùng に — lỗi kinh điển của người mới.",
+   "mistakes_vi": [
+    "“毎日に起きます” sai — 毎日・今日・明日・昨日 không bao giờ có に.",
+    "Quên に với giờ cụ thể: “七時起きます” thiếu tự nhiên, cần 七時に."
+   ],
+   "examples": [
+    {
+     "segments": [
+      {
+       "t": "毎朝",
+       "r": "まいあさ"
+      },
+      {
+       "t": "六",
+       "r": "ろく"
+      },
+      {
+       "t": "時",
+       "r": "じ"
+      },
+      {
+       "t": "に"
+      },
+      {
+       "t": "起",
+       "r": "お"
+      },
+      {
+       "t": "きます。"
+      }
+     ],
+     "vi": "Sáng nào tôi cũng dậy lúc 6 giờ."
+    },
+    {
+     "segments": [
+      {
+       "t": "日曜日",
+       "r": "にちようび"
+      },
+      {
+       "t": "に"
+      },
+      {
+       "t": "休",
+       "r": "やす"
+      },
+      {
+       "t": "みます。"
+      }
+     ],
+     "vi": "Chủ nhật tôi nghỉ."
+    }
+   ],
+   "source": "Minna no Nihongo I, bài 4–5; Genki I bài 3–4",
+   "verified": true
+  },
+  {
+   "id": "g-u3-2",
+   "unit_id": "u3",
+   "title": "〜から〜まで: từ … đến …",
+   "structure": "[A] から [B] まで  →  “từ A đến B”",
+   "explanation_vi": "から = “từ”, まで = “đến”. Dùng cho cả thời gian (9時から5時まで) và nơi chốn (東京から大阪まで). Có thể nói một đầu: 9時から (từ 9 giờ) hoặc 5時まで (đến 5 giờ).",
+   "mistakes_vi": [
+    "Đảo thứ tự kiểu tiếng Việt “từ 9 giờ học” — tiếng Nhật là [mốc]から[động từ] đứng sau.",
+    "Nhầm から với で — で là nơi diễn ra hành động, から là điểm xuất phát."
+   ],
+   "examples": [
+    {
+     "segments": [
+      {
+       "t": "九",
+       "r": "く"
+      },
+      {
+       "t": "時",
+       "r": "じ"
+      },
+      {
+       "t": "から"
+      },
+      {
+       "t": "五",
+       "r": "ご"
+      },
+      {
+       "t": "時",
+       "r": "じ"
+      },
+      {
+       "t": "まで"
+      },
+      {
+       "t": "働",
+       "r": "はたら"
+      },
+      {
+       "t": "きます。"
+      }
+     ],
+     "vi": "Tôi làm việc từ 9 giờ đến 5 giờ."
+    },
+    {
+     "segments": [
+      {
+       "t": "駅",
+       "r": "えき"
+      },
+      {
+       "t": "から"
+      },
+      {
+       "t": "歩",
+       "r": "ある"
+      },
+      {
+       "t": "いて帰ります。"
+      }
+     ],
+     "vi": "Tôi đi bộ về từ nhà ga."
+    }
+   ],
+   "source": "Minna no Nihongo I, bài 4; Genki I bài 4",
+   "verified": true
+  },
+  {
+   "id": "g-u3-3",
+   "unit_id": "u3",
+   "title": "へ / に: hướng đi đến nơi nào",
+   "structure": "[Nơi] へ / に 行きます・帰ります",
+   "explanation_vi": "Với động từ di chuyển (行きます・来ます・帰ります), nơi đến gắn へ (đọc “e”) hoặc に. へ nhấn hướng đi, に nhấn đích đến — ở N5 dùng cái nào cũng đúng. KHÔNG dùng を cho nơi đến.",
+   "mistakes_vi": [
+    "Đọc へ thành “he” — khi là trợ từ hướng, へ đọc “e”.",
+    "“学校を行きます” sai — nơi đến dùng へ/に, を dành cho đối tượng bị tác động."
+   ],
+   "examples": [
+    {
+     "segments": [
+      {
+       "t": "明日",
+       "r": "あした"
+      },
+      {
+       "t": "東京",
+       "r": "とうきょう"
+      },
+      {
+       "t": "へ"
+      },
+      {
+       "t": "行",
+       "r": "い"
+      },
+      {
+       "t": "きます。"
+      }
+     ],
+     "vi": "Ngày mai tôi đi Tokyo."
+    },
+    {
+     "segments": [
+      {
+       "t": "六",
+       "r": "ろく"
+      },
+      {
+       "t": "時",
+       "r": "じ"
+      },
+      {
+       "t": "に"
+      },
+      {
+       "t": "家",
+       "r": "いえ"
+      },
+      {
+       "t": "に帰ります。"
+      }
+     ],
+     "vi": "Lúc 6 giờ tôi về nhà."
+    }
+   ],
+   "source": "Minna no Nihongo I, bài 4; Genki I bài 3",
+   "verified": true
+  },
+  {
+   "id": "g-u3-4",
+   "unit_id": "u3",
+   "title": "で: phương tiện di chuyển",
+   "structure": "[Phương tiện] で 行きます  →  “đi bằng …”",
+   "explanation_vi": "で cũng đánh dấu CÔNG CỤ/phương tiện: バスで行きます (đi bằng xe buýt), 自転車で来ます (đến bằng xe đạp). Khi nói “đi bộ” không dùng で: 歩いて行きます (dùng hìnhて).",
+   "mistakes_vi": [
+    "“バスを行きます” sai — phương tiện cần で.",
+    "“歩くで行きます” sai — đi bộ dùng 歩いて (hìnhて), học kỹ ở Unit 6."
+   ],
+   "examples": [
+    {
+     "segments": [
+      {
+       "t": "バス"
+      },
+      {
+       "t": "で学校",
+       "r": "がっこう"
+      },
+      {
+       "t": "へ行きます。"
+      }
+     ],
+     "vi": "Tôi đi trường bằng xe buýt."
+    },
+    {
+     "segments": [
+      {
+       "t": "自転車",
+       "r": "じてんしゃ"
+      },
+      {
+       "t": "で駅",
+       "r": "えき"
+      },
+      {
+       "t": "まで行きます。"
+      }
+     ],
+     "vi": "Tôi đi xe đạp đến nhà ga."
+    }
+   ],
+   "source": "Minna no Nihongo I, bài 5; Genki I bài 4",
+   "verified": true
+  },
+  {
+   "id": "g-u3-5",
+   "unit_id": "u3",
+   "title": "Quá khứ: ました / ませんでした",
+   "structure": "〜ました (đã làm) ・ 〜ませんでした (đã không làm)",
+   "explanation_vi": "ました là quá khứ lịch sự của ます; ませんでした là quá khứ phủ định. Nhớ cặp đôi: ます→ました, ます→ません, ません→ませんでした. Đi kèm từ thời gian quá khứ: 昨日・先週.",
+   "mistakes_vi": [
+    "“昨日、行きます” sai thời — có 昨日 phải là 行きました.",
+    "Chia hai lớp phủ định: “ませんでしたじゃ” không tồn tại."
+   ],
+   "examples": [
+    {
+     "segments": [
+      {
+       "t": "昨日",
+       "r": "きのう"
+      },
+      {
+       "t": "は"
+      },
+      {
+       "t": "休",
+       "r": "やす"
+      },
+      {
+       "t": "みました。"
+      }
+     ],
+     "vi": "Hôm qua tôi đã nghỉ."
+    },
+    {
+     "segments": [
+      {
+       "t": "昨日",
+       "r": "きのう"
+      },
+      {
+       "t": "は"
+      },
+      {
+       "t": "勉強",
+       "r": "べんきょう"
+      },
+      {
+       "t": "しませんでした。"
+      }
+     ],
+     "vi": "Hôm qua tôi đã không học."
+    }
+   ],
+   "source": "Minna no Nihongo I, bài 5; Genki I bài 3",
+   "verified": true
+  },
+  {
+   "id": "g-u3-6",
+   "unit_id": "u3",
+   "title": "いつ: hỏi “khi nào”",
+   "structure": "いつ 〜ますか  →  “khi nào thì …?”",
+   "explanation_vi": "いつ hỏi về thời gian mà không cần に: いつ行きますか (khi nào bạn đi?). Trả lời bằng mốc thời gian + に (nếu là giờ/ngày cụ thể) hoặc きょう・あした (không に).",
+   "mistakes_vi": [
+    "“いつに行きますか” sai — いつ không đi với に.",
+    "Nhầm いつ (khi nào) với 何時 (なんじ — mấy giờ)."
+   ],
+   "examples": [
+    {
+     "segments": [
+      {
+       "t": "いつ"
+      },
+      {
+       "t": "日本",
+       "r": "にほん"
+      },
+      {
+       "t": "へ行きます"
+      },
+      {
+       "t": "か"
+      },
+      {
+       "t": "。"
+      }
+     ],
+     "vi": "Khi nào bạn đi Nhật?"
+    },
+    {
+     "segments": [
+      {
+       "t": "いつ"
+      },
+      {
+       "t": "寝",
+       "r": "ね"
+      },
+      {
+       "t": "ます"
+      },
+      {
+       "t": "か"
+      },
+      {
+       "t": "。"
+      }
+     ],
+     "vi": "Khi nào bạn ngủ?"
+    }
+   ],
+   "source": "Minna no Nihongo I, bài 5",
+   "verified": true
+  }
+ ],
+ "exercises": [
+  {
+   "id": "x-u3-1-1",
+   "grammar_id": "g-u3-1",
+   "unit_id": "u3",
+   "type": "choice",
+   "payload": {
+    "question": "Câu nào đúng?",
+    "options": [
+     "毎朝六時に起きます。",
+     "毎日に六時起きます。",
+     "毎朝六時起きますに。"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Mốc giờ cụ thể cần に; 毎朝・毎日 không dùng に.",
+   "item_ref": "u3-01",
+   "source": "kotori — soạn theo mẫu Minna IV",
+   "verified": true,
+   "order_index": 16
+  },
+  {
+   "id": "x-u3-1-2",
+   "grammar_id": "g-u3-1",
+   "unit_id": "u3",
+   "type": "fill",
+   "payload": {
+    "before": "日曜日",
+    "after": "休みます。",
+    "accepted": [
+     "に",
+     "ni"
+    ],
+    "full": "日曜日に休みます。",
+    "translation": "Chủ nhật tôi nghỉ.",
+    "speak": "日曜日に休みます。"
+   },
+   "explanation_vi": "Ngày trong tuần (月曜日…) là mốc cụ thể — dùng に.",
+   "item_ref": "u3-04",
+   "source": "kotori — soạn theo mẫu Minna IV",
+   "verified": true,
+   "order_index": 17
+  },
+  {
+   "id": "x-u3-2-1",
+   "grammar_id": "g-u3-2",
+   "unit_id": "u3",
+   "type": "reorder",
+   "payload": {
+    "tokens": [
+     "九時から",
+     "五時まで",
+     "働きます"
+    ],
+    "translation": "Tôi làm việc từ 9 giờ đến 5 giờ."
+   },
+   "explanation_vi": "から = từ, まで = đến — gắn sau mốc thời gian.",
+   "item_ref": "u3-03",
+   "source": "kotori — soạn theo mẫu Minna IV",
+   "verified": true,
+   "order_index": 18
+  },
+  {
+   "id": "x-u3-2-2",
+   "grammar_id": "g-u3-2",
+   "unit_id": "u3",
+   "type": "fill",
+   "payload": {
+    "before": "駅から家",
+    "after": "歩きます。",
+    "accepted": [
+     "まで"
+    ],
+    "full": "駅から家まで歩きます。",
+    "translation": "Tôi đi bộ từ nhà ga về nhà."
+   },
+   "explanation_vi": "から…まで ghép hai mốc: từ nhà ga đến nhà.",
+   "item_ref": "u3-17",
+   "source": "kotori — soạn theo mẫu Minna IV",
+   "verified": true,
+   "order_index": 19
+  },
+  {
+   "id": "x-u3-3-1",
+   "grammar_id": "g-u3-3",
+   "unit_id": "u3",
+   "type": "choice",
+   "payload": {
+    "question": "「Mai về nhà」 — câu nào đúng?",
+    "options": [
+     "マイさんは家に帰ります。",
+     "マイさんは家を帰ります。",
+     "マイさんは家で帰ります。"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Nơi đến của động từ di chuyển dùng に hoặc へ — không dùng を/で.",
+   "item_ref": "u3-07",
+   "source": "kotori — soạn theo mẫu Minna IV",
+   "verified": true,
+   "order_index": 20
+  },
+  {
+   "id": "x-u3-3-2",
+   "grammar_id": "g-u3-3",
+   "unit_id": "u3",
+   "type": "fill",
+   "payload": {
+    "before": "あした東京",
+    "after": "行きます。",
+    "accepted": [
+     "へ",
+     "e",
+     "に",
+     "ni"
+    ],
+    "full": "あした東京へ行きます。",
+    "translation": "Ngày mai tôi đi Tokyo."
+   },
+   "explanation_vi": "へ (đọc “e”) hoặc に đều đúng cho nơi đến.",
+   "item_ref": "u3-24",
+   "source": "kotori — soạn theo mẫu Minna IV",
+   "verified": true,
+   "order_index": 21
+  },
+  {
+   "id": "x-u3-4-1",
+   "grammar_id": "g-u3-4",
+   "unit_id": "u3",
+   "type": "fill",
+   "payload": {
+    "before": "電車",
+    "after": "会社へ行きます。",
+    "accepted": [
+     "で",
+     "de"
+    ],
+    "full": "電車で会社へ行きます。",
+    "translation": "Tôi đi công ty bằng tàu điện."
+   },
+   "explanation_vi": "Phương tiện di chuyển gắn で.",
+   "item_ref": "u3-15",
+   "source": "kotori — soạn theo mẫu Minna V",
+   "verified": true,
+   "order_index": 22
+  },
+  {
+   "id": "x-u3-4-2",
+   "grammar_id": "g-u3-4",
+   "unit_id": "u3",
+   "type": "choice",
+   "payload": {
+    "question": "「Đi bộ đến trường」 — câu nào đúng?",
+    "options": [
+     "歩いて学校へ行きます。",
+     "歩くで学校へ行きます。",
+     "学校を歩きます行きます。"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Đi bộ không dùng で — dùng hìnhて 歩いて (học kỹ ở Unit 6).",
+   "source": "kotori — soạn theo lỗi thường gặp",
+   "verified": true,
+   "order_index": 23
+  },
+  {
+   "id": "x-u3-5-1",
+   "grammar_id": "g-u3-5",
+   "unit_id": "u3",
+   "type": "choice",
+   "payload": {
+    "question": "「Hôm qua tôi đã không học」 — câu nào đúng?",
+    "options": [
+     "昨日、勉強しませんでした。",
+     "昨日、勉強しませんです。",
+     "明日、勉強しませんでした。"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "Quá khứ phủ định = ませんでした; có 昨日 thì phải quá khứ.",
+   "item_ref": "u3-05",
+   "source": "kotori — soạn theo mẫu Minna V",
+   "verified": true,
+   "order_index": 24
+  },
+  {
+   "id": "x-u3-5-2",
+   "grammar_id": "g-u3-5",
+   "unit_id": "u3",
+   "type": "conjugate",
+   "payload": {
+    "base": "勉強します",
+    "task": "Quá khứ khẳng định (đã học)",
+    "accepted": [
+     "勉強しました",
+     "べんきょうしました"
+    ],
+    "hint": "します → …"
+   },
+   "explanation_vi": "します → しました (nhóm 3).",
+   "item_ref": "u3-05",
+   "source": "kotori — soạn theo mẫu Minna V",
+   "verified": true,
+   "order_index": 25
+  },
+  {
+   "id": "x-u3-5-3",
+   "grammar_id": "g-u3-5",
+   "unit_id": "u3",
+   "type": "match",
+   "payload": {
+    "pairs": [
+     {
+      "jp": "起きます",
+      "vi": "thức dậy",
+      "item_ref": "u3-01"
+     },
+     {
+      "jp": "寝ます",
+      "vi": "ngủ",
+      "item_ref": "u3-02"
+     },
+     {
+      "jp": "帰ります",
+      "vi": "về (nhà)",
+      "item_ref": "u3-07"
+     },
+     {
+      "jp": "休みます",
+      "vi": "nghỉ",
+      "item_ref": "u3-04"
+     }
+    ]
+   },
+   "explanation_vi": "Động từ ngày thường Unit 3.",
+   "source": "kotori — ôn từ Unit 3",
+   "verified": true,
+   "order_index": 26
+  },
+  {
+   "id": "x-u3-6-1",
+   "grammar_id": "g-u3-6",
+   "unit_id": "u3",
+   "type": "choice",
+   "payload": {
+    "question": "「Khi nào bạn ngủ?」 — câu nào đúng?",
+    "options": [
+     "いつ寝ますか。",
+     "いつに寝ますか。",
+     "何時寝ますか。"
+    ],
+    "answerIndex": 0
+   },
+   "explanation_vi": "いつ không cần に. 何時 = hỏi giờ cụ thể (mấy giờ).",
+   "item_ref": "u3-02",
+   "source": "kotori — soạn theo mẫu Minna V",
+   "verified": true,
+   "order_index": 27
+  },
+  {
+   "id": "x-u3-6-2",
+   "grammar_id": "g-u3-6",
+   "unit_id": "u3",
+   "type": "fill",
+   "payload": {
+    "before": "",
+    "after": "日本へ行きますか。(khi nào)",
+    "accepted": [
+     "いつ",
+     "itsu"
+    ],
+    "full": "いつ日本へ行きますか。",
+    "translation": "Khi nào bạn đi Nhật?"
+   },
+   "explanation_vi": "いつ đứng đầu câu hỏi về thời điểm.",
+   "source": "kotori — soạn theo mẫu Minna V",
+   "verified": true,
+   "order_index": 28
+  }
+ ]
+}

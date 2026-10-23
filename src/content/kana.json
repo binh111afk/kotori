@@ -1,0 +1,2296 @@
+{
+ "units": {
+  "k1": {
+   "title": "Hiragana — あ行・か行",
+   "order": 1
+  },
+  "k2": {
+   "title": "Hiragana — さ行・た行",
+   "order": 2
+  },
+  "k3": {
+   "title": "Hiragana — な行・は行",
+   "order": 3
+  },
+  "k4": {
+   "title": "Hiragana — ま行・や行",
+   "order": 4
+  },
+  "k5": {
+   "title": "Hiragana — ら行・わをん",
+   "order": 5
+  },
+  "k6": {
+   "title": "Hiragana — dakuten & handakuten (゛゜)",
+   "order": 6
+  },
+  "k7": {
+   "title": "Hiragana — âm ghép yōon",
+   "order": 7
+  },
+  "k8": {
+   "title": "Katakana — bảng cơ bản",
+   "order": 8
+  },
+  "k9": {
+   "title": "Katakana — dakuten & yōon",
+   "order": 9
+  },
+  "k10": {
+   "title": "Ôn tổng hai bảng kana",
+   "order": 10
+  }
+ },
+ "items": [
+  {
+   "char": "あ",
+   "romaji": "a",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "03042"
+   ],
+   "unit_id": "k1",
+   "order_index": 1
+  },
+  {
+   "char": "い",
+   "romaji": "i",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "03044"
+   ],
+   "unit_id": "k1",
+   "order_index": 2
+  },
+  {
+   "char": "う",
+   "romaji": "u",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "03046"
+   ],
+   "unit_id": "k1",
+   "order_index": 3
+  },
+  {
+   "char": "え",
+   "romaji": "e",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "03048"
+   ],
+   "unit_id": "k1",
+   "order_index": 4
+  },
+  {
+   "char": "お",
+   "romaji": "o",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "0304a"
+   ],
+   "unit_id": "k1",
+   "order_index": 5
+  },
+  {
+   "char": "か",
+   "romaji": "ka",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "0304b"
+   ],
+   "unit_id": "k1",
+   "order_index": 6
+  },
+  {
+   "char": "き",
+   "romaji": "ki",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "0304d"
+   ],
+   "unit_id": "k1",
+   "order_index": 7
+  },
+  {
+   "char": "く",
+   "romaji": "ku",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "0304f"
+   ],
+   "unit_id": "k1",
+   "order_index": 8
+  },
+  {
+   "char": "け",
+   "romaji": "ke",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "03051"
+   ],
+   "unit_id": "k1",
+   "order_index": 9
+  },
+  {
+   "char": "こ",
+   "romaji": "ko",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "03053"
+   ],
+   "unit_id": "k1",
+   "order_index": 10
+  },
+  {
+   "char": "さ",
+   "romaji": "sa",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "03055"
+   ],
+   "unit_id": "k2",
+   "order_index": 11
+  },
+  {
+   "char": "し",
+   "romaji": "shi",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "03057"
+   ],
+   "unit_id": "k2",
+   "order_index": 12
+  },
+  {
+   "char": "す",
+   "romaji": "su",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "03059"
+   ],
+   "unit_id": "k2",
+   "order_index": 13
+  },
+  {
+   "char": "せ",
+   "romaji": "se",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "0305b"
+   ],
+   "unit_id": "k2",
+   "order_index": 14
+  },
+  {
+   "char": "そ",
+   "romaji": "so",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "0305d"
+   ],
+   "unit_id": "k2",
+   "order_index": 15
+  },
+  {
+   "char": "た",
+   "romaji": "ta",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "0305f"
+   ],
+   "unit_id": "k2",
+   "order_index": 16
+  },
+  {
+   "char": "ち",
+   "romaji": "chi",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "03061"
+   ],
+   "unit_id": "k2",
+   "order_index": 17
+  },
+  {
+   "char": "つ",
+   "romaji": "tsu",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "03064"
+   ],
+   "unit_id": "k2",
+   "order_index": 18
+  },
+  {
+   "char": "て",
+   "romaji": "te",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "03066"
+   ],
+   "unit_id": "k2",
+   "order_index": 19
+  },
+  {
+   "char": "と",
+   "romaji": "to",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "03068"
+   ],
+   "unit_id": "k2",
+   "order_index": 20
+  },
+  {
+   "char": "な",
+   "romaji": "na",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "0306a"
+   ],
+   "unit_id": "k3",
+   "order_index": 21
+  },
+  {
+   "char": "に",
+   "romaji": "ni",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "0306b"
+   ],
+   "unit_id": "k3",
+   "order_index": 22
+  },
+  {
+   "char": "ぬ",
+   "romaji": "nu",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "0306c"
+   ],
+   "unit_id": "k3",
+   "order_index": 23
+  },
+  {
+   "char": "ね",
+   "romaji": "ne",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "0306d"
+   ],
+   "unit_id": "k3",
+   "order_index": 24
+  },
+  {
+   "char": "の",
+   "romaji": "no",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "0306e"
+   ],
+   "unit_id": "k3",
+   "order_index": 25
+  },
+  {
+   "char": "は",
+   "romaji": "ha",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "0306f"
+   ],
+   "unit_id": "k3",
+   "order_index": 26
+  },
+  {
+   "char": "ひ",
+   "romaji": "hi",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "03072"
+   ],
+   "unit_id": "k3",
+   "order_index": 27
+  },
+  {
+   "char": "ふ",
+   "romaji": "fu",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "03075"
+   ],
+   "unit_id": "k3",
+   "order_index": 28
+  },
+  {
+   "char": "へ",
+   "romaji": "he",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "03078"
+   ],
+   "unit_id": "k3",
+   "order_index": 29
+  },
+  {
+   "char": "ほ",
+   "romaji": "ho",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "0307b"
+   ],
+   "unit_id": "k3",
+   "order_index": 30
+  },
+  {
+   "char": "ま",
+   "romaji": "ma",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "0307e"
+   ],
+   "unit_id": "k4",
+   "order_index": 31
+  },
+  {
+   "char": "み",
+   "romaji": "mi",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "0307f"
+   ],
+   "unit_id": "k4",
+   "order_index": 32
+  },
+  {
+   "char": "む",
+   "romaji": "mu",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "03080"
+   ],
+   "unit_id": "k4",
+   "order_index": 33
+  },
+  {
+   "char": "め",
+   "romaji": "me",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "03081"
+   ],
+   "unit_id": "k4",
+   "order_index": 34
+  },
+  {
+   "char": "も",
+   "romaji": "mo",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "03082"
+   ],
+   "unit_id": "k4",
+   "order_index": 35
+  },
+  {
+   "char": "や",
+   "romaji": "ya",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "や行",
+   "codepoints": [
+    "03084"
+   ],
+   "unit_id": "k4",
+   "order_index": 36
+  },
+  {
+   "char": "ゆ",
+   "romaji": "yu",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "や行",
+   "codepoints": [
+    "03086"
+   ],
+   "unit_id": "k4",
+   "order_index": 37
+  },
+  {
+   "char": "よ",
+   "romaji": "yo",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "や行",
+   "codepoints": [
+    "03088"
+   ],
+   "unit_id": "k4",
+   "order_index": 38
+  },
+  {
+   "char": "ら",
+   "romaji": "ra",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "03089"
+   ],
+   "unit_id": "k5",
+   "order_index": 39
+  },
+  {
+   "char": "り",
+   "romaji": "ri",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "0308a"
+   ],
+   "unit_id": "k5",
+   "order_index": 40
+  },
+  {
+   "char": "る",
+   "romaji": "ru",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "0308b"
+   ],
+   "unit_id": "k5",
+   "order_index": 41
+  },
+  {
+   "char": "れ",
+   "romaji": "re",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "0308c"
+   ],
+   "unit_id": "k5",
+   "order_index": 42
+  },
+  {
+   "char": "ろ",
+   "romaji": "ro",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "0308d"
+   ],
+   "unit_id": "k5",
+   "order_index": 43
+  },
+  {
+   "char": "わ",
+   "romaji": "wa",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "わ行",
+   "codepoints": [
+    "0308f"
+   ],
+   "unit_id": "k5",
+   "order_index": 44
+  },
+  {
+   "char": "を",
+   "romaji": "wo",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "わ行",
+   "codepoints": [
+    "03092"
+   ],
+   "unit_id": "k5",
+   "order_index": 45
+  },
+  {
+   "char": "ん",
+   "romaji": "n",
+   "script": "hiragana",
+   "kind": "base",
+   "row": "わ行",
+   "codepoints": [
+    "03093"
+   ],
+   "unit_id": "k5",
+   "order_index": 46
+  },
+  {
+   "char": "が",
+   "romaji": "ga",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "0304c"
+   ],
+   "unit_id": "k6",
+   "order_index": 47
+  },
+  {
+   "char": "ぎ",
+   "romaji": "gi",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "0304e"
+   ],
+   "unit_id": "k6",
+   "order_index": 48
+  },
+  {
+   "char": "ぐ",
+   "romaji": "gu",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "03050"
+   ],
+   "unit_id": "k6",
+   "order_index": 49
+  },
+  {
+   "char": "げ",
+   "romaji": "ge",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "03052"
+   ],
+   "unit_id": "k6",
+   "order_index": 50
+  },
+  {
+   "char": "ご",
+   "romaji": "go",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "03054"
+   ],
+   "unit_id": "k6",
+   "order_index": 51
+  },
+  {
+   "char": "ざ",
+   "romaji": "za",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ざ行",
+   "codepoints": [
+    "03056"
+   ],
+   "unit_id": "k6",
+   "order_index": 52
+  },
+  {
+   "char": "じ",
+   "romaji": "ji",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "03058"
+   ],
+   "unit_id": "k6",
+   "order_index": 53
+  },
+  {
+   "char": "ず",
+   "romaji": "zu",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "0305a"
+   ],
+   "unit_id": "k6",
+   "order_index": 54
+  },
+  {
+   "char": "ぜ",
+   "romaji": "ze",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ざ行",
+   "codepoints": [
+    "0305c"
+   ],
+   "unit_id": "k6",
+   "order_index": 55
+  },
+  {
+   "char": "ぞ",
+   "romaji": "zo",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ざ行",
+   "codepoints": [
+    "0305e"
+   ],
+   "unit_id": "k6",
+   "order_index": 56
+  },
+  {
+   "char": "だ",
+   "romaji": "da",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "03060"
+   ],
+   "unit_id": "k6",
+   "order_index": 57
+  },
+  {
+   "char": "ぢ",
+   "romaji": "ji",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "03062"
+   ],
+   "unit_id": "k6",
+   "order_index": 58
+  },
+  {
+   "char": "づ",
+   "romaji": "zu",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "03065"
+   ],
+   "unit_id": "k6",
+   "order_index": 59
+  },
+  {
+   "char": "で",
+   "romaji": "de",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "03067"
+   ],
+   "unit_id": "k6",
+   "order_index": 60
+  },
+  {
+   "char": "ど",
+   "romaji": "do",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "03069"
+   ],
+   "unit_id": "k6",
+   "order_index": 61
+  },
+  {
+   "char": "ば",
+   "romaji": "ba",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "03070"
+   ],
+   "unit_id": "k6",
+   "order_index": 62
+  },
+  {
+   "char": "び",
+   "romaji": "bi",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "03073"
+   ],
+   "unit_id": "k6",
+   "order_index": 63
+  },
+  {
+   "char": "ぶ",
+   "romaji": "bu",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "03076"
+   ],
+   "unit_id": "k6",
+   "order_index": 64
+  },
+  {
+   "char": "べ",
+   "romaji": "be",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "03079"
+   ],
+   "unit_id": "k6",
+   "order_index": 65
+  },
+  {
+   "char": "ぼ",
+   "romaji": "bo",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "0307c"
+   ],
+   "unit_id": "k6",
+   "order_index": 66
+  },
+  {
+   "char": "ぱ",
+   "romaji": "pa",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "03071"
+   ],
+   "unit_id": "k6",
+   "order_index": 67
+  },
+  {
+   "char": "ぴ",
+   "romaji": "pi",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "03074"
+   ],
+   "unit_id": "k6",
+   "order_index": 68
+  },
+  {
+   "char": "ぷ",
+   "romaji": "pu",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "03077"
+   ],
+   "unit_id": "k6",
+   "order_index": 69
+  },
+  {
+   "char": "ぺ",
+   "romaji": "pe",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "0307a"
+   ],
+   "unit_id": "k6",
+   "order_index": 70
+  },
+  {
+   "char": "ぽ",
+   "romaji": "po",
+   "script": "hiragana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "0307d"
+   ],
+   "unit_id": "k6",
+   "order_index": 71
+  },
+  {
+   "char": "きゃ",
+   "romaji": "kya",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "き行",
+   "codepoints": [
+    "0304d",
+    "03083"
+   ],
+   "unit_id": "k7",
+   "order_index": 72
+  },
+  {
+   "char": "きゅ",
+   "romaji": "kyu",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "き行",
+   "codepoints": [
+    "0304d",
+    "03085"
+   ],
+   "unit_id": "k7",
+   "order_index": 73
+  },
+  {
+   "char": "きょ",
+   "romaji": "kyo",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "き行",
+   "codepoints": [
+    "0304d",
+    "03087"
+   ],
+   "unit_id": "k7",
+   "order_index": 74
+  },
+  {
+   "char": "しゃ",
+   "romaji": "sha",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "し行",
+   "codepoints": [
+    "03057",
+    "03083"
+   ],
+   "unit_id": "k7",
+   "order_index": 75
+  },
+  {
+   "char": "しゅ",
+   "romaji": "shu",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "し行",
+   "codepoints": [
+    "03057",
+    "03085"
+   ],
+   "unit_id": "k7",
+   "order_index": 76
+  },
+  {
+   "char": "しょ",
+   "romaji": "sho",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "し行",
+   "codepoints": [
+    "03057",
+    "03087"
+   ],
+   "unit_id": "k7",
+   "order_index": 77
+  },
+  {
+   "char": "ちゃ",
+   "romaji": "cha",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "ち行",
+   "codepoints": [
+    "03061",
+    "03083"
+   ],
+   "unit_id": "k7",
+   "order_index": 78
+  },
+  {
+   "char": "ちゅ",
+   "romaji": "chu",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "ち行",
+   "codepoints": [
+    "03061",
+    "03085"
+   ],
+   "unit_id": "k7",
+   "order_index": 79
+  },
+  {
+   "char": "ちょ",
+   "romaji": "cho",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "ち行",
+   "codepoints": [
+    "03061",
+    "03087"
+   ],
+   "unit_id": "k7",
+   "order_index": 80
+  },
+  {
+   "char": "にゃ",
+   "romaji": "nya",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "に行",
+   "codepoints": [
+    "0306b",
+    "03083"
+   ],
+   "unit_id": "k7",
+   "order_index": 81
+  },
+  {
+   "char": "にゅ",
+   "romaji": "nyu",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "に行",
+   "codepoints": [
+    "0306b",
+    "03085"
+   ],
+   "unit_id": "k7",
+   "order_index": 82
+  },
+  {
+   "char": "にょ",
+   "romaji": "nyo",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "に行",
+   "codepoints": [
+    "0306b",
+    "03087"
+   ],
+   "unit_id": "k7",
+   "order_index": 83
+  },
+  {
+   "char": "ひゃ",
+   "romaji": "hya",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "ひ行",
+   "codepoints": [
+    "03072",
+    "03083"
+   ],
+   "unit_id": "k7",
+   "order_index": 84
+  },
+  {
+   "char": "ひゅ",
+   "romaji": "hyu",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "ひ行",
+   "codepoints": [
+    "03072",
+    "03085"
+   ],
+   "unit_id": "k7",
+   "order_index": 85
+  },
+  {
+   "char": "ひょ",
+   "romaji": "hyo",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "ひ行",
+   "codepoints": [
+    "03072",
+    "03087"
+   ],
+   "unit_id": "k7",
+   "order_index": 86
+  },
+  {
+   "char": "みゃ",
+   "romaji": "mya",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "み行",
+   "codepoints": [
+    "0307f",
+    "03083"
+   ],
+   "unit_id": "k7",
+   "order_index": 87
+  },
+  {
+   "char": "みゅ",
+   "romaji": "myu",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "み行",
+   "codepoints": [
+    "0307f",
+    "03085"
+   ],
+   "unit_id": "k7",
+   "order_index": 88
+  },
+  {
+   "char": "みょ",
+   "romaji": "myo",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "み行",
+   "codepoints": [
+    "0307f",
+    "03087"
+   ],
+   "unit_id": "k7",
+   "order_index": 89
+  },
+  {
+   "char": "りゃ",
+   "romaji": "rya",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "り行",
+   "codepoints": [
+    "0308a",
+    "03083"
+   ],
+   "unit_id": "k7",
+   "order_index": 90
+  },
+  {
+   "char": "りゅ",
+   "romaji": "ryu",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "り行",
+   "codepoints": [
+    "0308a",
+    "03085"
+   ],
+   "unit_id": "k7",
+   "order_index": 91
+  },
+  {
+   "char": "りょ",
+   "romaji": "ryo",
+   "script": "hiragana",
+   "kind": "youon",
+   "row": "り行",
+   "codepoints": [
+    "0308a",
+    "03087"
+   ],
+   "unit_id": "k7",
+   "order_index": 92
+  },
+  {
+   "char": "ア",
+   "romaji": "a",
+   "script": "katakana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "030a2"
+   ],
+   "unit_id": "k8",
+   "order_index": 93
+  },
+  {
+   "char": "イ",
+   "romaji": "i",
+   "script": "katakana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "030a4"
+   ],
+   "unit_id": "k8",
+   "order_index": 94
+  },
+  {
+   "char": "ウ",
+   "romaji": "u",
+   "script": "katakana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "030a6"
+   ],
+   "unit_id": "k8",
+   "order_index": 95
+  },
+  {
+   "char": "エ",
+   "romaji": "e",
+   "script": "katakana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "030a8"
+   ],
+   "unit_id": "k8",
+   "order_index": 96
+  },
+  {
+   "char": "オ",
+   "romaji": "o",
+   "script": "katakana",
+   "kind": "base",
+   "row": "あ行",
+   "codepoints": [
+    "030aa"
+   ],
+   "unit_id": "k8",
+   "order_index": 97
+  },
+  {
+   "char": "カ",
+   "romaji": "ka",
+   "script": "katakana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "030ab"
+   ],
+   "unit_id": "k8",
+   "order_index": 98
+  },
+  {
+   "char": "キ",
+   "romaji": "ki",
+   "script": "katakana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "030ad"
+   ],
+   "unit_id": "k8",
+   "order_index": 99
+  },
+  {
+   "char": "ク",
+   "romaji": "ku",
+   "script": "katakana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "030af"
+   ],
+   "unit_id": "k8",
+   "order_index": 100
+  },
+  {
+   "char": "ケ",
+   "romaji": "ke",
+   "script": "katakana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "030b1"
+   ],
+   "unit_id": "k8",
+   "order_index": 101
+  },
+  {
+   "char": "コ",
+   "romaji": "ko",
+   "script": "katakana",
+   "kind": "base",
+   "row": "か行",
+   "codepoints": [
+    "030b3"
+   ],
+   "unit_id": "k8",
+   "order_index": 102
+  },
+  {
+   "char": "サ",
+   "romaji": "sa",
+   "script": "katakana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "030b5"
+   ],
+   "unit_id": "k8",
+   "order_index": 103
+  },
+  {
+   "char": "シ",
+   "romaji": "shi",
+   "script": "katakana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "030b7"
+   ],
+   "unit_id": "k8",
+   "order_index": 104
+  },
+  {
+   "char": "ス",
+   "romaji": "su",
+   "script": "katakana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "030b9"
+   ],
+   "unit_id": "k8",
+   "order_index": 105
+  },
+  {
+   "char": "セ",
+   "romaji": "se",
+   "script": "katakana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "030bb"
+   ],
+   "unit_id": "k8",
+   "order_index": 106
+  },
+  {
+   "char": "ソ",
+   "romaji": "so",
+   "script": "katakana",
+   "kind": "base",
+   "row": "さ行",
+   "codepoints": [
+    "030bd"
+   ],
+   "unit_id": "k8",
+   "order_index": 107
+  },
+  {
+   "char": "タ",
+   "romaji": "ta",
+   "script": "katakana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "030bf"
+   ],
+   "unit_id": "k8",
+   "order_index": 108
+  },
+  {
+   "char": "チ",
+   "romaji": "chi",
+   "script": "katakana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "030c1"
+   ],
+   "unit_id": "k8",
+   "order_index": 109
+  },
+  {
+   "char": "ツ",
+   "romaji": "tsu",
+   "script": "katakana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "030c4"
+   ],
+   "unit_id": "k8",
+   "order_index": 110
+  },
+  {
+   "char": "テ",
+   "romaji": "te",
+   "script": "katakana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "030c6"
+   ],
+   "unit_id": "k8",
+   "order_index": 111
+  },
+  {
+   "char": "ト",
+   "romaji": "to",
+   "script": "katakana",
+   "kind": "base",
+   "row": "た行",
+   "codepoints": [
+    "030c8"
+   ],
+   "unit_id": "k8",
+   "order_index": 112
+  },
+  {
+   "char": "ナ",
+   "romaji": "na",
+   "script": "katakana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "030ca"
+   ],
+   "unit_id": "k8",
+   "order_index": 113
+  },
+  {
+   "char": "ニ",
+   "romaji": "ni",
+   "script": "katakana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "030cb"
+   ],
+   "unit_id": "k8",
+   "order_index": 114
+  },
+  {
+   "char": "ヌ",
+   "romaji": "nu",
+   "script": "katakana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "030cc"
+   ],
+   "unit_id": "k8",
+   "order_index": 115
+  },
+  {
+   "char": "ネ",
+   "romaji": "ne",
+   "script": "katakana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "030cd"
+   ],
+   "unit_id": "k8",
+   "order_index": 116
+  },
+  {
+   "char": "ノ",
+   "romaji": "no",
+   "script": "katakana",
+   "kind": "base",
+   "row": "な行",
+   "codepoints": [
+    "030ce"
+   ],
+   "unit_id": "k8",
+   "order_index": 117
+  },
+  {
+   "char": "ハ",
+   "romaji": "ha",
+   "script": "katakana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "030cf"
+   ],
+   "unit_id": "k8",
+   "order_index": 118
+  },
+  {
+   "char": "ヒ",
+   "romaji": "hi",
+   "script": "katakana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "030d2"
+   ],
+   "unit_id": "k8",
+   "order_index": 119
+  },
+  {
+   "char": "フ",
+   "romaji": "fu",
+   "script": "katakana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "030d5"
+   ],
+   "unit_id": "k8",
+   "order_index": 120
+  },
+  {
+   "char": "ヘ",
+   "romaji": "he",
+   "script": "katakana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "030d8"
+   ],
+   "unit_id": "k8",
+   "order_index": 121
+  },
+  {
+   "char": "ホ",
+   "romaji": "ho",
+   "script": "katakana",
+   "kind": "base",
+   "row": "は行",
+   "codepoints": [
+    "030db"
+   ],
+   "unit_id": "k8",
+   "order_index": 122
+  },
+  {
+   "char": "マ",
+   "romaji": "ma",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "030de"
+   ],
+   "unit_id": "k8",
+   "order_index": 123
+  },
+  {
+   "char": "ミ",
+   "romaji": "mi",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "030df"
+   ],
+   "unit_id": "k8",
+   "order_index": 124
+  },
+  {
+   "char": "ム",
+   "romaji": "mu",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "030e0"
+   ],
+   "unit_id": "k8",
+   "order_index": 125
+  },
+  {
+   "char": "メ",
+   "romaji": "me",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "030e1"
+   ],
+   "unit_id": "k8",
+   "order_index": 126
+  },
+  {
+   "char": "モ",
+   "romaji": "mo",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ま行",
+   "codepoints": [
+    "030e2"
+   ],
+   "unit_id": "k8",
+   "order_index": 127
+  },
+  {
+   "char": "ヤ",
+   "romaji": "ya",
+   "script": "katakana",
+   "kind": "base",
+   "row": "や行",
+   "codepoints": [
+    "030e4"
+   ],
+   "unit_id": "k8",
+   "order_index": 128
+  },
+  {
+   "char": "ユ",
+   "romaji": "yu",
+   "script": "katakana",
+   "kind": "base",
+   "row": "や行",
+   "codepoints": [
+    "030e6"
+   ],
+   "unit_id": "k8",
+   "order_index": 129
+  },
+  {
+   "char": "ヨ",
+   "romaji": "yo",
+   "script": "katakana",
+   "kind": "base",
+   "row": "や行",
+   "codepoints": [
+    "030e8"
+   ],
+   "unit_id": "k8",
+   "order_index": 130
+  },
+  {
+   "char": "ラ",
+   "romaji": "ra",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "030e9"
+   ],
+   "unit_id": "k8",
+   "order_index": 131
+  },
+  {
+   "char": "リ",
+   "romaji": "ri",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "030ea"
+   ],
+   "unit_id": "k8",
+   "order_index": 132
+  },
+  {
+   "char": "ル",
+   "romaji": "ru",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "030eb"
+   ],
+   "unit_id": "k8",
+   "order_index": 133
+  },
+  {
+   "char": "レ",
+   "romaji": "re",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "030ec"
+   ],
+   "unit_id": "k8",
+   "order_index": 134
+  },
+  {
+   "char": "ロ",
+   "romaji": "ro",
+   "script": "katakana",
+   "kind": "base",
+   "row": "ら行",
+   "codepoints": [
+    "030ed"
+   ],
+   "unit_id": "k8",
+   "order_index": 135
+  },
+  {
+   "char": "ワ",
+   "romaji": "wa",
+   "script": "katakana",
+   "kind": "base",
+   "row": "わ行",
+   "codepoints": [
+    "030ef"
+   ],
+   "unit_id": "k8",
+   "order_index": 136
+  },
+  {
+   "char": "ヲ",
+   "romaji": "wo",
+   "script": "katakana",
+   "kind": "base",
+   "row": "わ行",
+   "codepoints": [
+    "030f2"
+   ],
+   "unit_id": "k8",
+   "order_index": 137
+  },
+  {
+   "char": "ン",
+   "romaji": "n",
+   "script": "katakana",
+   "kind": "base",
+   "row": "わ行",
+   "codepoints": [
+    "030f3"
+   ],
+   "unit_id": "k8",
+   "order_index": 138
+  },
+  {
+   "char": "ガ",
+   "romaji": "ga",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "030ac"
+   ],
+   "unit_id": "k9",
+   "order_index": 139
+  },
+  {
+   "char": "ギ",
+   "romaji": "gi",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "030ae"
+   ],
+   "unit_id": "k9",
+   "order_index": 140
+  },
+  {
+   "char": "グ",
+   "romaji": "gu",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "030b0"
+   ],
+   "unit_id": "k9",
+   "order_index": 141
+  },
+  {
+   "char": "ゲ",
+   "romaji": "ge",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "030b2"
+   ],
+   "unit_id": "k9",
+   "order_index": 142
+  },
+  {
+   "char": "ゴ",
+   "romaji": "go",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "が行",
+   "codepoints": [
+    "030b4"
+   ],
+   "unit_id": "k9",
+   "order_index": 143
+  },
+  {
+   "char": "ザ",
+   "romaji": "za",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ざ行",
+   "codepoints": [
+    "030b6"
+   ],
+   "unit_id": "k9",
+   "order_index": 144
+  },
+  {
+   "char": "ジ",
+   "romaji": "ji",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "030b8"
+   ],
+   "unit_id": "k9",
+   "order_index": 145
+  },
+  {
+   "char": "ズ",
+   "romaji": "zu",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "030ba"
+   ],
+   "unit_id": "k9",
+   "order_index": 146
+  },
+  {
+   "char": "ゼ",
+   "romaji": "ze",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ざ行",
+   "codepoints": [
+    "030bc"
+   ],
+   "unit_id": "k9",
+   "order_index": 147
+  },
+  {
+   "char": "ゾ",
+   "romaji": "zo",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ざ行",
+   "codepoints": [
+    "030be"
+   ],
+   "unit_id": "k9",
+   "order_index": 148
+  },
+  {
+   "char": "ダ",
+   "romaji": "da",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "030c0"
+   ],
+   "unit_id": "k9",
+   "order_index": 149
+  },
+  {
+   "char": "ヂ",
+   "romaji": "ji",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "030c2"
+   ],
+   "unit_id": "k9",
+   "order_index": 150
+  },
+  {
+   "char": "ヅ",
+   "romaji": "zu",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "030c5"
+   ],
+   "unit_id": "k9",
+   "order_index": 151
+  },
+  {
+   "char": "デ",
+   "romaji": "de",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "030c7"
+   ],
+   "unit_id": "k9",
+   "order_index": 152
+  },
+  {
+   "char": "ド",
+   "romaji": "do",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "だ行",
+   "codepoints": [
+    "030c9"
+   ],
+   "unit_id": "k9",
+   "order_index": 153
+  },
+  {
+   "char": "バ",
+   "romaji": "ba",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "030d0"
+   ],
+   "unit_id": "k9",
+   "order_index": 154
+  },
+  {
+   "char": "ビ",
+   "romaji": "bi",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "030d3"
+   ],
+   "unit_id": "k9",
+   "order_index": 155
+  },
+  {
+   "char": "ブ",
+   "romaji": "bu",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "030d6"
+   ],
+   "unit_id": "k9",
+   "order_index": 156
+  },
+  {
+   "char": "ベ",
+   "romaji": "be",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "030d9"
+   ],
+   "unit_id": "k9",
+   "order_index": 157
+  },
+  {
+   "char": "ボ",
+   "romaji": "bo",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ば行",
+   "codepoints": [
+    "030dc"
+   ],
+   "unit_id": "k9",
+   "order_index": 158
+  },
+  {
+   "char": "パ",
+   "romaji": "pa",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "030d1"
+   ],
+   "unit_id": "k9",
+   "order_index": 159
+  },
+  {
+   "char": "ピ",
+   "romaji": "pi",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "030d4"
+   ],
+   "unit_id": "k9",
+   "order_index": 160
+  },
+  {
+   "char": "プ",
+   "romaji": "pu",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "030d7"
+   ],
+   "unit_id": "k9",
+   "order_index": 161
+  },
+  {
+   "char": "ペ",
+   "romaji": "pe",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "030da"
+   ],
+   "unit_id": "k9",
+   "order_index": 162
+  },
+  {
+   "char": "ポ",
+   "romaji": "po",
+   "script": "katakana",
+   "kind": "dakuten",
+   "row": "ぱ行",
+   "codepoints": [
+    "030dd"
+   ],
+   "unit_id": "k9",
+   "order_index": 163
+  },
+  {
+   "char": "キャ",
+   "romaji": "kya",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "き行",
+   "codepoints": [
+    "030ad",
+    "030e3"
+   ],
+   "unit_id": "k9",
+   "order_index": 164
+  },
+  {
+   "char": "キュ",
+   "romaji": "kyu",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "き行",
+   "codepoints": [
+    "030ad",
+    "030e5"
+   ],
+   "unit_id": "k9",
+   "order_index": 165
+  },
+  {
+   "char": "キョ",
+   "romaji": "kyo",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "き行",
+   "codepoints": [
+    "030ad",
+    "030e7"
+   ],
+   "unit_id": "k9",
+   "order_index": 166
+  },
+  {
+   "char": "シャ",
+   "romaji": "sha",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "し行",
+   "codepoints": [
+    "030b7",
+    "030e3"
+   ],
+   "unit_id": "k9",
+   "order_index": 167
+  },
+  {
+   "char": "シュ",
+   "romaji": "shu",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "し行",
+   "codepoints": [
+    "030b7",
+    "030e5"
+   ],
+   "unit_id": "k9",
+   "order_index": 168
+  },
+  {
+   "char": "ショ",
+   "romaji": "sho",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "し行",
+   "codepoints": [
+    "030b7",
+    "030e7"
+   ],
+   "unit_id": "k9",
+   "order_index": 169
+  },
+  {
+   "char": "チャ",
+   "romaji": "cha",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "ち行",
+   "codepoints": [
+    "030c1",
+    "030e3"
+   ],
+   "unit_id": "k9",
+   "order_index": 170
+  },
+  {
+   "char": "チュ",
+   "romaji": "chu",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "ち行",
+   "codepoints": [
+    "030c1",
+    "030e5"
+   ],
+   "unit_id": "k9",
+   "order_index": 171
+  },
+  {
+   "char": "チョ",
+   "romaji": "cho",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "ち行",
+   "codepoints": [
+    "030c1",
+    "030e7"
+   ],
+   "unit_id": "k9",
+   "order_index": 172
+  },
+  {
+   "char": "ニャ",
+   "romaji": "nya",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "に行",
+   "codepoints": [
+    "030cb",
+    "030e3"
+   ],
+   "unit_id": "k9",
+   "order_index": 173
+  },
+  {
+   "char": "ニュ",
+   "romaji": "nyu",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "に行",
+   "codepoints": [
+    "030cb",
+    "030e5"
+   ],
+   "unit_id": "k9",
+   "order_index": 174
+  },
+  {
+   "char": "ニョ",
+   "romaji": "nyo",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "に行",
+   "codepoints": [
+    "030cb",
+    "030e7"
+   ],
+   "unit_id": "k9",
+   "order_index": 175
+  },
+  {
+   "char": "ヒャ",
+   "romaji": "hya",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "ひ行",
+   "codepoints": [
+    "030d2",
+    "030e3"
+   ],
+   "unit_id": "k9",
+   "order_index": 176
+  },
+  {
+   "char": "ヒュ",
+   "romaji": "hyu",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "ひ行",
+   "codepoints": [
+    "030d2",
+    "030e5"
+   ],
+   "unit_id": "k9",
+   "order_index": 177
+  },
+  {
+   "char": "ヒョ",
+   "romaji": "hyo",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "ひ行",
+   "codepoints": [
+    "030d2",
+    "030e7"
+   ],
+   "unit_id": "k9",
+   "order_index": 178
+  },
+  {
+   "char": "ミャ",
+   "romaji": "mya",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "み行",
+   "codepoints": [
+    "030df",
+    "030e3"
+   ],
+   "unit_id": "k9",
+   "order_index": 179
+  },
+  {
+   "char": "ミュ",
+   "romaji": "myu",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "み行",
+   "codepoints": [
+    "030df",
+    "030e5"
+   ],
+   "unit_id": "k9",
+   "order_index": 180
+  },
+  {
+   "char": "ミョ",
+   "romaji": "myo",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "み行",
+   "codepoints": [
+    "030df",
+    "030e7"
+   ],
+   "unit_id": "k9",
+   "order_index": 181
+  },
+  {
+   "char": "リャ",
+   "romaji": "rya",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "り行",
+   "codepoints": [
+    "030ea",
+    "030e3"
+   ],
+   "unit_id": "k9",
+   "order_index": 182
+  },
+  {
+   "char": "リュ",
+   "romaji": "ryu",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "り行",
+   "codepoints": [
+    "030ea",
+    "030e5"
+   ],
+   "unit_id": "k9",
+   "order_index": 183
+  },
+  {
+   "char": "リョ",
+   "romaji": "ryo",
+   "script": "katakana",
+   "kind": "youon",
+   "row": "り行",
+   "codepoints": [
+    "030ea",
+    "030e7"
+   ],
+   "unit_id": "k9",
+   "order_index": 184
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Kotori — Học tiếng Nhật mỗi ngày",
+  "short_name": "Kotori",
+  "description": "Học tiếng Nhật từ số 0 đến JLPT N5: kana, từ vựng, kanji, ngữ pháp, luyện nghe — nhớ lâu nhờ ôn tập ngắt quãng.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff8f4",
+  "theme_color": "#c43f68",
+  "lang": "vi",
+  "icons": [
+    {
+      "src": "/brand/kotori-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/brand/kotori-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

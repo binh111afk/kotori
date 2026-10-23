@@ -1,0 +1,84 @@
+{
+  "units": [
+    { "id": "u7", "title": "Ngữ pháp Unit 7 — Câu thường & sở thích", "order": 27 }
+  ],
+  "points": [
+    {
+      "id": "g-u7-1",
+      "unit_id": "u7",
+      "title": "Plain form (câu thường) cho 3 nhóm động từ",
+      "structure": "行く / 行かない / 行った / 行かなかった",
+      "explanation_vi": "Plain form = dạng nguyên mẫu dùng để bổ nghĩa, nối mệnh đề và trong hội thoại thân mật. Khẳng định: nguyên mẫu (行く・食べる・する). Phủ định: ない (行かない・食べない・しない). Quá khứ: た (行った・食べた・した). Quá khứ phủ định: なかった (行かなかった).",
+      "mistakes_vi": [
+        "Nhóm 1 âm い・ち・り quá khứ là って: 行った (không phải 行いた).",
+        "Phủ định plain của です là じゃない — “ですじゃない” sai."
+      ],
+      "examples": [
+        { "segments": [{ "t": "毎日" }, { "t": "コーヒー" }, { "t": "を飲", "r": "の" }, { "t": "む。" }], "vi": "(Thân mật) Ngày nào tôi cũng uống cà phê." },
+        { "segments": [{ "t": "昨日", "r": "きのう" }, { "t": "、" }, { "t": "本", "r": "ほん" }, { "t": "を読", "r": "よ" }, { "t": "まなかった。" }], "vi": "(Thân mật) Hôm qua tôi không đọc sách." }
+      ],
+      "source": "Tae Kim — Basic Grammar; Genki I bài 8",
+      "verified": true
+    },
+    {
+      "id": "g-u7-2",
+      "unit_id": "u7",
+      "title": "あります / います: hai chữ “có”",
+      "structure": "[Vật] は [Nơi] に あります ・ [Người/động vật] は [Nơi] に います",
+      "explanation_vi": "あります cho VÔ CẠNH (sách, tiền, cửa hàng); います cho ĐỘNG VẬT/CÓ SỰ SỐNG (người, chó). Nơi chốn đứng trước với に: 駅の前に银行があります / 教室に学生がいます. Hỏi ngược lại: 本はどこにありますか.",
+      "mistakes_vi": [
+        "Dùng あります cho người: “教室に学生があります” sai — người phải います.",
+        "Đảo trợ từ: “本が机の上にあります” cũng đúng nhưng chuẩn hỏi là 本はどこにありますか."
+      ],
+      "examples": [
+        { "segments": [{ "t": "机", "r": "つくえ" }, { "t": "の上", "r": "うえ" }, { "t": "に" }, { "t": "本", "r": "ほん" }, { "t": "があります。" }], "vi": "Trên bàn có sách." },
+        { "segments": [{ "t": "公園", "r": "こうえん" }, { "t": "に" }, { "t": "犬", "r": "いぬ" }, { "t": "がいます。" }], "vi": "Trong công viên có con chó." }
+      ],
+      "source": "Minna no Nihongo I, bài 10–11; Genki I bài 4",
+      "verified": true
+    },
+    {
+      "id": "g-u7-3",
+      "unit_id": "u7",
+      "title": "〜ことが好きです / 〜ことができます",
+      "structure": "[Động từ plain] こと が 好きです / できます",
+      "explanation_vi": "Động từ không thể làm đối tượng của 好き/できます trực tiếp — phải danh từ hoá bằng こと: 音楽を聞くことが好きです (thích NGHE nhạc), 日本語を話すことができます (biết NÓI tiếng Nhật).",
+      "mistakes_vi": [
+        "“音楽を聞くが好きです” sai — thiếu こと.",
+        "Dùng の thay こと cũng đúng ở nhiều ngữ cảnh (音楽を聞くのが好き) nhưng N5 nên quen こと trước."
+      ],
+      "examples": [
+        { "segments": [{ "t": "私", "r": "わたし" }, { "t": "は" }, { "t": "料理", "r": "りょうり" }, { "t": "をする" }, { "t": "こと" }, { "t": "が好きです。" }], "vi": "Tôi thích nấu ăn." },
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "ひらがな" }, { "t": "を" }, { "t": "読", "r": "よ" }, { "t": "む" }, { "t": "こと" }, { "t": "ができます。" }], "vi": "Mai đọc được hiragana." }
+      ],
+      "source": "Minna no Nihongo I, bài 18; Genki I bài 8",
+      "verified": true
+    },
+    {
+      "id": "g-u7-4",
+      "unit_id": "u7",
+      "title": "〜ましょう / 〜ませんか: mời gọi",
+      "structure": "[Động từ ます] ましょう ・ 〜ませんか  →  “cùng … nhé?”",
+      "explanation_vi": "ましょう = rủ làm cùng (khẳng định): 行きましょう! 〜ませんか = mời khéo hơn: いっしょに昼ごはんを食べませんか (Cùng ăn trưa không?). Cả hai đều dùng ます-stem.",
+      "mistakes_vi": [
+        "“行きましょうか” mang nghĩa “để tôi làm giúp nhé?” — rủ nhau dùng 行きましょう.",
+        "Hỏi “〜たいですか” với người lạ — người Nhật mời bằng ませんか cho khéo."
+      ],
+      "examples": [
+        { "segments": [{ "t": "いっしょに" }, { "t": "行", "r": "い" }, { "t": "きましょう" }, { "t": "。" }], "vi": "Cùng đi nào!" },
+        { "segments": [{ "t": "ちょっと" }, { "t": "休", "r": "やす" }, { "t": "みません" }, { "t": "か" }, { "t": "。" }], "vi": "Nghỉ giải lao chút nhé?" }
+      ],
+      "source": "Minna no Nihongo I, bài 6; Genki I bài 5",
+      "verified": true
+    }
+  ],
+  "exercises": [
+    { "id": "x-u7-1-1", "grammar_id": "g-u7-1", "unit_id": "u7", "type": "choice", "payload": { "question": "Plain form quá khứ của 行きます là gì?", "options": ["行った", "行きた", "行んだ"], "answerIndex": 0 }, "explanation_vi": "Nhóm 1 âm い・ち・り → って: 行った.", "item_ref": "u3-24", "source": "kotori — soạn theo mẫu Genki VIII", "verified": true, "order_index": 54 },
+    { "id": "x-u7-1-2", "grammar_id": "g-u7-1", "unit_id": "u7", "type": "conjugate", "payload": { "base": "食べます", "task": "Plain form phủ định (thân mật)", "accepted": ["食べない", "たべない"], "hint": "Bỏ ます, thêm ない" }, "explanation_vi": "Nhóm 2: 食べる → 食べない.", "item_ref": "u4-01", "source": "kotori — soạn theo mẫu Genki VIII", "verified": true, "order_index": 55 },
+    { "id": "x-u7-2-1", "grammar_id": "g-u7-2", "unit_id": "u7", "type": "choice", "payload": { "question": "「Trong công viên có con chó」 — câu nào đúng?", "options": ["公園に犬がいます。", "公園に犬があります。", "公園を犬がいます。"], "answerIndex": 0 }, "explanation_vi": "Động vật/có sự sống dùng います; vô cảnh dùng あります.", "item_ref": "u7-04", "source": "kotori — soạn theo mẫu Minna X–XI", "verified": true, "order_index": 56 },
+    { "id": "x-u7-2-2", "grammar_id": "g-u7-2", "unit_id": "u7", "type": "fill", "payload": { "before": "机の上に何", "after": "ますか。", "accepted": ["があり"], "full": "机の上に何がありますか。", "translation": "Trên bàn có gì?" }, "explanation_vi": "Hỏi vật vô cảnh → あります.", "source": "kotori — soạn theo mẫu Minna X–XI", "verified": true, "order_index": 57 },
+    { "id": "x-u7-3-1", "grammar_id": "g-u7-3", "unit_id": "u7", "type": "choice", "payload": { "question": "「Tôi thích nấu ăn」 — câu nào đúng?", "options": ["料理をすることが好きです。", "料理をする好きです。", "料理がすることを好きです。"], "answerIndex": 0 }, "explanation_vi": "Động từ + こと trước 好き/できます.", "item_ref": "u7-07", "source": "kotori — soạn theo mẫu Minna XVIII", "verified": true, "order_index": 58 },
+    { "id": "x-u7-3-2", "grammar_id": "g-u7-3", "unit_id": "u7", "type": "fill", "payload": { "before": "マイさんは漢字を読む", "after": "できます。", "accepted": ["ことが"], "full": "マイさんは漢字を読むことができます。", "translation": "Mai đọc được kanji." }, "explanation_vi": "できます đi với [plain form] + こと + が.", "source": "kotori — soạn theo mẫu Minna XVIII", "verified": true, "order_index": 59 },
+    { "id": "x-u7-4-1", "grammar_id": "g-u7-4", "unit_id": "u7", "type": "choice", "payload": { "question": "Mời bạn cùng ăn trưa — câu nào khéo nhất?", "options": ["いっしょに昼ごはんを食べませんか。", "昼ごはんを食べたいですか。", "昼ごはんを食べてください。"], "answerIndex": 0 }, "explanation_vi": "Rủ/mời dùng 〜ません; たいですか hơi trực diện; てください là nhờ.", "item_ref": "u7-14", "source": "kotori — soạn theo mẫu Minna VI", "verified": true, "order_index": 60 }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "units": [
+    { "id": "u6", "title": "Ngữ pháp Unit 6 — て-form & lời đề nghị", "order": 26 }
+  ],
+  "points": [
+    {
+      "id": "g-u6-1",
+      "unit_id": "u6",
+      "title": "Chia て-form cho 3 nhóm động từ",
+      "structure": "Nhóm 1: い→って/して/いて… · Nhóm 2: る→て · Nhóm 3: します→して, 来ます→来て",
+      "explanation_vi": "Quy tắc て-form (phần chữ ます đã bỏ): NHÓM 2 + Nhóm 3: thêm て (食べます→食べて, します→して). NHÓM 1 theo âm cuối: き・ぎ→いて (書きます→書いて, 泳ぎます→泳いで); い・ち・り→って (買います→買って, 待ちます→待って, 帰ります→帰って); み・び・に→んで (飲みます→飲んで, 遊びます→遊んで, 死にます→死んで); し→して (話します→話して).",
+      "mistakes_vi": [
+        "Nhóm 1 kết thúc い dùng って (買って) chứ không phải いて — chỉ き・ぎ mới thành いて.",
+        "Nhóm 2 quên bỏ る: “食べてる→食べるて” sai — phải là 食べて."
+      ],
+      "examples": [
+        { "segments": [{ "t": "書", "r": "か" }, { "t": "きます" }, { "t": "→" }, { "t": "書", "r": "か" }, { "t": "いて" }, { "t": "、" }, { "t": "買", "r": "か" }, { "t": "います" }, { "t": "→" }, { "t": "買", "r": "か" }, { "t": "って" }, { "t": "、" }, { "t": "飲", "r": "の" }, { "t": "みます" }, { "t": "→" }, { "t": "飲", "r": "の" }, { "t": "んで。" }], "vi": "Ba quy tắc nhóm 1: いて / って / んで." },
+        { "segments": [{ "t": "食", "r": "た" }, { "t": "べます" }, { "t": "→" }, { "t": "食", "r": "た" }, { "t": "べて" }, { "t": "、" }, { "t": "します" }, { "t": "→" }, { "t": "して。" }], "vi": "Nhóm 2 và 3: chỉ đổi ます thành て." }
+      ],
+      "source": "Minna no Nihongo I, bài 14; Genki I bài 6",
+      "verified": true
+    },
+    {
+      "id": "g-u6-2",
+      "unit_id": "u6",
+      "title": "〜てください: nhờ vả",
+      "structure": "[Động từ て-form] ください  →  “làm ơn …”",
+      "explanation_vi": "Cách nhờ lịch sự và an toàn nhất ở N5: ちょっと待ってください (xin chờ một chút). Nhờ ai đó làm GIÚP mình cho mình: 辞書を貸してください.",
+      "mistakes_vi": [
+        "Dùng ます với ください: “待ちますください” sai — phải là て-form + ください.",
+        "Dùng ください để mời người khác cùng làm — mời dùng 〜ませんか (Ăn trưa cùng nhé?)."
+      ],
+      "examples": [
+        { "segments": [{ "t": "ちょっと" }, { "t": "待", "r": "ま" }, { "t": "って" }, { "t": "ください。" }], "vi": "Vui lòng chờ một chút." },
+        { "segments": [{ "t": "この" }, { "t": "漢字", "r": "かんじ" }, { "t": "の" }, { "t": "読", "r": "よ" }, { "t": "み" }, { "t": "方", "r": "かた" }, { "t": "を教えてください。" }], "vi": "Vui lòng chỉ giúp cách đọc kanji này." }
+      ],
+      "source": "Minna no Nihongo I, bài 14; Genki I bài 6",
+      "verified": true
+    },
+    {
+      "id": "g-u6-3",
+      "unit_id": "u6",
+      "title": "〜ています: đang làm / trạng thái",
+      "structure": "[Động từ て-form] います",
+      "explanation_vi": "Hai nghĩa chính: (1) ĐANG làm lúc này: 今、勉強しています. (2) TRẠNG THÁI kéo dài (sống ở đâu, có gia đình, biết tiếng…): ベトナムに住んでいます, 結婚しています.",
+      "mistakes_vi": [
+        "Dùng ます thường khi mô tả hành động đang diễn ra: “今、勉強します” nghĩa là “bây giờ tôi SẼ học” — đang làm phải ています.",
+        "Quên います: “勉強してです” sai."
+      ],
+      "examples": [
+        { "segments": [{ "t": "今" }, { "t": "、" }, { "t": "日本語", "r": "にほんご" }, { "t": "を勉強", "r": "べんきょう" }, { "t": "しています。" }], "vi": "Bây giờ tôi đang học tiếng Nhật." },
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "ベトナム" }, { "t": "に住", "r": "す" }, { "t": "んでいます。" }], "vi": "Mai đang sống ở Việt Nam." }
+      ],
+      "source": "Minna no Nihongo I, bài 15; Genki I bài 7",
+      "verified": true
+    },
+    {
+      "id": "g-u6-4",
+      "unit_id": "u6",
+      "title": "〜てもいいですか: xin phép",
+      "structure": "[Động từ て-form] もいいですか  →  “làm … được không?”",
+      "explanation_vi": "Xin phép làm gì đó: 写真を撮ってもいいですか (Tôi chụp ảnh được không?). Trả lời cho phép: はい、いいですよ / すみません、ちょっと…(từ chối khéo).",
+      "mistakes_vi": [
+        "Dùng ます-form trước も: “撮りますもいいですか” sai — phải て-form.",
+        "Quên か cuối câu khi hỏi xin phép."
+      ],
+      "examples": [
+        { "segments": [{ "t": "写真", "r": "しゃしん" }, { "t": "を" }, { "t": "撮", "r": "と" }, { "t": "ってもいいです" }, { "t": "か" }, { "t": "。" }], "vi": "Tôi chụp ảnh được không ạ?" },
+        { "segments": [{ "t": "はい、" }, { "t": "いいです" }, { "t": "よ。" }], "vi": "Được chứ ạ." }
+      ],
+      "source": "Minna no Nihongo I, bài 16; Genki I bài 6",
+      "verified": true
+    },
+    {
+      "id": "g-u6-5",
+      "unit_id": "u6",
+      "title": "〜てはいけません: cấm đoán",
+      "structure": "[Động từ て-form] はいけません  →  “không được …”",
+      "explanation_vi": "Nói cấm/không được làm gì: ここで写真を撮ってはいけません. Dạng mềm hơn thường nghe: 〜ないでください (xin đừng làm): ここで写真を撮らないでください.",
+      "mistakes_vi": [
+        "“てはいけません” dùng cho quy tắc/cấm đoán — nói với khách hàng/bề trên thường dùng ないで lịch sự hơn.",
+        "Nhầm với てもいいです — hai cấu trúc ngược nghĩa nhau."
+      ],
+      "examples": [
+        { "segments": [{ "t": "ここで" }, { "t": "写真", "r": "しゃしん" }, { "t": "を" }, { "t": "撮", "r": "と" }, { "t": "ってはいけません。" }], "vi": "Ở đây không được chụp ảnh." },
+        { "segments": [{ "t": "ここで" }, { "t": "タバコ" }, { "t": "を" }, { "t": "吸", "r": "す" }, { "t": "わないでください。" }], "vi": "Xin đừng hút thuốc ở đây." }
+      ],
+      "source": "Minna no Nihongo I, bài 16; Genki I bài 6",
+      "verified": true
+    }
+  ],
+  "exercises": [
+    { "id": "x-u6-1-1", "grammar_id": "g-u6-1", "unit_id": "u6", "type": "choice", "payload": { "question": "て-form của 飲みます (uống) là gì?", "options": ["飲んで", "飲いて", "飲みて"], "answerIndex": 0 }, "explanation_vi": "Nhóm 1 âm み → んで.", "item_ref": "u4-02", "source": "kotori — soạn theo mẫu Minna XIV", "verified": true, "order_index": 45 },
+    { "id": "x-u6-1-2", "grammar_id": "g-u6-1", "unit_id": "u6", "type": "choice", "payload": { "question": "て-form của 買います (mua) là gì?", "options": ["買って", "買いて", "買んで"], "answerIndex": 0 }, "explanation_vi": "Nhóm 1 âm い → って.", "item_ref": "u4-20", "source": "kotori — soạn theo mẫu Minna XIV", "verified": true, "order_index": 46 },
+    { "id": "x-u6-1-3", "grammar_id": "g-u6-1", "unit_id": "u6", "type": "match", "payload": { "pairs": [ { "jp": "書きます →", "vi": "書いて", "item_ref": "u3-22" }, { "jp": "食べます →", "vi": "食べて", "item_ref": "u4-01" }, { "jp": "します →", "vi": "して", "item_ref": "u3-23" }, { "jp": "待ちます →", "vi": "待って", "item_ref": "u6-01" } ] }, "explanation_vi": "Ôn て-form cả ba nhóm.", "source": "kotori — ôn Unit 6", "verified": true, "order_index": 47 },
+    { "id": "x-u6-2-1", "grammar_id": "g-u6-2", "unit_id": "u6", "type": "fill", "payload": { "before": "ちょっと待っ", "after": "。", "accepted": ["てください"], "full": "ちょっと待ってください。", "translation": "Vui lòng chờ một chút.", "speak": "ちょっと待ってください。" }, "explanation_vi": "て-form + ください = nhờ lịch sự.", "item_ref": "u6-08", "source": "kotori — soạn theo mẫu Minna XIV", "verified": true, "order_index": 48 },
+    { "id": "x-u6-2-2", "grammar_id": "g-u6-2", "unit_id": "u6", "type": "reorder", "payload": { "tokens": ["日本語", "を", "教えて", "ください"], "translation": "Vui lòng dạy tôi tiếng Nhật." }, "explanation_vi": "Đối tượng + を + [て-form] + ください.", "item_ref": "u6-04", "source": "kotori — soạn theo mẫu Minna XIV", "verified": true, "order_index": 49 },
+    { "id": "x-u6-3-1", "grammar_id": "g-u6-3", "unit_id": "u6", "type": "choice", "payload": { "question": "「Bây giờ tôi đang học」 — câu nào đúng?", "options": ["今、勉強しています。", "今、勉強します。", "今、勉強してです。"], "answerIndex": 0 }, "explanation_vi": "Đang làm lúc này = て-form + います.", "item_ref": "u3-05", "source": "kotori — soạn theo mẫu Minna XV", "verified": true, "order_index": 50 },
+    { "id": "x-u6-3-2", "grammar_id": "g-u6-3", "unit_id": "u6", "type": "fill", "payload": { "before": "マイさんは東京に住", "after": "。", "accepted": ["んでいます"], "full": "マイさんは東京に住んでいます。", "translation": "Mai đang sống ở Tokyo." }, "explanation_vi": "住みます → 住んで (み→んで) + います = trạng thái sống.", "source": "kotori — soạn theo mẫu Minna XV", "verified": true, "order_index": 51 },
+    { "id": "x-u6-4-1", "grammar_id": "g-u6-4", "unit_id": "u6", "type": "choice", "payload": { "question": "Xin phép chụp ảnh — hỏi thế nào?", "options": ["写真を撮ってもいいですか。", "写真を撮ってはいけません。", "写真を撮ってください。"], "answerIndex": 0 }, "explanation_vi": "Xin phép = てもいいですか; cấm = てはいけません; nhờ = てください.", "item_ref": "u6-17", "source": "kotori — soạn theo mẫu Minna XVI", "verified": true, "order_index": 52 },
+    { "id": "x-u6-5-1", "grammar_id": "g-u6-5", "unit_id": "u6", "type": "choice", "payload": { "question": "Biển báo 「Ở đây không được hút thuốc」 (lịch sự) — câu nào đúng nghĩa?", "options": ["ここでタバコを吸ってはいけません。", "ここでタバコを吸ってもいいですか。", "ここでタバコを吸ってください。"], "answerIndex": 0 }, "explanation_vi": "てはいけません = cấm đoán; てもいい = cho phép; てください = nhờ.", "source": "kotori — soạn theo mẫu Minna XVI", "verified": true, "order_index": 53 }
+  ]
+}

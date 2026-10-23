@@ -1,0 +1,221 @@
+{
+  "units": [
+    { "id": "u1", "title": "Ngữ pháp Unit 1 — Chào hỏi & tự giới thiệu", "order": 21 },
+    { "id": "u2", "title": "Ngữ pháp Unit 2 — Cái này, cái kia & nơi chốn", "order": 22 }
+  ],
+  "points": [
+    {
+      "id": "g-u1-1",
+      "unit_id": "u1",
+      "title": "Câu khẳng định: N1 は N2 です",
+      "structure": "N1 は N2 です  →  “N1 là N2”",
+      "explanation_vi": "だ (です) là từ “là” của tiếng Nhật, đứng CUỐI câu. Trợ từ は đánh dấu chủ đề (cái đang nói tới) và đọc là “wa” chứ không phải “ha”. Thứ tự câu chắc chắn: CHỦ ĐỀ + は + VỀ CÁI ĐÓ + です — không đảo như tiếng Việt.",
+      "mistakes_vi": [
+        "Quên trợ từ は: “わたし学生です” sai — phải có は giữa chủ đề và phần còn lại.",
+        "Đọc は thành “ha” — khi làm trợ từ chủ đề, は luôn đọc “wa”.",
+        "Dịch は thành “là” — は chỉ là dấu đánh dấu chủ đề, “là” là です."
+      ],
+      "examples": [
+        { "segments": [{ "t": "私", "r": "わたし" }, { "t": "は" }, { "t": "学生", "r": "がくせい" }, { "t": "です" }, { "t": "。" }], "vi": "Tôi là học sinh." },
+        { "segments": [{ "t": "田中", "r": "たなか" }, { "t": "さん" }, { "t": "は" }, { "t": "先生", "r": "せんせい" }, { "t": "です" }, { "t": "。" }], "vi": "Anh Tanaka là giáo viên." }
+      ],
+      "source": "Minna no Nihongo I, bài 1; Genki I bài 1",
+      "verified": true
+    },
+    {
+      "id": "g-u1-2",
+      "unit_id": "u1",
+      "title": "Câu phủ định: N1 は N2 じゃありません",
+      "structure": "N1 は N2 じゃありません  →  “N1 không phải là N2”",
+      "explanation_vi": "Thay です bằng じゃ (= dewa/ja) + ありません. Ba cách nói đều đúng và lịch sự như nhau: じゃありません (phổ biến nhất), じゃないです (hơi mềm), ではありません (trang trọng, hơi sách vở). Chọn một mà dùng cho quen tay.",
+      "mistakes_vi": [
+        "Chính tả sai là lỗi số 1: じゃありません (không phải じゃあリません — リ là katakana, あ thiếu).",
+        "Quên は: “わたし学生じゃありません” sai.",
+        "Người Việt hay thêm “không phải” ở giữa: tiếng Nhật phủ định ở ĐUÔI câu, không chen vào giữa."
+      ],
+      "examples": [
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "学生", "r": "がくせい" }, { "t": "じゃ" }, { "t": "ありません" }, { "t": "。" }], "vi": "Mai không phải là học sinh." },
+        { "segments": [{ "t": "あれ" }, { "t": "は" }, { "t": "学校", "r": "がっこう" }, { "t": "じゃ" }, { "t": "ありません" }, { "t": "。" }], "vi": "Kia không phải là trường học." }
+      ],
+      "source": "Minna no Nihongo I, bài 1; Genki I bài 1",
+      "verified": true
+    },
+    {
+      "id": "g-u1-3",
+      "unit_id": "u1",
+      "title": "Câu hỏi: thêm か vào cuối",
+      "structure": "N1 は N2 です か  →  “N1 có phải là N2 không?”",
+      "explanation_vi": "Tiếng Nhật KHÔNG đổi thứ tự câu khi hỏi — chỉ thêm trợ từ か vào cuối. Vì vậy không cần dấu hỏi (?); câu kết thúc bằng 。hoặc không dấu. Trả lời: lặp lại ý, はい/いいえ đi đầu. Không dùng か với ね.",
+      "mistakes_vi": [
+        "Viết dấu “?” cuối câu — tiếng Nhật dùng か thay cho dấu hỏi.",
+        "Đọc か thành “ga” — か là “ka”.",
+        "Hỏi “あなたは学生ですか?” rồi trả lời “はい、学生です。” — đúng rồi, cứ nói vậy, không cần lặp あなた."
+      ],
+      "examples": [
+        { "segments": [{ "t": "あなた" }, { "t": "は" }, { "t": "学生", "r": "がくせい" }, { "t": "です" }, { "t": "か" }, { "t": "。" }], "vi": "Bạn có phải là học sinh không?" },
+        { "segments": [{ "t": "田中", "r": "たなか" }, { "t": "さん" }, { "t": "は" }, { "t": "先生", "r": "せんせい" }, { "t": "です" }, { "t": "か" }, { "t": "。" }], "vi": "Anh Tanaka có phải là giáo viên không?" }
+      ],
+      "source": "Minna no Nihongo I, bài 1; Genki I bài 1",
+      "verified": true
+    },
+    {
+      "id": "g-u1-4",
+      "unit_id": "u1",
+      "title": "Trợ từ も: “cũng”",
+      "structure": "N1 は N2 です。N3 も N2 です  →  “N3 cũng là N2”",
+      "explanation_vi": "も thay cho は khi chủ đề giống ý trước: わたしは学生です。田中さんも学生です。KHÔNG dùng は và も cùng chỗ (“はも” sai). Nếu câu trước đã có も mà vẫn nói về một người thứ ba cùng ý thì vẫn dùng も.",
+      "mistakes_vi": [
+        "Viết “はも” hoặc “もは” — chỉ chọn một trong hai.",
+        "Dùng も cho cả “vẫn/cũng không”: phủ định dùng も được (学生じゃありません cũng dùng も) nhưng người mới nên giữ も với nghĩa “cũng” cho chắc."
+      ],
+      "examples": [
+        { "segments": [{ "t": "わたし" }, { "t": "は" }, { "t": "学生", "r": "がくせい" }, { "t": "です" }, { "t": "。" }, { "t": "田中", "r": "たなか" }, { "t": "さん" }, { "t": "も" }, { "t": "学生", "r": "がくせい" }, { "t": "です" }, { "t": "。" }], "vi": "Tôi là học sinh. Anh Tanaka cũng là học sinh." }
+      ],
+      "source": "Minna no Nihongo I, bài 2",
+      "verified": true
+    },
+    {
+      "id": "g-u1-5",
+      "unit_id": "u1",
+      "title": "Cách xưng hô: さん",
+      "structure": "Tên người khác + さん",
+      "explanation_vi": "Thêm さん sau HỌ của người khác để lịch sự (田中さん, マイさん). TUYỆT ĐỐI không tự thêm さん cho chính mình. Người Nhật gọi họ trước tên sau — làm theo họ để an toàn.",
+      "mistakes_vi": [
+        "Tự giới thiệu “わたしはマイさんです” — sai, người Nhật thấy khó chịu.",
+        "Gọi người khác không có さん (“田中!”) — nghe thô.",
+        "Dùng くん/ちゃん chưa đúng bối cảnh — giai đoạn N5 cứ dùng さん là an toàn nhất."
+      ],
+      "examples": [
+        { "segments": [{ "t": "田中", "r": "たなか" }, { "t": "さん" }, { "t": "は" }, { "t": "お" }, { "t": "名前", "r": "なまえ" }, { "t": "は" }, { "t": "？" }], "vi": "Anh Tanaka tên là gì vậy?" }
+      ],
+      "source": "Minna no Nihongo I, bài 1 (ghi chú xưng hô)",
+      "verified": true
+    },
+
+    {
+      "id": "g-u2-1",
+      "unit_id": "u2",
+      "title": "これ・それ・あれ・どれ — chỉ vật (đứng một mình)",
+      "structure": "これ (gần tôi) ・ それ (gần bạn) ・ あれ (xa cả hai) ・ どれ (cái nào?)",
+      "explanation_vi": "Chia theo KHOẢNG CÁCH: gần người nói → これ, gần người nghe → それ, xa cả hai → あれ. Phục vụ khi nói tới vật đã biết nhưng chưa gọi tên. Đứng một mình, không kèm danh từ.",
+      "mistakes_vi": [
+        "Dùng これ cho vật trong tay NGƯỜI NGHE — phải là それ (như đưa đồ qua: “cái đó (bên anh)”).",
+        "Nhầm どれ (cái nào) với だれ (ai) — hai chữ dễ lộn khi đọc nhanh.",
+        "Thêm danh từ sau これ (“これ本”) — muốn kèm danh từ phải dùng この."
+      ],
+      "examples": [
+        { "segments": [{ "t": "これ" }, { "t": "は" }, { "t": "本", "r": "ほん" }, { "t": "です" }, { "t": "。" }], "vi": "Đây (cái này) là sách." },
+        { "segments": [{ "t": "それ" }, { "t": "は" }, { "t": "マイ" }, { "t": "さん" }, { "t": "の" }, { "t": "傘", "r": "かさ" }, { "t": "です" }, { "t": "か" }, { "t": "。" }], "vi": "Cái đó (bên anh) là cây dù của Mai à?" }
+      ],
+      "source": "Minna no Nihongo I, bài 2; Genki I bài 2",
+      "verified": true
+    },
+    {
+      "id": "g-u2-2",
+      "unit_id": "u2",
+      "title": "この N・その N・あの N・どの N — chỉ vật kèm danh từ",
+      "structure": "この/その/あの/どの + DANH TỪ",
+      "explanation_vi": "Khi nói kèm ngay danh từ, đổi これ→この, それ→その, あれ→あの, どれ→どの. Quy tắc nhớ: có DANH TỪ đi sau thì dùng dòng この, không danh từ thì dùng dòng これ.",
+      "mistakes_vi": [
+        "“これ本は…”, “このは…” — hai kiểu trộn này đều sai.",
+        "Dịch この sang tiếng Việt quên “cái/cuốn/chiếc”: この本 = “cuốn sách NÀY”, không phải “sách này cái”."
+      ],
+      "examples": [
+        { "segments": [{ "t": "この" }, { "t": "本", "r": "ほん" }, { "t": "は" }, { "t": "わたし" }, { "t": "の" }, { "t": "です" }, { "t": "。" }], "vi": "Cuốn sách này là của tôi." },
+        { "segments": [{ "t": "あの" }, { "t": "人", "r": "ひと" }, { "t": "は" }, { "t": "だれ" }, { "t": "です" }, { "t": "か" }, { "t": "。" }], "vi": "Người kia là ai vậy?" }
+      ],
+      "source": "Minna no Nihongo I, bài 2; Genki I bài 2",
+      "verified": true
+    },
+    {
+      "id": "g-u2-3",
+      "unit_id": "u2",
+      "title": "Trợ từ の: sở hữu — “của”",
+      "structure": "N1 の N2  →  “N2 của N1” (thứ tự NGƯỢC tiếng Việt)",
+      "explanation_vi": "の gắn sở hữu và thứ tự NGƯỢC với tiếng Việt: わたしの本 = “cuốn sách CỦA TÔI” (chủ sở hữu đứng trước, の, rồi tới vật). “〜のですか” với だれの/どれ nghĩa là “của ai/cái nào?” — danh từ phía sau được lược.",
+      "mistakes_vi": [
+        "Giữ thứ tự tiếng Việt: “本のわたし” sai — phải là わたしの本.",
+        "Quên の: “わたし本です” nghe như “tôi là sách”.",
+        "Lộn の thành ん/ね khi viết nhanh — kiểm tra lại."
+      ],
+      "examples": [
+        { "segments": [{ "t": "これは" }, { "t": "わたし" }, { "t": "の" }, { "t": "本", "r": "ほん" }, { "t": "です" }, { "t": "。" }], "vi": "Đây là sách của tôi." },
+        { "segments": [{ "t": "その" }, { "t": "傘", "r": "かさ" }, { "t": "は" }, { "t": "だれ" }, { "t": "の" }, { "t": "です" }, { "t": "か" }, { "t": "。" }], "vi": "Cây dù đó là của ai?" }
+      ],
+      "source": "Minna no Nihongo I, bài 2",
+      "verified": true
+    },
+    {
+      "id": "g-u2-4",
+      "unit_id": "u2",
+      "title": "ここ・そこ・あそこ・どこ — chỉ nơi chốn",
+      "structure": "ここ (nơi này) ・ そこ (nơi đó, gần bạn) ・ あそこ (nơi kia) ・ どこ (nơi đâu?)",
+      "explanation_vi": "Giống hệt これ/それ/あれ nhưng chỉ NƠI CHỐN. Hỏi vị trí: 「N は どこですか」。Muốn lễ phép hơn có thể dùng こちら/そちら/あちら/どちら (học kỹ hơn ở N4, N5 nhận biết là đủ).",
+      "mistakes_vi": [
+        "Chính tả: あそこ (không phải あそうこ), どこ (không phải どこ＋な).",
+        "Quên です: “トイレどこですか” — dạng rút gọn thân mật; N5 nên nói đủ トイレはどこですか。"
+      ],
+      "examples": [
+        { "segments": [{ "t": "トイレ" }, { "t": "は" }, { "t": "どこ" }, { "t": "です" }, { "t": "か" }, { "t": "。" }], "vi": "Nhà vệ sinh ở đâu ạ?" },
+        { "segments": [{ "t": "ここ" }, { "t": "は" }, { "t": "学校", "r": "がっこう" }, { "t": "です" }, { "t": "。" }], "vi": "Nơi này là trường học." }
+      ],
+      "source": "Minna no Nihongo I, bài 3; Genki I bài 2",
+      "verified": true
+    },
+    {
+      "id": "g-u2-5",
+      "unit_id": "u2",
+      "title": "Trợ từ kết câu ね — hỏi lại cho khớp",
+      "structure": "〜ですね  →  “… đúng không nhỉ?” (tìm sự đồng ý)",
+      "explanation_vi": "ね cuối câu dùng khi BẠN đã khá chắc và chỉ muốn người kia gật đầu: 田中さんですね (Anh là Tanaka đúng không nhỉ?). Khác か — câu hỏi thật sự mà bạn chưa biết đáp án. Trả lời kiểu ね: はい、そうです / そうですね.",
+      "mistakes_vi": [
+        "Dùng ね cho câu hỏi bạn thật sự muốn biết (“anh tên gì ですね?” sai — phải là か).",
+        "Lộn ね (ne) với な/na khi viết."
+      ],
+      "examples": [
+        { "segments": [{ "t": "田中", "r": "たなか" }, { "t": "さん" }, { "t": "です" }, { "t": "ね" }, { "t": "。" }], "vi": "Anh là Tanaka đúng không nhỉ?" },
+        { "segments": [{ "t": "はい" }, { "t": "、" }, { "t": "そう" }, { "t": "です" }, { "t": "ね" }, { "t": "。" }], "vi": "Vâng, đúng vậy nhỉ." }
+      ],
+      "source": "Minna no Nihongo I, bài 1",
+      "verified": true
+    }
+  ],
+  "exercises": [
+    { "id": "x-u1-1-1", "grammar_id": "g-u1-1", "unit_id": "u1", "type": "fill", "payload": { "before": "わたし", "after": "がくせいです。", "accepted": ["は", "wa", "ha"], "full": "わたしはがくせいです。", "translation": "Tôi là học sinh." }, "explanation_vi": "Chủ đề “わたし” phải có は (đọc “wa”) nối vào phần còn lại.", "item_ref": "u1-15", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 1 },
+    { "id": "x-u1-1-2", "grammar_id": "g-u1-1", "unit_id": "u1", "type": "reorder", "payload": { "tokens": ["たなかさん", "は", "せんせい", "です"], "translation": "Anh Tanaka là giáo viên." }, "explanation_vi": "Thứ tự: chủ đề + は + phần mô tả + です.", "item_ref": "u1-19", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 2 },
+    { "id": "x-u1-1-3", "grammar_id": "g-u1-1", "unit_id": "u1", "type": "choice", "payload": { "question": "「Anh Tanaka là giáo viên」 — câu nào đúng?", "options": ["たなかさんはせんせいです。", "たなかさんはせんせいですか。", "たなかさんはせんせいじゃありません。"], "answerIndex": 0 }, "explanation_vi": "Câu trần thuật không có か; か là câu hỏi; じゃありません là phủ định.", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 3 },
+
+    { "id": "x-u1-2-1", "grammar_id": "g-u1-2", "unit_id": "u1", "type": "conjugate", "payload": { "base": "がくせいです", "task": "Phủ định lịch sự của câu trên", "accepted": ["がくせいじゃありません", "がくせいじゃないです", "がくせいではありません"], "hint": "Bắt đầu bằng がくせい…" }, "explanation_vi": "Thay です bằng じゃありません (hoặc じゃないです / ではありません).", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 4 },
+    { "id": "x-u1-2-2", "grammar_id": "g-u1-2", "unit_id": "u1", "type": "fill", "payload": { "before": "あれ", "after": "がっこうじゃありません。", "accepted": ["は", "wa", "ha"], "full": "あれはがっこうじゃありません。", "translation": "Kia không phải là trường học." }, "explanation_vi": "Phủ định vẫn cần chủ đề có は.", "item_ref": "u2-03", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 5 },
+    { "id": "x-u1-2-3", "grammar_id": "g-u1-2", "unit_id": "u1", "type": "choice", "payload": { "question": "「Tôi không phải là nhân viên công ty」 — câu nào viết ĐÚNG chính tả?", "options": ["わたしはかいしゃいんじゃありません。", "わたしはかいしゃいんじゃあリません。", "わたしはかいしゃいんじゃあません。"], "answerIndex": 0 }, "explanation_vi": "Chính tả chuẩn: じゃありません — リ là katakana, あ không biến mất.", "source": "kotori — soạn theo lỗi thường gặp", "verified": true, "order_index": 6 },
+
+    { "id": "x-u1-3-1", "grammar_id": "g-u1-3", "unit_id": "u1", "type": "fill", "payload": { "before": "あなたはせんせいです", "after": "。", "accepted": ["か", "ka"], "full": "あなたはせんせいですか。", "translation": "Bạn là giáo viên phải không?" }, "explanation_vi": "Chỉ cần thêm か cuối câu — không đổi thứ tự, không cần dấu “?”.", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 7 },
+    { "id": "x-u1-3-2", "grammar_id": "g-u1-3", "unit_id": "u1", "type": "reorder", "payload": { "tokens": ["これ", "は", "なん", "です", "か"], "translation": "Cái này là gì vậy?" }, "explanation_vi": "Câu hỏi vẫn giữ thứ tự khẳng định, chỉ thêm か.", "item_ref": "u2-14", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 8 },
+    { "id": "x-u1-3-3", "grammar_id": "g-u1-3", "unit_id": "u1", "type": "match", "payload": { "pairs": [ { "jp": "はい、そうです。", "vi": "Vâng, đúng vậy.", "item_ref": "u1-01" }, { "jp": "いいえ、ちがいます。", "vi": "Không, không phải vậy.", "item_ref": "u1-02" }, { "jp": "はじめまして。", "vi": "Rất vui được gặp anh/chị.", "item_ref": "u1-13" }, { "jp": "ありがとうございます。", "vi": "Cảm ơn ạ.", "item_ref": "u1-10" } ] }, "explanation_vi": "Ôn lại các câu chào trong Unit 1.", "source": "kotori — ôn từ Unit 1", "verified": true, "order_index": 9 },
+
+    { "id": "x-u1-4-1", "grammar_id": "g-u1-4", "unit_id": "u1", "type": "fill", "payload": { "before": "わたしはがくせいです。たなかさん", "after": "がくせいです。", "accepted": ["も", "mo"], "full": "わたしはがくせいです。たなかさんもがくせいです。", "translation": "Tôi là học sinh. Anh Tanaka cũng là học sinh." }, "explanation_vi": "“Cũng” = も, thay thế cho は — không viết “はも”.", "source": "kotori — soạn theo mẫu Minna II", "verified": true, "order_index": 10 },
+    { "id": "x-u1-4-2", "grammar_id": "g-u1-4", "unit_id": "u1", "type": "choice", "payload": { "question": "「Mai cũng là giáo viên」 — câu nào đúng?", "options": ["マイさんもせんせいです。", "マイさんはもせんせいです。", "マイさんもはせんせいです。"], "answerIndex": 0 }, "explanation_vi": "も đứng đúng chỗ của は, không đi kèm は.", "source": "kotori — soạn theo lỗi thường gặp", "verified": true, "order_index": 11 },
+
+    { "id": "x-u1-5-1", "grammar_id": "g-u1-5", "unit_id": "u1", "type": "choice", "payload": { "question": "Gọi anh Tanaka (người khác) thế nào cho lịch sự?", "options": ["たなかさん", "たなか", "わたしはたなかさんです"], "answerIndex": 0 }, "explanation_vi": "Người khác → thêm さん; bản thân thì KHÔNG tự thêm さん.", "source": "kotori — soạn theo lỗi thường gặp", "verified": true, "order_index": 12 },
+    { "id": "x-u1-5-2", "grammar_id": "g-u1-5", "unit_id": "u1", "type": "choice", "payload": { "question": "Bạn tên Mai, giới thiệu bản thân thế nào?", "options": ["はじめまして、マイです。", "はじめまして、マイさんです。", "マイさん、はじめましてです。"], "answerIndex": 0 }, "explanation_vi": "Tự xưng không có さん; “はじめまして” đứng đầu lời chào làm quen.", "item_ref": "u1-13", "source": "kotori — soạn theo lỗi thường gặp", "verified": true, "order_index": 13 },
+
+    { "id": "x-u2-1-1", "grammar_id": "g-u2-1", "unit_id": "u2", "type": "choice", "payload": { "question": "Vật đang ở gần NGƯỜI NGHE (xa bạn) — dùng từ nào?", "options": ["それ", "これ", "あれ"], "answerIndex": 0 }, "explanation_vi": "Gần bạn → それ; gần tôi → これ; xa cả hai → あれ.", "item_ref": "u2-02", "source": "kotori — soạn theo mẫu Minna II", "verified": true, "order_index": 14 },
+    { "id": "x-u2-1-2", "grammar_id": "g-u2-1", "unit_id": "u2", "type": "fill", "payload": { "before": "", "after": "はほんです。(chỉ vật gần bạn)", "accepted": ["これ", "kore"], "full": "これはほんです。", "translation": "Cái này là sách." }, "explanation_vi": "Vật gần người nói → これ.", "item_ref": "u2-01", "source": "kotori — soạn theo mẫu Minna II", "verified": true, "order_index": 15 },
+    { "id": "x-u2-1-3", "grammar_id": "g-u2-1", "unit_id": "u2", "type": "match", "payload": { "pairs": [ { "jp": "これ", "vi": "Cái này", "item_ref": "u2-01" }, { "jp": "それ", "vi": "Cái đó (gần bạn)", "item_ref": "u2-02" }, { "jp": "あれ", "vi": "Cái kia", "item_ref": "u2-03" }, { "jp": "どれ", "vi": "Cái nào?", "item_ref": "u2-04" } ] }, "explanation_vi": "Nhóm こそあど chỉ vật.", "source": "kotori — ôn từ Unit 2", "verified": true, "order_index": 16 },
+
+    { "id": "x-u2-2-1", "grammar_id": "g-u2-2", "unit_id": "u2", "type": "choice", "payload": { "question": "「cuốn sách này」 — nói thế nào?", "options": ["このほん", "これほん", "このはほん"], "answerIndex": 0 }, "explanation_vi": "Kèm danh từ → dòng この: この本.", "item_ref": "u2-05", "source": "kotori — soạn theo mẫu Minna II", "verified": true, "order_index": 17 },
+    { "id": "x-u2-2-2", "grammar_id": "g-u2-2", "unit_id": "u2", "type": "fill", "payload": { "before": "", "after": "ひとはせんせいです。(người kia)", "accepted": ["あの", "ano"], "full": "あのひとはせんせいです。", "translation": "Người kia là giáo viên." }, "explanation_vi": "あの + danh từ = “người/cái kia”.", "item_ref": "u2-07", "source": "kotori — soạn theo mẫu Minna II", "verified": true, "order_index": 18 },
+    { "id": "x-u2-2-3", "grammar_id": "g-u2-2", "unit_id": "u2", "type": "fill", "payload": { "before": "", "after": "かさはだれのですか。(cây dù đó — gần bạn)", "accepted": ["その", "sono"], "full": "そのかさはだれのですか。", "translation": "Cây dù đó là của ai?" }, "explanation_vi": "Vật gần người nghe → その + danh từ.", "item_ref": "u2-06", "source": "kotori — soạn theo mẫu Minna II", "verified": true, "order_index": 19 },
+
+    { "id": "x-u2-3-1", "grammar_id": "g-u2-3", "unit_id": "u2", "type": "fill", "payload": { "before": "これはわたし", "after": "ほんです。", "accepted": ["の", "no"], "full": "これはわたしのほんです。", "translation": "Đây là sách của tôi." }, "explanation_vi": "Chủ sở hữu + の + vật — thứ tự ngược tiếng Việt.", "source": "kotori — soạn theo mẫu Minna II", "verified": true, "order_index": 20 },
+    { "id": "x-u2-3-2", "grammar_id": "g-u2-3", "unit_id": "u2", "type": "reorder", "payload": { "tokens": ["これは", "わたし", "の", "かばん", "です"], "translation": "Đây là cặp sách của tôi." }, "explanation_vi": "Sở hữu: わたし + の + かばん.", "item_ref": "u2-22", "source": "kotori — soạn theo mẫu Minna II", "verified": true, "order_index": 21 },
+    { "id": "x-u2-3-3", "grammar_id": "g-u2-3", "unit_id": "u2", "type": "choice", "payload": { "question": "「Cây dù đó là của ai?」 — câu nào đúng?", "options": ["そのかさはだれのですか。", "そのかさはだれですか。", "そのかさはどのですか。"], "answerIndex": 0 }, "explanation_vi": "だれの = “của ai” — の giữ vai trò sở hữu, danh từ sau được lược; だれですか nghĩa là “(người đó) là ai”.", "source": "kotori — soạn theo lỗi thường gặp", "verified": true, "order_index": 22 },
+
+    { "id": "x-u2-4-1", "grammar_id": "g-u2-4", "unit_id": "u2", "type": "fill", "payload": { "before": "トイレは", "after": "ですか。", "accepted": ["どこ", "doko"], "full": "トイレはどこですか。", "translation": "Nhà vệ sinh ở đâu ạ?" }, "explanation_vi": "Hỏi vị trí: N は どこですか。", "item_ref": "u2-12", "source": "kotori — soạn theo mẫu Minna III", "verified": true, "order_index": 23 },
+    { "id": "x-u2-4-2", "grammar_id": "g-u2-4", "unit_id": "u2", "type": "choice", "payload": { "question": "Nơi xa CẢ HAI người đang nói chuyện:", "options": ["あそこ", "そこ", "ここ"], "answerIndex": 0 }, "explanation_vi": "Gần tôi: ここ · gần bạn: そこ · xa cả hai: あそこ.", "item_ref": "u2-11", "source": "kotori — soạn theo mẫu Minna III", "verified": true, "order_index": 24 },
+    { "id": "x-u2-4-3", "grammar_id": "g-u2-4", "unit_id": "u2", "type": "match", "payload": { "pairs": [ { "jp": "ここ", "vi": "Ở đây", "item_ref": "u2-09" }, { "jp": "そこ", "vi": "Ở đó (gần bạn)", "item_ref": "u2-10" }, { "jp": "あそこ", "vi": "Ở kia", "item_ref": "u2-11" }, { "jp": "どこ", "vi": "Ở đâu?", "item_ref": "u2-12" } ] }, "explanation_vi": "Nhóm こそあど chỉ nơi chốn.", "source": "kotori — ôn từ Unit 2", "verified": true, "order_index": 25 },
+
+    { "id": "x-u2-5-1", "grammar_id": "g-u2-5", "unit_id": "u2", "type": "choice", "payload": { "question": "「Anh là Tanaka đúng không nhỉ?」 (bạn khá chắc rồi)", "options": ["たなかさんですね。", "たなかさんですか。", "たなかさんじゃありません。"], "answerIndex": 0 }, "explanation_vi": "ね = tìm sự đồng ý; か = câu hỏi thật sự.", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 26 },
+    { "id": "x-u2-5-2", "grammar_id": "g-u2-5", "unit_id": "u2", "type": "fill", "payload": { "before": "そうです", "after": "。", "accepted": ["ね", "ne"], "full": "そうですね。", "translation": "Đúng vậy nhỉ." }, "explanation_vi": "Đồng tình nhẹ với người khác: そうですね。", "source": "kotori — soạn theo mẫu Minna I", "verified": true, "order_index": 27 }
+  ]
+}

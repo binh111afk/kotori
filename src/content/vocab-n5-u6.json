@@ -1,0 +1,31 @@
+{
+  "units": [
+    {
+      "id": "u6",
+      "level": "n5",
+      "title": "て-form & lời đề nghị",
+      "description": "Chia て-form 3 nhóm động từ và các kết hợp: nhờ vả, đang làm, xin phép, cấm đoán.",
+      "order": 16
+    }
+  ],
+  "words": [
+    { "id": "u6-01", "unit_id": "u6", "kana": "まちます", "kanji": "待ちます", "romaji": "machimasu", "meaning_vi": "chờ", "pos": "động từ (nhóm 1)", "example_jp": "駅で待ってください。", "example_reading": "えきでまってください。", "example_vi": "Vui lòng chờ ở nhà ga.", "source": "JMdict (待つ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-02", "unit_id": "u6", "kana": "もちます", "kanji": "持ちます", "romaji": "mochimasu", "meaning_vi": "cầm, mang", "pos": "động từ (nhóm 1)", "example_jp": "荷物を持ちます。", "example_reading": "にもつをもちます。", "example_vi": "Tôi cầm hành lý.", "source": "JMdict (持つ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-03", "unit_id": "u6", "kana": "てつだいます", "kanji": "手伝います", "romaji": "tetsudaimasu", "meaning_vi": "giúp đỡ", "pos": "động từ (nhóm 1)", "example_jp": "手伝いましょうか。", "example_reading": "てつだいましょうか。", "example_vi": "Để tôi giúp nhé?", "source": "JMdict (手伝う); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-04", "unit_id": "u6", "kana": "おしえます", "kanji": "教えます", "romaji": "oshiemasu", "meaning_vi": "dạy; chỉ cho", "pos": "động từ (nhóm 2)", "example_jp": "日本語を教えてください。", "example_reading": "にほんごをおしえてください。", "example_vi": "Vui lòng dạy tôi tiếng Nhật.", "source": "JMdict (教える); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-05", "unit_id": "u6", "kana": "かします", "kanji": "貸します", "romaji": "kashimasu", "meaning_vi": "cho mượn", "pos": "động từ (nhóm 1)", "example_jp": "辞書を貸してください。", "example_reading": "じしょをかしてください。", "example_vi": "Cho tôi mượn từ điển nhé.", "source": "JMdict (貸す); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-06", "unit_id": "u6", "kana": "かります", "kanji": "借ります", "romaji": "karimasu", "meaning_vi": "mượn", "pos": "động từ (nhóm 2)", "example_jp": "本を借ります。", "example_reading": "ほんをかります。", "example_vi": "Tôi mượn sách.", "source": "JMdict (借りる); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-07", "unit_id": "u6", "kana": "あとで", "kanji": null, "romaji": "ato de", "meaning_vi": "sau đó", "pos": "trạng từ", "example_jp": "あとで電話します。", "example_reading": "あとででんわします。", "example_vi": "Sau tôi sẽ gọi điện.", "source": "JMdict (後で); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-08", "unit_id": "u6", "kana": "ちょっと", "kanji": null, "romaji": "chotto", "meaning_vi": "một chút; khoan đã", "pos": "trạng từ", "example_jp": "ちょっと待ってください。", "example_reading": "ちょっとまってください。", "example_vi": "Vui lòng chờ một chút.", "source": "JMdict (ちょっと); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-09", "unit_id": "u6", "kana": "ことば", "kanji": "言葉", "romaji": "kotoba", "meaning_vi": "từ, ngôn từ", "pos": "danh từ", "example_jp": "新しい言葉を覚えます。", "example_reading": "あたらしいことばをおぼえます。", "example_vi": "Tôi ghi nhớ từ mới.", "source": "JMdict (言葉); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-10", "unit_id": "u6", "kana": "だいじょうぶ", "kanji": "大丈夫", "romaji": "daijōbu", "meaning_vi": "không sao, ổn", "pos": "tính từ な", "example_jp": "大丈夫ですか。", "example_reading": "だいじょうぶですか。", "example_vi": "Bạn có ổn không?", "source": "JMdict (大丈夫); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-11", "unit_id": "u6", "kana": "おかね", "kanji": "お金", "romaji": "okane", "meaning_vi": "tiền", "pos": "danh từ", "example_jp": "お金がありません。", "example_reading": "おかねがありません。", "example_vi": "Tôi không có tiền.", "source": "JMdict (お金); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-12", "unit_id": "u6", "kana": "かんじ", "kanji": "漢字", "romaji": "kanji", "meaning_vi": "chữ Hán (trong tiếng Nhật)", "pos": "danh từ", "example_jp": "漢字を書いてください。", "example_reading": "かんじをかいてください。", "example_vi": "Vui lòng viết kanji ra.", "source": "JMdict (漢字); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-13", "unit_id": "u6", "kana": "てんき", "kanji": "天気", "romaji": "tenki", "meaning_vi": "thời tiết", "pos": "danh từ", "example_jp": "明日は天気がいいです。", "example_reading": "あしたはてんきがいいです。", "example_vi": "Mai thời tiết đẹp.", "source": "JMdict (天気); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-14", "unit_id": "u6", "kana": "いま", "kanji": "今", "romaji": "ima", "meaning_vi": "bây giờ", "pos": "danh từ (thời gian)", "example_jp": "今、何をしていますか。", "example_reading": "いま、なにをしていますか。", "example_vi": "Bây giờ bạn đang làm gì?", "source": "JMdict (今); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-15", "unit_id": "u6", "kana": "きって", "kanji": "切手", "romaji": "kitte", "meaning_vi": "tem thư", "pos": "danh từ", "example_jp": "切手を買いました。", "example_reading": "きってをかいました。", "example_vi": "Tôi đã mua tem.", "source": "JMdict (切手); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-16", "unit_id": "u6", "kana": "きっぷ", "kanji": "切符", "romaji": "kippu", "meaning_vi": "vé", "pos": "danh từ", "example_jp": "切符を買ってください。", "example_reading": "きっぷをかってください。", "example_vi": "Vui lòng mua vé giúp tôi.", "source": "JMdict (切符); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-17", "unit_id": "u6", "kana": "とります", "kanji": "撮ります", "romaji": "torimasu", "meaning_vi": "chụp (ảnh)", "pos": "động từ (nhóm 1)", "example_jp": "写真を撮ってもいいですか。", "example_reading": "しゃしんをとってもいいですか。", "example_vi": "Cho tôi chụp ảnh được không?", "source": "JMdict (撮る); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u6-18", "unit_id": "u6", "kana": "みせます", "kanji": "見せます", "romaji": "misemasu", "meaning_vi": "cho xem", "pos": "động từ (nhóm 2)", "example_jp": "写真を見せてください。", "example_reading": "しゃしんをみせてください。", "example_vi": "Cho tôi xem ảnh nhé.", "source": "JMdict (見せる); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

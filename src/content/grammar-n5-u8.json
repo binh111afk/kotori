@@ -1,0 +1,82 @@
+{
+  "units": [
+    { "id": "u8", "title": "Ngữ pháp Unit 8 — So sánh & tổng kết N5", "order": 28 }
+  ],
+  "points": [
+    {
+      "id": "g-u8-1",
+      "unit_id": "u8",
+      "title": "A は B より 〜: A hơn B",
+      "structure": "A は B より [tính từ] です",
+      "explanation_vi": "より = “hơn”: 飛行機は電車より速いです (máy bay nhanh hơn tàu). A đứng chủ đề は, B là mốc so sánh + より. Có thể hỏi ngược: 飛行機と電車、どちらが速いですか.",
+      "mistakes_vi": [
+        "Đảo は/より: “飛行機より電車は速いです” nghĩa bị lộn — A (thứ muốn nói) phải đứng は.",
+        "So sánh với đuôi ます: “電車より速く行きます” cần ngữ cảnh — người mới nên so bằng tính từ trước."
+      ],
+      "examples": [
+        { "segments": [{ "t": "飛行機", "r": "ひこうき" }, { "t": "は" }, { "t": "電車", "r": "でんしゃ" }, { "t": "より" }, { "t": "速", "r": "はや" }, { "t": "いです。" }], "vi": "Máy bay nhanh hơn tàu điện." },
+        { "segments": [{ "t": "ベトナム" }, { "t": "は" }, { "t": "日本", "r": "にほん" }, { "t": "より" }, { "t": "大", "r": "おお" }, { "t": "きいですか。" }], "vi": "Việt Nam có to hơn Nhật không?" }
+      ],
+      "source": "Minna no Nihongo I, bài 12; Genki I bài 10",
+      "verified": true
+    },
+    {
+      "id": "g-u8-2",
+      "unit_id": "u8",
+      "title": "A と B、どちらが 〜: giữa hai cái",
+      "structure": "A と B、どちらが [tính từ] ですか",
+      "explanation_vi": "So sánh GIỮA HAI thứ: コーヒーとお茶、どちらが好きですか. Trả lời: コーヒーのほうが好きです (hoặc どちらも好きです — cả hai đều thích).",
+      "mistakes_vi": [
+        "Trả lời thiếu のほうが: “コーヒーがすきです” nghe được nhưng chuẩn so sánh là …のほうが…",
+        "Dùng どちら cho ba thứ trở lên — ba thứ trở lên dùng いちばん (g-u8-3)."
+      ],
+      "examples": [
+        { "segments": [{ "t": "肉", "r": "にく" }, { "t": "と" }, { "t": "魚", "r": "さかな" }, { "t": "と、" }, { "t": "どちら" }, { "t": "が" }, { "t": "好", "r": "す" }, { "t": "きです" }, { "t": "か" }, { "t": "。" }], "vi": "Giữa thịt và cá, bạn thích cái nào?" },
+        { "segments": [{ "t": "魚", "r": "さかな" }, { "t": "のほう" }, { "t": "が好きです。" }], "vi": "Tôi thích cá hơn." }
+      ],
+      "source": "Minna no Nihongo I, bài 12; Genki I bài 10",
+      "verified": true
+    },
+    {
+      "id": "g-u8-3",
+      "unit_id": "u8",
+      "title": "〜のほうが / 〜でいちばん",
+      "structure": "A のほうが 〜 ・ [Phạm vi] で 一番 〜",
+      "explanation_vi": "のほうが = chọn bên “hơn” khi trả lời so sánh hai bên. いちばん = nhất TRONG một phạm vi, phạm vi đứng với で: クラスでいちばん (trong lớp), 日本で (trong Nhật).",
+      "mistakes_vi": [
+        "“日本に一番” sai — phạm vi rộng nhất dùng で.",
+        "Quên の của のほうが: “コーヒーほうが好き” sai."
+      ],
+      "examples": [
+        { "segments": [{ "t": "コーヒー" }, { "t": "のほう" }, { "t": "が好きです。" }], "vi": "Tôi thích cà phê hơn." },
+        { "segments": [{ "t": "クラス" }, { "t": "で" }, { "t": "一番" }, { "t": "静", "r": "しず" }, { "t": "かな" }, { "t": "人", "r": "ひと" }, { "t": "です。" }], "vi": "Bạn ấy là người yên tĩnh nhất lớp." }
+      ],
+      "source": "Minna no Nihongo I, bài 12; Genki I bài 10",
+      "verified": true
+    },
+    {
+      "id": "g-u8-4",
+      "unit_id": "u8",
+      "title": "Tặng & nhận: あげます / もらいます",
+      "structure": "[Người tặng] は [Người nhận] に [Vật] を あげます",
+      "explanation_vi": "あげます = TÔI/ai đó tặng cho người khác (người nhận + に). もらいます = NHẬN từ ai đó (người cho + に/から): 友達にプレゼントをもらいました. Hướng tặng luôn dùng に.",
+      "mistakes_vi": [
+        "Dùng を cho người nhận: “友達をプレゼントをあげます” sai — người nhận là に.",
+        "Dùng あげます cho việc mình NHẬN — nhận là もらいます."
+      ],
+      "examples": [
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "タナカ" }, { "t": "さん" }, { "t": "に" }, { "t": "プレゼント" }, { "t": "を" }, { "t": "上", "r": "あ" }, { "t": "げました。" }], "vi": "Mai đã tặng quà cho anh Tanaka." },
+        { "segments": [{ "t": "タナカ" }, { "t": "さん" }, { "t": "は" }, { "t": "プレゼント" }, { "t": "を" }, { "t": "もらいました。" }], "vi": "Anh Tanaka đã nhận được quà." }
+      ],
+      "source": "Minna no Nihongo I, bài 24; Genki I bài 8",
+      "verified": true
+    }
+  ],
+  "exercises": [
+    { "id": "x-u8-1-1", "grammar_id": "g-u8-1", "unit_id": "u8", "type": "choice", "payload": { "question": "「Máy bay nhanh hơn tàu」 — câu nào đúng?", "options": ["飛行機は電車より速いです。", "飛行機より電車は速いです。", "飛行機は電車がより速いです。"], "answerIndex": 0 }, "explanation_vi": "Thứ so sánh đứng は, mốc so sánh + より.", "source": "kotori — soạn theo mẫu Minna XII", "verified": true, "order_index": 61 },
+    { "id": "x-u8-2-1", "grammar_id": "g-u8-2", "unit_id": "u8", "type": "fill", "payload": { "before": "コーヒーとお茶、", "after": "好きですか。", "accepted": ["どちらが"], "full": "コーヒーとお茶、どちらが好きですか。", "translation": "Giữa cà phê và trà, bạn thích cái nào?" }, "explanation_vi": "So sánh hai bên: どちら + が.", "item_ref": "u8-02", "source": "kotori — soạn theo mẫu Minna XII", "verified": true, "order_index": 62 },
+    { "id": "x-u8-3-1", "grammar_id": "g-u8-3", "unit_id": "u8", "type": "choice", "payload": { "question": "「người cao nhất LỚP」 — điền mốc phạm vi: クラス＿一番高い人です。", "options": ["で", "に", "は"], "answerIndex": 0 }, "explanation_vi": "Phạm vi của 一番 dùng で: クラスでいちばん.", "item_ref": "u8-01", "source": "kotori — soạn theo mẫu Minna XII", "verified": true, "order_index": 63 },
+    { "id": "x-u8-4-1", "grammar_id": "g-u8-4", "unit_id": "u8", "type": "choice", "payload": { "question": "「Mai tặng quà cho Tanaka」 — câu nào đúng?", "options": ["マイさんはタナカさんにプレゼントをあげました。", "マイさんはタナカさんをプレゼントをあげました。", "タナカさんはマイさんにプレゼントをあげました。"], "answerIndex": 0 }, "explanation_vi": "Người nhận gắn に; C which 3 nghĩa là Tanaka tặng (ngược người).", "item_ref": "u8-08", "source": "kotori — soạn theo mẫu Minna XXIV", "verified": true, "order_index": 64 },
+    { "id": "x-u8-4-2", "grammar_id": "g-u8-4", "unit_id": "u8", "type": "match", "payload": { "pairs": [ { "jp": "あげます", "vi": "tặng (cho người khác)", "item_ref": "u8-08" }, { "jp": "もらいます", "vi": "nhận (được tặng)", "item_ref": "u8-09" }, { "jp": "習います", "vi": "học (từ ai đó)", "item_ref": "u8-10" }, { "jp": "知っています", "vi": "biết", "item_ref": "u8-12" } ] }, "explanation_vi": "Động từ trao nhận & tổng kết N5.", "source": "kotori — ôn Unit 8", "verified": true, "order_index": 65 }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "units": [
+    {
+      "id": "u8",
+      "level": "n5",
+      "title": "So sánh & tổng kết N5",
+      "description": "Hơn/bằng/nhất, tặng và nhận, biết/đang sống — chốt lại toàn bộ N5.",
+      "order": 18
+    }
+  ],
+  "words": [
+    { "id": "u8-01", "unit_id": "u8", "kana": "いちばん", "kanji": "一番", "romaji": "ichiban", "meaning_vi": "nhất, số một", "pos": "trạng từ", "example_jp": "富士山は日本で一番高い山です。", "example_reading": "ふじさんはにほんでいちばんたかいやまです。", "example_vi": "Núi Phú Sĩ là ngọn núi cao nhất Nhật Bản.", "source": "JMdict (一番); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-02", "unit_id": "u8", "kana": "どちら", "kanji": null, "romaji": "dochira", "meaning_vi": "cái nào (giữa hai)", "pos": "đại từ", "example_jp": "コーヒーとお茶、どちらが好きですか。", "example_reading": "コーヒーとおちゃ、どちらがすきですか。", "example_vi": "Giữa cà phê và trà, bạn thích cái nào?", "source": "JMdict (どちら); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-03", "unit_id": "u8", "kana": "どうやって", "kanji": null, "romaji": "dō yatte", "meaning_vi": "bằng cách nào", "pos": "đại từ", "example_jp": "駅までどうやって行きますか。", "example_reading": "えきまでどうやっていきますか。", "example_vi": "Đi đến nhà ga bằng cách nào?", "source": "JMdict (どうやって); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-04", "unit_id": "u8", "kana": "ビール", "kanji": null, "romaji": "bīru", "meaning_vi": "bia", "pos": "danh từ", "example_jp": "ビールを一杯ください。", "example_reading": "ビールをいっぱいください。", "example_vi": "Cho tôi một cốc bia.", "source": "JMdict (ビール); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-05", "unit_id": "u8", "kana": "おさけ", "kanji": "お酒", "romaji": "osake", "meaning_vi": "rượu (Nhật)", "pos": "danh từ", "example_jp": "お酒を飲みません。", "example_reading": "おさけをのみません。", "example_vi": "Tôi không uống rượu.", "source": "JMdict (お酒); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-06", "unit_id": "u8", "kana": "たんじょうび", "kanji": "誕生日", "romaji": "tanjōbi", "meaning_vi": "sinh nhật", "pos": "danh từ", "example_jp": "昨日は私の誕生日でした。", "example_reading": "きのうはわたしのたんじょうびでした。", "example_vi": "Hôm qua là sinh nhật tôi.", "source": "JMdict (誕生日); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-07", "unit_id": "u8", "kana": "プレゼント", "kanji": null, "romaji": "purezento", "meaning_vi": "món quà", "pos": "danh từ", "example_jp": "プレゼントをあげました。", "example_reading": "プレゼントをあげました。", "example_vi": "Tôi đã tặng quà.", "source": "JMdict (プレゼント); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-08", "unit_id": "u8", "kana": "あげます", "kanji": "上げます", "romaji": "agemasu", "meaning_vi": "tặng, đưa cho (người khác)", "pos": "động từ (nhóm 2)", "example_jp": "友達に本をあげます。", "example_reading": "ともだちにほんをあげます。", "example_vi": "Tôi tặng sách cho bạn.", "source": "JMdict (上げる); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-09", "unit_id": "u8", "kana": "もらいます", "kanji": "もらいます", "romaji": "moraimasu", "meaning_vi": "nhận (được tặng)", "pos": "động từ (nhóm 1)", "example_jp": "プレゼントをもらいました。", "example_reading": "プレゼントをもらいました。", "example_vi": "Tôi đã nhận được quà.", "source": "JMdict (もらう); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-10", "unit_id": "u8", "kana": "ならいます", "kanji": "習います", "romaji": "naraimasu", "meaning_vi": "học (từ ai đó)", "pos": "động từ (nhóm 1)", "example_jp": "山田先生に日本語を習います。", "example_reading": "やまだせんせいににほんごをならいます。", "example_vi": "Tôi học tiếng Nhật với thầy Yamada.", "source": "JMdict (習う); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-11", "unit_id": "u8", "kana": "およぎます", "kanji": "泳ぎます", "romaji": "oyogimasu", "meaning_vi": "bơi", "pos": "động từ (nhóm 1)", "example_jp": "海で泳ぎます。", "example_reading": "うみでおよぎます。", "example_vi": "Tôi bơi ở biển.", "source": "JMdict (泳ぐ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-12", "unit_id": "u8", "kana": "しっています", "kanji": "知っています", "romaji": "shitte imasu", "meaning_vi": "biết", "pos": "động từ (nhóm 1, trạng thái)", "example_jp": "あの人を知っていますか。", "example_reading": "あのひとをしっていますか。", "example_vi": "Bạn có biết người đó không?", "source": "JMdict (知る); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-13", "unit_id": "u8", "kana": "すんでいます", "kanji": "住んでいます", "romaji": "sunde imasu", "meaning_vi": "đang sống ở", "pos": "động từ (trạng thái)", "example_jp": "東京に住んでいます。", "example_reading": "とうきょうにすんでいます。", "example_vi": "Tôi đang sống ở Tokyo.", "source": "JMdict (住む); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u8-14", "unit_id": "u8", "kana": "クラス", "kanji": null, "romaji": "kurasu", "meaning_vi": "lớp học", "pos": "danh từ", "example_jp": "クラスで一番静かな人です。", "example_reading": "クラスでいちばんしずかなひとです。", "example_vi": "Bạn ấy là người yên tĩnh nhất lớp.", "source": "JMdict (クラス); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}
