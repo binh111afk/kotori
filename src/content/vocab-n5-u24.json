@@ -1,0 +1,30 @@
+{
+  "units": [
+    {
+      "id": "u24",
+      "level": "n5",
+      "title": "Thời gian (2)",
+      "description": "Khoảng thời gian, thời điểm tương đối và các câu hỏi thời gian.",
+      "order": 34
+    }
+  ],
+  "words": [
+    { "id": "u24-01", "unit_id": "u24", "kana": "こんばん", "kanji": "今晩", "romaji": "konban", "meaning_vi": "tối nay", "pos": "danh từ (thời gian)", "example_jp": "今晩は暇です。", "example_reading": "こんばんはひまです。", "example_vi": "Tối nay tôi rảnh.", "source": "JMdict (今晩); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-02", "unit_id": "u24", "kana": "ゆうべ", "kanji": "昨夜", "romaji": "yūbe", "meaning_vi": "tối qua", "pos": "danh từ (thời gian)", "example_jp": "ゆうべよく寝ました。", "example_reading": "ゆうべよくねました。", "example_vi": "Tối qua tôi ngủ ngon.", "source": "JMdict (昨夜); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-03", "unit_id": "u24", "kana": "まいしゅう", "kanji": "毎週", "romaji": "maishū", "meaning_vi": "hằng tuần", "pos": "danh từ (thời gian)", "example_jp": "毎週水曜日に会います。", "example_reading": "まいしゅうすいようびにあいます。", "example_vi": "Hằng tuần chúng tôi gặp nhau thứ tư.", "source": "JMdict (毎週); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-04", "unit_id": "u24", "kana": "まいとし", "kanji": "毎年", "romaji": "maitoshi", "meaning_vi": "hằng năm", "pos": "danh từ (thời gian)", "example_jp": "毎年旅行します。", "example_reading": "まいとしりょこうします。", "example_vi": "Hằng năm tôi đi du lịch.", "source": "JMdict (毎年); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-05", "unit_id": "u24", "kana": "まいつき", "kanji": "毎月", "romaji": "maitsuki", "meaning_vi": "hằng tháng", "pos": "danh từ (thời gian)", "example_jp": "毎月本を買います。", "example_reading": "まいつきほんをかいます。", "example_vi": "Hằng tháng tôi mua sách.", "source": "JMdict (毎月); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-06", "unit_id": "u24", "kana": "ごろ", "kanji": "ごろ", "romaji": "goro", "meaning_vi": "khoảng (chỉ thời điểm)", "pos": "trợ từ", "example_jp": "七時ごろ帰ります。", "example_reading": "しちじごろかえります。", "example_vi": "Khoảng 7 giờ tôi về.", "source": "JMdict (ごろ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-07", "unit_id": "u24", "kana": "ぐらい", "kanji": "位", "romaji": "gurai", "meaning_vi": "khoảng (chỉ lượng)", "pos": "trợ từ", "example_jp": "三十分ぐらいかかります。", "example_reading": "さんじゅっぷんぐらいかかります。", "example_vi": "Tốn khoảng 30 phút.", "source": "JMdict (位); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-08", "unit_id": "u24", "kana": "これから", "kanji": "これから", "romaji": "korekara", "meaning_vi": "từ giờ, bây giờ sẽ", "pos": "trạng từ", "example_jp": "これから勉強します。", "example_reading": "これからべんきょうします。", "example_vi": "Từ giờ tôi sẽ học.", "source": "JMdict (これから); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-09", "unit_id": "u24", "kana": "そのあと", "kanji": "その後", "romaji": "sono ato", "meaning_vi": "sau đó", "pos": "trạng từ", "example_jp": "そのあと、映画を見ました。", "example_reading": "そのあと、えいがをみました。", "example_vi": "Sau đó tôi đã xem phim.", "source": "JMdict (その後); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-10", "unit_id": "u24", "kana": "もう", "kanji": "もう", "romaji": "mō", "meaning_vi": "đã, rồi (sẵn sàng)", "pos": "trạng từ", "example_jp": "もう昼ごはんを食べました。", "example_reading": "もうひるごはんをたべました。", "example_vi": "Tôi đã ăn trưa rồi.", "source": "JMdict (もう); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-11", "unit_id": "u24", "kana": "まだ", "kanji": "まだ", "romaji": "mada", "meaning_vi": "vẫn còn, chưa", "pos": "trạng từ", "example_jp": "まだ宿題がありません。", "example_reading": "まだしゅくだいがありません。", "example_vi": "Vẫn chưa có bài tập.", "source": "JMdict (まだ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-12", "unit_id": "u24", "kana": "やく", "kanji": "約", "romaji": "yaku", "meaning_vi": "khoảng chừng (số liệu)", "pos": "trạng từ", "example_jp": "約三時間かかりました。", "example_reading": "やくさんじかんかかりました。", "example_vi": "Đã tốn khoảng 3 tiếng.", "source": "JMdict (約); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-13", "unit_id": "u24", "kana": "なんじ", "kanji": "何時", "romaji": "nanji", "meaning_vi": "mấy giờ", "pos": "đại từ", "example_jp": "今何時ですか。", "example_reading": "いまなんじですか。", "example_vi": "Bây giờ là mấy giờ?", "source": "JMdict (何時); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-14", "unit_id": "u24", "kana": "なんにち", "kanji": "何日", "romaji": "nannichi", "meaning_vi": "ngày mấy; mấy ngày", "pos": "đại từ", "example_jp": "何日かかりますか。", "example_reading": "なんにちかかりますか。", "example_vi": "Mất mấy ngày ạ?", "source": "JMdict (何日); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-15", "unit_id": "u24", "kana": "なんがつ", "kanji": "何月", "romaji": "nangatsu", "meaning_vi": "tháng mấy", "pos": "đại từ", "example_jp": "何月に日本へ行きますか。", "example_reading": "なんがつににほんへいきますか。", "example_vi": "Tháng mấy bạn đi Nhật?", "source": "JMdict (何月); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-16", "unit_id": "u24", "kana": "なんさい", "kanji": "何歳", "romaji": "nansai", "meaning_vi": "mấy tuổi", "pos": "đại từ", "example_jp": "お子さんは何歳ですか。", "example_reading": "おこさんはなんさいですか。", "example_vi": "Con bạn mấy tuổi?", "source": "JMdict (何歳); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u24-17", "unit_id": "u24", "kana": "なんばん", "kanji": "何番", "romaji": "nanban", "meaning_vi": "số mấy; hiệu số mấy", "pos": "đại từ", "example_jp": "何番のバスですか。", "example_reading": "なんばんのバスですか。", "example_vi": "Xe buýt số mấy vậy?", "source": "JMdict (何番); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

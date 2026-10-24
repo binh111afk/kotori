@@ -1,0 +1,33 @@
+{
+  "units": [
+    {
+      "id": "u20",
+      "level": "n5",
+      "title": "Màu sắc & hình dạng",
+      "description": "Các màu cơ bản, sáng/tối, tròn/vuông và từ so sánh đúng/sai.",
+      "order": 30
+    }
+  ],
+  "words": [
+    { "id": "u20-01", "unit_id": "u20", "kana": "しろ", "kanji": "白", "romaji": "shiro", "meaning_vi": "màu trắng", "pos": "danh từ", "example_jp": "白い花が好きです。", "example_reading": "しろいはながすきです。", "example_vi": "Tôi thích hoa trắng.", "source": "JMdict (白); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-02", "unit_id": "u20", "kana": "くろ", "kanji": "黒", "romaji": "kuro", "meaning_vi": "màu đen", "pos": "danh từ", "example_jp": "黒い服を着ます。", "example_reading": "くろいふくをきます。", "example_vi": "Tôi mặc đồ đen.", "source": "JMdict (黒); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-03", "unit_id": "u20", "kana": "あか", "kanji": "赤", "romaji": "aka", "meaning_vi": "màu đỏ", "pos": "danh từ", "example_jp": "赤い傘です。", "example_reading": "あかいかさです。", "example_vi": "Chiếc dù màu đỏ.", "source": "JMdict (赤); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-04", "unit_id": "u20", "kana": "あお", "kanji": "青", "romaji": "ao", "meaning_vi": "màu xanh dương", "pos": "danh từ", "example_jp": "青い海が好きです。", "example_reading": "あおいうみがすきです。", "example_vi": "Tôi thích biển xanh.", "source": "JMdict (青); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-05", "unit_id": "u20", "kana": "きいろ", "kanji": "黄色", "romaji": "kiiro", "meaning_vi": "màu vàng", "pos": "danh từ", "example_jp": "黄色い花です。", "example_reading": "きいろいはなです。", "example_vi": "Bông hoa màu vàng.", "source": "JMdict (黄色); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-06", "unit_id": "u20", "kana": "みどり", "kanji": "緑", "romaji": "midori", "meaning_vi": "màu xanh lá", "pos": "danh từ", "example_jp": "緑の森です。", "example_reading": "みどりのもりです。", "example_vi": "Khu rừng xanh lá.", "source": "JMdict (緑); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-07", "unit_id": "u20", "kana": "ちゃいろ", "kanji": "茶色", "romaji": "chairo", "meaning_vi": "màu nâu", "pos": "danh từ", "example_jp": "茶色いかばんです。", "example_reading": "ちゃいろいかばんです。", "example_vi": "Chiếc cặp màu nâu.", "source": "JMdict (茶色); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-08", "unit_id": "u20", "kana": "はいいろ", "kanji": "灰色", "romaji": "haiiro", "meaning_vi": "màu xám", "pos": "danh từ", "example_jp": "灰色の空です。", "example_reading": "はいいろのそらです。", "example_vi": "Bầu trời màu xám.", "source": "JMdict (灰色); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-09", "unit_id": "u20", "kana": "ピンク", "kanji": null, "romaji": "pinku", "meaning_vi": "màu hồng", "pos": "danh từ", "example_jp": "ピンクの花です。", "example_reading": "ピンクのはなです。", "example_vi": "Bông hoa màu hồng.", "source": "JMdict (ピンク); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-10", "unit_id": "u20", "kana": "オレンジ", "kanji": null, "romaji": "orenji", "meaning_vi": "màu cam", "pos": "danh từ", "example_jp": "オレンジのセーターです。", "example_reading": "オレンジのセーターです。", "example_vi": "Chiếc áo len màu cam.", "source": "JMdict (オレンジ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-11", "unit_id": "u20", "kana": "むらさき", "kanji": "紫", "romaji": "murasaki", "meaning_vi": "màu tím", "pos": "danh từ", "example_jp": "紫色の花です。", "example_reading": "むらさきいろのはなです。", "example_vi": "Bông hoa màu tím.", "source": "JMdict (紫); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-12", "unit_id": "u20", "kana": "いろ", "kanji": "色", "romaji": "iro", "meaning_vi": "màu sắc", "pos": "danh từ", "example_jp": "この色が好きです。", "example_reading": "このいろがすきです。", "example_vi": "Tôi thích màu này.", "source": "JMdict (色); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-13", "unit_id": "u20", "kana": "まるい", "kanji": "丸い", "romaji": "marui", "meaning_vi": "tròn", "pos": "tính từ い", "example_jp": "丸いテーブルです。", "example_reading": "まるいテーブルです。", "example_vi": "Chiếc bàn tròn.", "source": "JMdict (丸い); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-14", "unit_id": "u20", "kana": "しかくい", "kanji": "四角い", "romaji": "shikakui", "meaning_vi": "vuông", "pos": "tính từ い", "example_jp": "四角い箱です。", "example_reading": "しかくいはこです。", "example_vi": "Cái hộp vuông.", "source": "JMdict (四角い); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-15", "unit_id": "u20", "kana": "まんなか", "kanji": "真ん中", "romaji": "mannaka", "meaning_vi": "chính giữa", "pos": "danh từ", "example_jp": "部屋の真ん中にあります。", "example_reading": "へやのまんなかにあります。", "example_vi": "Nằm chính giữa phòng.", "source": "JMdict (真ん中); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-16", "unit_id": "u20", "kana": "おなじ", "kanji": "同じ", "romaji": "onaji", "meaning_vi": "giống nhau", "pos": "tính từ な", "example_jp": "同じ本があります。", "example_reading": "おなじほんがあります。", "example_vi": "Có quyển sách giống nhau.", "source": "JMdict (同じ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-17", "unit_id": "u20", "kana": "あかるい", "kanji": "明るい", "romaji": "akarui", "meaning_vi": "sáng, vui tươi", "pos": "tính từ い", "example_jp": "明るい部屋です。", "example_reading": "あかるいへやです。", "example_vi": "Căn phòng sáng sủa.", "source": "JMdict (明るい); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-18", "unit_id": "u20", "kana": "くらい", "kanji": "暗い", "romaji": "kurai", "meaning_vi": "tối, u ám", "pos": "tính từ い", "example_jp": "夜は暗いです。", "example_reading": "よるはくらいです。", "example_vi": "Ban đêm tối.", "source": "JMdict (暗い); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-19", "unit_id": "u20", "kana": "ただしい", "kanji": "正しい", "romaji": "tadashii", "meaning_vi": "đúng (đắn)", "pos": "tính từ い", "example_jp": "正しい答えです。", "example_reading": "ただしいこたえです。", "example_vi": "Đây là đáp án đúng.", "source": "JMdict (正しい); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u20-20", "unit_id": "u20", "kana": "かわいい", "kanji": null, "romaji": "kawaii", "meaning_vi": "dễ thương", "pos": "tính từ い", "example_jp": "かわいい猫です。", "example_reading": "かわいいねこです。", "example_vi": "Con mèo dễ thương.", "source": "JMdict (かわいい); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

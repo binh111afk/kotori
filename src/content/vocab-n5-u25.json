@@ -1,0 +1,35 @@
+{
+  "units": [
+    {
+      "id": "u25",
+      "level": "n5",
+      "title": "Danh từ khái quát & cơ thể (2)",
+      "description": "Từ trừu tượng hay dùng, thế giới xung quanh và gia đình mở rộng.",
+      "order": 35
+    }
+  ],
+  "words": [
+    { "id": "u25-01", "unit_id": "u25", "kana": "あいだ", "kanji": "間", "romaji": "aida", "meaning_vi": "khoảng, giữa (thời gian/không gian)", "pos": "danh từ", "example_jp": "授業の間に昼ごはんを食べます。", "example_reading": "じゅぎょうのあいだにひるごはんをたべます。", "example_vi": "Trong khoảng nghỉ giữa giờ tôi ăn trưa.", "source": "JMdict (間); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-02", "unit_id": "u25", "kana": "せかい", "kanji": "世界", "romaji": "sekai", "meaning_vi": "thế giới", "pos": "danh từ", "example_jp": "世界中を旅行したいです。", "example_reading": "せかいじゅうをりょこうしたいです。", "example_vi": "Tôi muốn đi du lịch khắp thế giới.", "source": "JMdict (世界); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-03", "unit_id": "u25", "kana": "はんたい", "kanji": "反対", "romaji": "hantai", "meaning_vi": "ngược lại, phản đối", "pos": "danh từ / tính từ な", "example_jp": "反対の方向です。", "example_reading": "はんたいのほうこうです。", "example_vi": "Là hướng ngược lại.", "source": "JMdict (反対); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-04", "unit_id": "u25", "kana": "こえ", "kanji": "声", "romaji": "koe", "meaning_vi": "giọng nói, âm thanh người", "pos": "danh từ", "example_jp": "いい声ですね。", "example_reading": "いいこえですね。", "example_vi": "Giọng hay nhỉ.", "source": "JMdict (声); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-05", "unit_id": "u25", "kana": "おと", "kanji": "音", "romaji": "oto", "meaning_vi": "âm thanh (đồ vật)", "pos": "danh từ", "example_jp": "外の音が聞こえます。", "example_reading": "そとのおとがきこえます。", "example_vi": "Nghe thấy âm thanh bên ngoài.", "source": "JMdict (音); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-06", "unit_id": "u25", "kana": "あじ", "kanji": "味", "romaji": "aji", "meaning_vi": "vị (của món ăn)", "pos": "danh từ", "example_jp": "この味が好きです。", "example_reading": "このあじがすきです。", "example_vi": "Tôi thích vị này.", "source": "JMdict (味); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-07", "unit_id": "u25", "kana": "かたち", "kanji": "形", "romaji": "katachi", "meaning_vi": "hình dạng", "pos": "danh từ", "example_jp": "箱の形が面白いです。", "example_reading": "はこのかたちがおもしろいです。", "example_vi": "Hình dạng cái hộp thú vị.", "source": "JMdict (形); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-08", "unit_id": "u25", "kana": "うんてん", "kanji": "運転", "romaji": "unten", "meaning_vi": "việc lái xe", "pos": "danh từ (thường + します)", "example_jp": "父は車を運転します。", "example_reading": "ちちはくるまをうんてんします。", "example_vi": "Bố tôi lái xe.", "source": "JMdict (運転); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-09", "unit_id": "u25", "kana": "たばこ", "kanji": "タバコ", "romaji": "tabako", "meaning_vi": "thuốc lá", "pos": "danh từ", "example_jp": "タバコを吸いません。", "example_reading": "タバコをすいません。", "example_vi": "Tôi không hút thuốc.", "source": "JMdict (タバコ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-10", "unit_id": "u25", "kana": "きっさてん", "kanji": "喫茶店", "romaji": "kissaten", "meaning_vi": "quán trà (kiểu truyền thống)", "pos": "danh từ", "example_jp": "喫茶店で休みます。", "example_reading": "きっさてんでやすみます。", "example_vi": "Tôi nghỉ ở quán trà.", "source": "JMdict (喫茶店); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-11", "unit_id": "u25", "kana": "ラジオ", "kanji": null, "romaji": "rajio", "meaning_vi": "radio", "pos": "danh từ", "example_jp": "ラジオを聞きます。", "example_reading": "ラジオをききます。", "example_vi": "Tôi nghe radio.", "source": "JMdict (ラジオ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-12", "unit_id": "u25", "kana": "シャワー", "kanji": null, "romaji": "shawā", "meaning_vi": "vòi sen, tắm sen", "pos": "danh từ", "example_jp": "朝、シャワーを浴びます。", "example_reading": "あさ、シャワーをあびます。", "example_vi": "Buổi sáng tôi tắm vòi sen.", "source": "JMdict (シャワー); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-13", "unit_id": "u25", "kana": "せっけん", "kanji": "石鹸", "romaji": "sekken", "meaning_vi": "xà phòng", "pos": "danh từ", "example_jp": "石鹸で手を洗います。", "example_reading": "せっけんでてをあらいます。", "example_vi": "Tôi rửa tay bằng xà phòng.", "source": "JMdict (石鹸); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-14", "unit_id": "u25", "kana": "うで", "kanji": "腕", "romaji": "ude", "meaning_vi": "cánh tay", "pos": "danh từ", "example_jp": "腕が痛いです。", "example_reading": "うでがいたいです。", "example_vi": "Tôi đau cánh tay.", "source": "JMdict (腕); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-15", "unit_id": "u25", "kana": "むね", "kanji": "胸", "romaji": "mune", "meaning_vi": "lồng ngực", "pos": "danh từ", "example_jp": "胸が痛いです。", "example_reading": "むねがいたいです。", "example_vi": "Ngực tôi đau.", "source": "JMdict (胸); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-16", "unit_id": "u25", "kana": "くうき", "kanji": "空気", "romaji": "kūki", "meaning_vi": "không khí", "pos": "danh từ", "example_jp": "山の空気はきれいです。", "example_reading": "やまのくうきはきれいです。", "example_vi": "Không khí trên núi trong lành.", "source": "JMdict (空気); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-17", "unit_id": "u25", "kana": "じゆう", "kanji": "自由", "romaji": "jiyū", "meaning_vi": "tự do", "pos": "tính từ な", "example_jp": "自由な時間が欲しいです。", "example_reading": "じゆうなじかんがほしいです。", "example_vi": "Tôi muốn có thời gian tự do.", "source": "JMdict (自由); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-18", "unit_id": "u25", "kana": "しょくじ", "kanji": "食事", "romaji": "shokuji", "meaning_vi": "bữa ăn", "pos": "danh từ (thường + します)", "example_jp": "食事の前に手を洗います。", "example_reading": "しょくじのまえにてをあらいます。", "example_vi": "Trước bữa ăn tôi rửa tay.", "source": "JMdict (食事); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-19", "unit_id": "u25", "kana": "あに", "kanji": "兄", "romaji": "ani", "meaning_vi": "anh trai (của tôi)", "pos": "danh từ", "example_jp": "兄は二十歳です。", "example_reading": "あにははたちです。", "example_vi": "Anh tôi 20 tuổi.", "source": "JMdict (兄); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-20", "unit_id": "u25", "kana": "あね", "kanji": "姉", "romaji": "ane", "meaning_vi": "chị gái (của tôi)", "pos": "danh từ", "example_jp": "姉は东京に住んでいます。", "example_reading": "あねはとうきょうにすんでいます。", "example_vi": "Chị tôi sống ở Tokyo.", "source": "JMdict (姉); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-21", "unit_id": "u25", "kana": "むすこ", "kanji": "息子", "romaji": "musuko", "meaning_vi": "con trai (của tôi)", "pos": "danh từ", "example_jp": "息子は六歳です。", "example_reading": "むすこはむさいです。", "example_vi": "Con trai tôi 6 tuổi.", "source": "JMdict (息子); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u25-22", "unit_id": "u25", "kana": "むすめ", "kanji": "娘", "romaji": "musume", "meaning_vi": "con gái (của tôi); cô gái", "pos": "danh từ", "example_jp": "娘は小学生です。", "example_reading": "むすめはしょうがくせいです。", "example_vi": "Con gái tôi học tiểu học.", "source": "JMdict (娘); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

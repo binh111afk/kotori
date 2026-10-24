@@ -169,6 +169,22 @@ if (existsSync(cachePath)) {
   } catch {}
 }
 
+// Chuẩn hoá kana: katakana → hiragana (JMdict ghi từ ngoại lai bằng katakana, seed có thể viết hiragana)
+function kataToHira(s) {
+  return [...s].map((ch) => {
+    const code = ch.codePointAt(0);
+    return code >= 0x30a1 && code <= 0x30f6 ? String.fromCodePoint(code - 0x60) : ch;
+  }).join("");
+}
+
+// Hiragana → katakana (chiều ngược của kataToHira)
+function hiraToKata(s) {
+  return [...s].map((ch) => {
+    const code = ch.codePointAt(0);
+    return code >= 0x3041 && code <= 0x3096 ? String.fromCodePoint(code + 0x60) : ch;
+  }).join('');
+}
+
 // Động từ seed ở dạng masu — JMdict lưu nguyên mẫu: suy ra các dạng từ điển khả dĩ.
 // godan: đổi nguyên âm hàng cuối (き→く, み→む…); します→する/す; +る cho nhóm 2.
 function dictFormCandidates(kana) {
@@ -204,18 +220,29 @@ const kebRe = /<keb>([^<]+)<\/keb>/g;
 const rebRe = /<reb>([^<]+)<\/reb>/g;
 let wanted = [];
 for (const w of vocab.words) {
-  wanted.push(w.kana, w.kanji ?? "", ...dictFormCandidates(w.kana), ...dictFormCandidates(w.kanji ?? ""));
+  for (const c of [...dictFormCandidates(w.kana), ...dictFormCandidates(w.kanji ?? ""), w.kana, w.kanji ?? ""]) {
+    if (!c) continue;
+    const h = kataToHira(c);
+    wanted.push(c);
+    if (h !== c) wanted.push(h);
+  }
 }
-wanted = [...new Set(wanted.filter(Boolean))];
+wanted = [...new Set(wanted)];
 let checked = 0;
 let m;
 
 while ((m = entryRe.exec(xml)) !== null && wordsUnverified.size > 0) {
   const block = m[1];
-  if (!wanted.some((t) => block.includes(t))) continue;
+  if (!wanted.some((t) => block.includes(t) || block.includes(kataToHira(t)) || block.includes(hiraToKata(t)))) continue;
   const kebs = [...block.matchAll(kebRe)].map((x) => x[1]);
   const rebs = [...block.matchAll(rebRe)].map((x) => x[1]);
-  const allDict = new Set([...kebs, ...rebs]);
+  // allDict chứa cả dạng katakana gốc lẫn hiragana chuẩn hoá — so khớp không phân biệt hai bảng chữ
+  const allDict = new Set();
+  for (const d of [...kebs, ...rebs]) {
+    allDict.add(d);
+    const h = kataToHira(d);
+    if (h !== d) allDict.add(h);
+  }
 
   for (const [kanaKey, w] of [...wordsUnverified]) {
     const candidates = new Set([
@@ -228,7 +255,9 @@ while ((m = entryRe.exec(xml)) !== null && wordsUnverified.size > 0) {
       (w.kanji ?? "").endsWith("です") ? w.kanji.slice(0, -2) : "",
     ]);
     candidates.delete("");
-    if ([...candidates].some((c) => allDict.has(c))) {
+    // so khớp không phân biệt kata/hira: thêm dạng hiragana của từng ứng viên
+    const normalized = new Set([...candidates].flatMap((c) => [c, kataToHira(c)]));
+    if ([...normalized].some((c) => allDict.has(c))) {
       checked++;
       wordsUnverified.delete(kanaKey);
       break;
