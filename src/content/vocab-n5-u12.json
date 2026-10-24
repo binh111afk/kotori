@@ -1,0 +1,32 @@
+{
+  "units": [
+    {
+      "id": "u12",
+      "level": "n5",
+      "title": "Cơ thể & sức khỏe",
+      "description": "Các bộ phận cơ thể, bệnh tật, bệnh viện và cách nói cảm giác khó chịu.",
+      "order": 22
+    }
+  ],
+  "words": [
+    { "id": "u12-01", "unit_id": "u12", "kana": "あたま", "kanji": "頭", "romaji": "atama", "meaning_vi": "cái đầu", "pos": "danh từ", "example_jp": "頭が痛いです。", "example_reading": "あたまがいたいです。", "example_vi": "Tôi đau đầu.", "source": "JMdict (頭); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-02", "unit_id": "u12", "kana": "かお", "kanji": "顔", "romaji": "kao", "meaning_vi": "cái mặt", "pos": "danh từ", "example_jp": "顔が赤いです。", "example_reading": "かおがあかいです。", "example_vi": "Mặt bạn đỏ đỏ.", "source": "JMdict (顔); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-03", "unit_id": "u12", "kana": "からだ", "kanji": "体", "romaji": "karada", "meaning_vi": "cơ thể", "pos": "danh từ", "example_jp": "体に気をつけてください。", "example_reading": "からだにきをつけてください。", "example_vi": "Vui lòng giữ gìn sức khỏe.", "source": "JMdict (体); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-04", "unit_id": "u12", "kana": "おなか", "kanji": "お腹", "romaji": "onaka", "meaning_vi": "cái bụng", "pos": "danh từ", "example_jp": "おなかがすきました。", "example_reading": "おなかがすきました。", "example_vi": "Tôi đói bụng.", "source": "JMdict (お腹); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-05", "unit_id": "u12", "kana": "あし", "kanji": "足", "romaji": "ashi", "meaning_vi": "chân", "pos": "danh từ", "example_jp": "足が痛いです。", "example_reading": "あしがいたいです。", "example_vi": "Tôi đau chân.", "source": "JMdict (足); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-06", "unit_id": "u12", "kana": "ゆび", "kanji": "指", "romaji": "yubi", "meaning_vi": "ngón tay", "pos": "danh từ", "example_jp": "指を切りました。", "example_reading": "ゆびをきりました。", "example_vi": "Tôi bị đứt ngón tay.", "source": "JMdict (指); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-07", "unit_id": "u12", "kana": "は", "kanji": "歯", "romaji": "ha", "meaning_vi": "răng", "pos": "danh từ", "example_jp": "歯が痛いです。", "example_reading": "はがいたいです。", "example_vi": "Tôi đau răng.", "source": "JMdict (歯); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-08", "unit_id": "u12", "kana": "くち", "kanji": "口", "romaji": "kuchi", "meaning_vi": "cái miệng", "pos": "danh từ", "example_jp": "口を開けてください。", "example_reading": "くちをあけてください。", "example_vi": "Vui lòng mở miệng.", "source": "JMdict (口); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-09", "unit_id": "u12", "kana": "みみ", "kanji": "耳", "romaji": "mimi", "meaning_vi": "cái tai", "pos": "danh từ", "example_jp": "音楽を耳で聞きます。", "example_reading": "おんがくをみみでききます。", "example_vi": "Tôi nghe nhạc bằng tai.", "source": "JMdict (耳); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-10", "unit_id": "u12", "kana": "め", "kanji": "目", "romaji": "me", "meaning_vi": "cái mắt", "pos": "danh từ", "example_jp": "目が痛いです。", "example_reading": "めがいたいです。", "example_vi": "Mắt tôi đau.", "source": "JMdict (目); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-11", "unit_id": "u12", "kana": "くすり", "kanji": "薬", "romaji": "kusuri", "meaning_vi": "thuốc", "pos": "danh từ", "example_jp": "薬を飲みました。", "example_reading": "くすりをのみました。", "example_vi": "Tôi đã uống thuốc.", "source": "JMdict (薬); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-12", "unit_id": "u12", "kana": "びょういん", "kanji": "病院", "romaji": "byōin", "meaning_vi": "bệnh viện", "pos": "danh từ", "example_jp": "病院へ行きます。", "example_reading": "びょういんへいきます。", "example_vi": "Tôi đi bệnh viện.", "source": "JMdict (病院); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-13", "unit_id": "u12", "kana": "びょうき", "kanji": "病気", "romaji": "byōki", "meaning_vi": "bệnh, ốm", "pos": "danh từ / tính từ な", "example_jp": "友達は病気です。", "example_reading": "ともだちはびょうきです。", "example_vi": "Bạn tôi bị ốm.", "source": "JMdict (病気); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-14", "unit_id": "u12", "kana": "ねつ", "kanji": "熱", "romaji": "netsu", "meaning_vi": "cơn sốt", "pos": "danh từ", "example_jp": "熱があります。", "example_reading": "ねつがあります。", "example_vi": "Tôi bị sốt.", "source": "JMdict (熱); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-15", "unit_id": "u12", "kana": "かぜ", "kanji": "風邪", "romaji": "kaze", "meaning_vi": "cảm, cảm cúm", "pos": "danh từ", "example_jp": "風邪をひきました。", "example_reading": "かぜをひきました。", "example_vi": "Tôi bị cảm.", "source": "JMdict (風邪); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-16", "unit_id": "u12", "kana": "おいしゃさん", "kanji": "お医者さん", "romaji": "oishasan", "meaning_vi": "bác sĩ", "pos": "danh từ", "example_jp": "医者に見てもらいました。", "example_reading": "いしゃにみてもらいました。", "example_vi": "Tôi đã nhờ bác sĩ khám.", "source": "JMdict (医者); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-17", "unit_id": "u12", "kana": "あたたかい", "kanji": "暖かい", "romaji": "atatakai", "meaning_vi": "ấm áp", "pos": "tính từ い", "example_jp": "春は暖かいです。", "example_reading": "はるはあたたかいです。", "example_vi": "Mùa xuân ấm áp.", "source": "JMdict (暖かい); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-18", "unit_id": "u12", "kana": "すずしい", "kanji": "涼しい", "romaji": "suzushii", "meaning_vi": "mát mẻ", "pos": "tính từ い", "example_jp": "秋の夜は涼しいです。", "example_reading": "あきのよるはすずしいです。", "example_vi": "Đêm thu mát mẻ.", "source": "JMdict (涼しい); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u12-19", "unit_id": "u12", "kana": "けんこう", "kanji": "健康", "romaji": "kenkō", "meaning_vi": "sức khỏe", "pos": "danh từ / tính từ な", "example_jp": "健康が一番です。", "example_reading": "けんこうがいちばんです。", "example_vi": "Sức khỏe là nhất.", "source": "JMdict (健康); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

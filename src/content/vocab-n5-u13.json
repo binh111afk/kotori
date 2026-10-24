@@ -1,0 +1,33 @@
+{
+  "units": [
+    {
+      "id": "u13",
+      "level": "n5",
+      "title": "Thời tiết, mùa & động vật",
+      "description": "Bốn mùa, thời tiết, tự nhiên và các con vật quen thuộc.",
+      "order": 23
+    }
+  ],
+  "words": [
+    { "id": "u13-01", "unit_id": "u13", "kana": "はる", "kanji": "春", "romaji": "haru", "meaning_vi": "mùa xuân", "pos": "danh từ", "example_jp": "春は暖かいです。", "example_reading": "はるはあたたかいです。", "example_vi": "Mùa xuân ấm áp.", "source": "JMdict (春); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-02", "unit_id": "u13", "kana": "なつ", "kanji": "夏", "romaji": "natsu", "meaning_vi": "mùa hè", "pos": "danh từ", "example_jp": "夏は暑いです。", "example_reading": "なつはあついです。", "example_vi": "Mùa hè nóng.", "source": "JMdict (夏); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-03", "unit_id": "u13", "kana": "あき", "kanji": "秋", "romaji": "aki", "meaning_vi": "mùa thu", "pos": "danh từ", "example_jp": "秋は涼しいです。", "example_reading": "あきはすずしいです。", "example_vi": "Mùa thu mát mẻ.", "source": "JMdict (秋); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-04", "unit_id": "u13", "kana": "ふゆ", "kanji": "冬", "romaji": "fuyu", "meaning_vi": "mùa đông", "pos": "danh từ", "example_jp": "冬は寒いです。", "example_reading": "ふゆはさむいです。", "example_vi": "Mùa đông lạnh.", "source": "JMdict (冬); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-05", "unit_id": "u13", "kana": "あめ", "kanji": "雨", "romaji": "ame", "meaning_vi": "mưa", "pos": "danh từ", "example_jp": "雨が降っています。", "example_reading": "あめがふっています。", "example_vi": "Trời đang mưa.", "source": "JMdict (雨); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-06", "unit_id": "u13", "kana": "ゆき", "kanji": "雪", "romaji": "yuki", "meaning_vi": "tuyết", "pos": "danh từ", "example_jp": "北海道で雪を見ました。", "example_reading": "ほっかいどうでゆきをみました。", "example_vi": "Tôi đã xem tuyết ở Hokkaido.", "source": "JMdict (雪); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-07", "unit_id": "u13", "kana": "はれ", "kanji": "晴れ", "romaji": "hare", "meaning_vi": "trời quang", "pos": "danh từ", "example_jp": "今日は晴れです。", "example_reading": "きょうははれです。", "example_vi": "Hôm nay trời quang.", "source": "JMdict (晴れ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-08", "unit_id": "u13", "kana": "くもり", "kanji": "曇り", "romaji": "kumori", "meaning_vi": "trời mây, u ám", "pos": "danh từ", "example_jp": "明日は曇りです。", "example_reading": "あしたはくもりです。", "example_vi": "Ngày mai trời mây.", "source": "JMdict (曇り); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-09", "unit_id": "u13", "kana": "そら", "kanji": "空", "romaji": "sora", "meaning_vi": "bầu trời", "pos": "danh từ", "example_jp": "空が青いです。", "example_reading": "そらがあおいです。", "example_vi": "Trời xanh.", "source": "JMdict (空); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-10", "unit_id": "u13", "kana": "うみ", "kanji": "海", "romaji": "umi", "meaning_vi": "biển", "pos": "danh từ", "example_jp": "夏は海へ行きます。", "example_reading": "なつはうみへいきます。", "example_vi": "Mùa hè tôi đi biển.", "source": "JMdict (海); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-11", "unit_id": "u13", "kana": "き", "kanji": "木", "romaji": "ki", "meaning_vi": "cây, gỗ", "pos": "danh từ", "example_jp": "公園に大きい木があります。", "example_reading": "こうえんにおおきいきがあります。", "example_vi": "Trong công viên có cây to.", "source": "JMdict (木); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-12", "unit_id": "u13", "kana": "はな", "kanji": "花", "romaji": "hana", "meaning_vi": "bông hoa", "pos": "danh từ", "example_jp": "きれいな花ですね。", "example_reading": "きれいなはなですね。", "example_vi": "Bông hoa đẹp nhỉ.", "source": "JMdict (花); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-13", "unit_id": "u13", "kana": "たいふう", "kanji": "台風", "romaji": "taifū", "meaning_vi": "bão", "pos": "danh từ", "example_jp": "台風が来ました。", "example_reading": "たいふうがきました。", "example_vi": "Bão đã đến.", "source": "JMdict (台風); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-14", "unit_id": "u13", "kana": "ほし", "kanji": "星", "romaji": "hoshi", "meaning_vi": "ngôi sao", "pos": "danh từ", "example_jp": "夜、星を見ます。", "example_reading": "よる、ほしをみます。", "example_vi": "Buổi tối tôi ngắm sao.", "source": "JMdict (星); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-15", "unit_id": "u13", "kana": "しま", "kanji": "島", "romaji": "shima", "meaning_vi": "hòn đảo", "pos": "danh từ", "example_jp": "美しい島です。", "example_reading": "うつくしいしまです。", "example_vi": "Một hòn đảo xinh đẹp.", "source": "JMdict (島); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-16", "unit_id": "u13", "kana": "とり", "kanji": "鳥", "romaji": "tori", "meaning_vi": "con chim", "pos": "danh từ", "example_jp": "鳥が飛んでいます。", "example_reading": "とりがとんでいます。", "example_vi": "Chim đang bay.", "source": "JMdict (鳥); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-17", "unit_id": "u13", "kana": "ねこ", "kanji": "猫", "romaji": "neko", "meaning_vi": "con mèo", "pos": "danh từ", "example_jp": "猫が好きです。", "example_reading": "ねこがすきです。", "example_vi": "Tôi thích mèo.", "source": "JMdict (猫); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-18", "unit_id": "u13", "kana": "さかな", "kanji": "魚", "romaji": "sakana", "meaning_vi": "con cá", "pos": "danh từ", "example_jp": "海で魚を見ました。", "example_reading": "うみでさかなをみました。", "example_vi": "Tôi đã thấy cá ở biển.", "source": "JMdict (魚); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-19", "unit_id": "u13", "kana": "うし", "kanji": "牛", "romaji": "ushi", "meaning_vi": "con bò", "pos": "danh từ", "example_jp": "牛がいます。", "example_reading": "うしがいます。", "example_vi": "Có con bò.", "source": "JMdict (牛); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u13-20", "unit_id": "u13", "kana": "ふります", "kanji": "降ります", "romaji": "furimasu", "meaning_vi": "rơi xuống (mưa, tuyết)", "pos": "động từ (nhóm 1)", "example_jp": "雪が降ります。", "example_reading": "ゆきがふります。", "example_vi": "Trời sẽ có tuyết.", "source": "JMdict (降る); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}
