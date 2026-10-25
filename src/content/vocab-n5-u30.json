@@ -1,0 +1,25 @@
+{
+  "units": [
+    {
+      "id": "u30",
+      "level": "n5",
+      "title": "Từ hỏi & đại từ",
+      "description": "Các từ hỏi còn thiếu, đại từ nhân xưng và từ chỉ đối tượng không xác định.",
+      "order": 40
+    }
+  ],
+  "words": [
+    { "id": "u30-01", "unit_id": "u30", "kana": "いつ", "kanji": null, "romaji": "itsu", "meaning_vi": "khi nào", "pos": "đại từ", "example_jp": "いつ日本へ行きますか。", "example_reading": "いつにほんへいきますか。", "example_vi": "Khi nào bạn đi Nhật?", "source": "JMdict (いつ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-02", "unit_id": "u30", "kana": "いくつ", "kanji": "幾つ", "romaji": "ikutsu", "meaning_vi": "mấy (cái)", "pos": "đại từ", "example_jp": "りんごはいくつありますか。", "example_reading": "りんごはいくつありますか。", "example_vi": "Có mấy quả táo?", "source": "JMdict (幾つ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-03", "unit_id": "u30", "kana": "どうして", "kanji": null, "romaji": "dōshite", "meaning_vi": "tại sao", "pos": "đại từ", "example_jp": "どうして来ませんでしたか。", "example_reading": "どうしてきませんでしたか。", "example_vi": "Tại sao bạn không đến?", "source": "JMdict (どうして); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-04", "unit_id": "u30", "kana": "なぜ", "kanji": "何故", "romaji": "naze", "meaning_vi": "tại sao (văn viết)", "pos": "đại từ", "example_jp": "なぜ遅れたのですか。", "example_reading": "なぜおくれたのですか。", "example_vi": "Tại sao bạn trễ?", "source": "JMdict (何故); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-05", "unit_id": "u30", "kana": "どんな", "kanji": null, "romaji": "donna", "meaning_vi": "loại nào, như thế nào", "pos": "từ chỉ định", "example_jp": "どんな本が好きですか。", "example_reading": "どんなほんがすきですか。", "example_vi": "Bạn thích loại sách nào?", "source": "JMdict (どんな); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-06", "unit_id": "u30", "kana": "こちら", "kanji": null, "romaji": "kochira", "meaning_vi": "bên này (lịch sự)", "pos": "đại từ", "example_jp": "こちらは田中さんです。", "example_reading": "こちらはたなかさんです。", "example_vi": "Bên này là anh Tanaka.", "source": "JMdict (こちら); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-07", "unit_id": "u30", "kana": "あちら", "kanji": null, "romaji": "achira", "meaning_vi": "bên kia (lịch sự)", "pos": "đại từ", "example_jp": "あちらが出口です。", "example_reading": "あちらがでぐちです。", "example_vi": "Bên kia là lối ra.", "source": "JMdict (あちら); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-08", "unit_id": "u30", "kana": "ぼく", "kanji": "僕", "romaji": "boku", "meaning_vi": "tôi (nam, thân mật)", "pos": "đại từ", "example_jp": "ぼくは学生です。", "example_reading": "ぼくはがくせいです。", "example_vi": "Tôi là học sinh.", "source": "JMdict (僕); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-09", "unit_id": "u30", "kana": "わたくし", "kanji": "私", "romaji": "watakushi", "meaning_vi": "tôi (rất lịch sự)", "pos": "đại từ", "example_jp": "わたくしが担当です。", "example_reading": "わたくしがたんとうです。", "example_vi": "Tôi là người phụ trách.", "source": "JMdict (私); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-10", "unit_id": "u30", "kana": "じぶん", "kanji": "自分", "romaji": "jibun", "meaning_vi": "bản thân mình", "pos": "đại từ", "example_jp": "自分の部屋を片づけます。", "example_reading": "じぶんのへやをかたづけます。", "example_vi": "Tôi dọn phòng của mình.", "source": "JMdict (自分); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-11", "unit_id": "u30", "kana": "なにか", "kanji": "何か", "romaji": "nanika", "meaning_vi": "cái gì đó", "pos": "đại từ", "example_jp": "なにか食べますか。", "example_reading": "なにかたべますか。", "example_vi": "Bạn ăn gì đó không?", "source": "JMdict (何か); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u30-12", "unit_id": "u30", "kana": "だれか", "kanji": "誰か", "romaji": "dareka", "meaning_vi": "ai đó", "pos": "đại từ", "example_jp": "だれか来ました。", "example_reading": "だれかきました。", "example_vi": "Có ai đó đến.", "source": "JMdict (誰か); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

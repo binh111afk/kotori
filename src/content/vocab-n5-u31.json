@@ -1,0 +1,27 @@
+{
+  "units": [
+    {
+      "id": "u31",
+      "level": "n5",
+      "title": "Học tập & từ trừu tượng",
+      "description": "Từ vựng liên quan việc học tiếng Nhật và các khái niệm trừu tượng.",
+      "order": 41
+    }
+  ],
+  "words": [
+    { "id": "u31-01", "unit_id": "u31", "kana": "ひつよう", "kanji": "必要", "romaji": "hitsuyō", "meaning_vi": "cần thiết", "pos": "tính từ な", "example_jp": "パスポートが必要です。", "example_reading": "パスポートがひつようです。", "example_vi": "Cần có hộ chiếu.", "source": "JMdict (必要); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-02", "unit_id": "u31", "kana": "じゅんび", "kanji": "準備", "romaji": "junbi", "meaning_vi": "chuẩn bị", "pos": "danh từ (thường + します)", "example_jp": "旅行の準備をします。", "example_reading": "りょこうのじゅんびをします。", "example_vi": "Tôi chuẩn bị cho chuyến đi.", "source": "JMdict (準備); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-03", "unit_id": "u31", "kana": "あんない", "kanji": "案内", "romaji": "annai", "meaning_vi": "hướng dẫn, dẫn đường", "pos": "danh từ (thường + します)", "example_jp": "駅まで案内します。", "example_reading": "えきまであんないします。", "example_vi": "Tôi dẫn bạn đến nhà ga.", "source": "JMdict (案内); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-04", "unit_id": "u31", "kana": "ちゅうもん", "kanji": "注文", "romaji": "chūmon", "meaning_vi": "đặt món, đặt hàng", "pos": "danh từ (thường + します)", "example_jp": "ラーメンを注文します。", "example_reading": "ラーメンをちゅうもんします。", "example_vi": "Tôi đặt một tô ramen.", "source": "JMdict (注文); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-05", "unit_id": "u31", "kana": "とくい", "kanji": "得意", "romaji": "tokui", "meaning_vi": "giỏi, mạnh (về)", "pos": "tính từ な", "example_jp": "数学が得意です。", "example_reading": "すうがくがとくいです。", "example_vi": "Tôi giỏi toán.", "source": "JMdict (得意); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-06", "unit_id": "u31", "kana": "にがて", "kanji": "苦手", "romaji": "nigate", "meaning_vi": "yếu, không giỏi", "pos": "tính từ な", "example_jp": "私は料理が苦手です。", "example_reading": "わたしはりょうりがにがてです。", "example_vi": "Tôi nấu ăn kém.", "source": "JMdict (苦手); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-07", "unit_id": "u31", "kana": "もんだい", "kanji": "問題", "romaji": "mondai", "meaning_vi": "câu hỏi, vấn đề", "pos": "danh từ", "example_jp": "この問題は簡単です。", "example_reading": "このもんだいはかんたんです。", "example_vi": "Câu này dễ.", "source": "JMdict (問題); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-08", "unit_id": "u31", "kana": "こたえ", "kanji": "答え", "romaji": "kotae", "meaning_vi": "câu trả lời", "pos": "danh từ", "example_jp": "答えを教えてください。", "example_reading": "こたえをおしえてください。", "example_vi": "Vui lòng cho tôi đáp án.", "source": "JMdict (答え); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-09", "unit_id": "u31", "kana": "たんご", "kanji": "単語", "romaji": "tango", "meaning_vi": "từ vựng", "pos": "danh từ", "example_jp": "毎日新しい単語を覚えます。", "example_reading": "まいにちあたらしいたんごをおぼえます。", "example_vi": "Mỗi ngày tôi học từ mới.", "source": "JMdict (単語); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-10", "unit_id": "u31", "kana": "ぶんぽう", "kanji": "文法", "romaji": "bunpō", "meaning_vi": "ngữ pháp", "pos": "danh từ", "example_jp": "文法を勉強します。", "example_reading": "ぶんぽうをべんきょうします。", "example_vi": "Tôi học ngữ pháp.", "source": "JMdict (文法); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-11", "unit_id": "u31", "kana": "はつおん", "kanji": "発音", "romaji": "hatsuon", "meaning_vi": "phát âm", "pos": "danh từ", "example_jp": "発音が上手ですね。", "example_reading": "はつおんがじょうずですね。", "example_vi": "Bạn phát âm giỏi nhỉ.", "source": "JMdict (発音); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-12", "unit_id": "u31", "kana": "かいわ", "kanji": "会話", "romaji": "kaiwa", "meaning_vi": "hội thoại, đối thoại", "pos": "danh từ", "example_jp": "会話の練習をします。", "example_reading": "かいわのれんしゅうをします。", "example_vi": "Tôi luyện hội thoại.", "source": "JMdict (会話); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-13", "unit_id": "u31", "kana": "せいかい", "kanji": "正解", "romaji": "seikai", "meaning_vi": "đáp án đúng", "pos": "danh từ", "example_jp": "正解は二番です。", "example_reading": "せいかいはにばんです。", "example_vi": "Đáp án đúng là số hai.", "source": "JMdict (正解); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u31-14", "unit_id": "u31", "kana": "しゅくだい", "kanji": "宿題", "romaji": "shukudai", "meaning_vi": "bài tập về nhà", "pos": "danh từ", "example_jp": "宿題を忘れました。", "example_reading": "しゅくだいをわすれました。", "example_vi": "Tôi quên bài tập về nhà.", "source": "JMdict (宿題); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

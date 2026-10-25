@@ -1,0 +1,27 @@
+{
+  "units": [
+    {
+      "id": "u28",
+      "level": "n5",
+      "title": "Con người & quan hệ xã hội",
+      "description": "Các cách gọi người, quan hệ trong lớp học/công ty và đời sống xã hội.",
+      "order": 38
+    }
+  ],
+  "words": [
+    { "id": "u28-01", "unit_id": "u28", "kana": "おとこのこ", "kanji": "男の子", "romaji": "otokonoko", "meaning_vi": "cậu bé, con trai", "pos": "danh từ", "example_jp": "男の子が二人います。", "example_reading": "おとこのこがふたりいます。", "example_vi": "Có hai cậu bé.", "source": "JMdict (男の子); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-02", "unit_id": "u28", "kana": "おんなのこ", "kanji": "女の子", "romaji": "onnanoko", "meaning_vi": "cô bé, con gái", "pos": "danh từ", "example_jp": "女の子が泣いています。", "example_reading": "おんなのこがないています。", "example_vi": "Cô bé đang khóc.", "source": "JMdict (女の子); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-03", "unit_id": "u28", "kana": "せんぱい", "kanji": "先輩", "romaji": "senpai", "meaning_vi": "học bạ/trước (người đi trước)", "pos": "danh từ", "example_jp": "先輩に聞きます。", "example_reading": "せんぱいにききます。", "example_vi": "Tôi hỏi senpai.", "source": "JMdict (先輩); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-04", "unit_id": "u28", "kana": "こうはい", "kanji": "後輩", "romaji": "kōhai", "meaning_vi": "học viên sau (người đi sau)", "pos": "danh từ", "example_jp": "後輩を教えます。", "example_reading": "こうはいをおしえます。", "example_vi": "Tôi dạy kohai.", "source": "JMdict (後輩); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-05", "unit_id": "u28", "kana": "おきゃくさん", "kanji": "お客様", "romaji": "okyakusan", "meaning_vi": "quý khách", "pos": "danh từ", "example_jp": "お客様が来ました。", "example_reading": "おきゃくさんがきました。", "example_vi": "Quý khách đã đến.", "source": "JMdict (お客様); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-06", "unit_id": "u28", "kana": "しんゆう", "kanji": "親友", "romaji": "shinyū", "meaning_vi": "bạn thân", "pos": "danh từ", "example_jp": "彼は私の親友です。", "example_reading": "かれはわたしのしんゆうです。", "example_vi": "Anh ấy là bạn thân của tôi.", "source": "JMdict (親友); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-07", "unit_id": "u28", "kana": "がいこくじん", "kanji": "外国人", "romaji": "gaikokujin", "meaning_vi": "người nước ngoài", "pos": "danh từ", "example_jp": "外国人の学生がいます。", "example_reading": "がいこくじんのがくせいがいます。", "example_vi": "Có học sinh nước ngoài.", "source": "JMdict (外国人); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-08", "unit_id": "u28", "kana": "はんぶん", "kanji": "半分", "romaji": "hanbun", "meaning_vi": "một nửa", "pos": "danh từ", "example_jp": "半分ください。", "example_reading": "はんぶんください。", "example_vi": "Cho tôi một nửa.", "source": "JMdict (半分); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-09", "unit_id": "u28", "kana": "みんな", "kanji": "みんな", "romaji": "minna", "meaning_vi": "tất cả mọi người", "pos": "đại từ", "example_jp": "みんなで食べましょう。", "example_reading": "みんなでたべましょう。", "example_vi": "Cùng ăn nhé mọi người.", "source": "JMdict (みんな); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-10", "unit_id": "u28", "kana": "じょうし", "kanji": "上司", "romaji": "jōshi", "meaning_vi": "cấp trên", "pos": "danh từ", "example_jp": "上司に相談します。", "example_reading": "じょうしにそうだんします。", "example_vi": "Tôi trao đổi với cấp trên.", "source": "JMdict (上司); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-11", "unit_id": "u28", "kana": "かちょう", "kanji": "課長", "romaji": "kachō", "meaning_vi": "trưởng phòng", "pos": "danh từ", "example_jp": "課長に会います。", "example_reading": "かちょうにあいます。", "example_vi": "Tôi gặp trưởng phòng.", "source": "JMdict (課長); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-12", "unit_id": "u28", "kana": "しゃちょう", "kanji": "社長", "romaji": "shachō", "meaning_vi": "giám đốc công ty", "pos": "danh từ", "example_jp": "社長に会います。", "example_reading": "しゃちょうにあいます。", "example_vi": "Tôi gặp giám đốc.", "source": "JMdict (社長); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-13", "unit_id": "u28", "kana": "きょうし", "kanji": "教師", "romaji": "kyōshi", "meaning_vi": "nhà giáo (nghề)", "pos": "danh từ", "example_jp": "教師になりたいです。", "example_reading": "きょうしになりたいです。", "example_vi": "Tôi muốn trở thành giáo viên.", "source": "JMdict (教師); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u28-14", "unit_id": "u28", "kana": "わかい", "kanji": "若い", "romaji": "wakai", "meaning_vi": "trẻ (tuổi)", "pos": "tính từ い", "example_jp": "若い先生です。", "example_reading": "わかいせんせいです。", "example_vi": "Thầy giáo trẻ.", "source": "JMdict (若い); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

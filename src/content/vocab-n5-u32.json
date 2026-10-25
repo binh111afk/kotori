@@ -1,0 +1,55 @@
+{
+ "units": [
+  {
+   "id": "u32",
+   "level": "n5",
+   "title": "Nhà hàng & mua sắm",
+   "description": "Từ vựng khi gọi món, thanh toán và mua sắm cụ thể hơn.",
+   "order": 42
+  }
+ ],
+ "words": [
+  {
+   "id": "u32-01",
+   "unit_id": "u32",
+   "kana": "メニュー",
+   "kanji": null,
+   "romaji": "menyū",
+   "meaning_vi": "thực đơn",
+   "pos": "danh từ",
+   "example_jp": "メニューを見せてください。",
+   "example_reading": "メニューをみせてください。",
+   "example_vi": "Vui lòng cho xem thực đơn.",
+   "source": "JMdict (メニュー); nghĩa chuẩn lớp học",
+   "verified": true
+  },
+  {
+   "id": "u32-02",
+   "unit_id": "u32",
+   "kana": "かいけい",
+   "kanji": "会計",
+   "romaji": "kaikei",
+   "meaning_vi": "thanh toán",
+   "pos": "danh từ",
+   "example_jp": "お会計をお願いします。",
+   "example_reading": "おかいけいをおねがいします。",
+   "example_vi": "Vui lòng thanh toán giúp tôi.",
+   "source": "JMdict (会計); nghĩa chuẩn lớp học",
+   "verified": true
+  },
+  {
+   "id": "u32-03",
+   "unit_id": "u32",
+   "kana": "セール",
+   "kanji": null,
+   "romaji": "sēru",
+   "meaning_vi": "giảm giá, khuyến mãi",
+   "pos": "danh từ",
+   "example_jp": "今日はセールです。",
+   "example_reading": "きょうはセールです。",
+   "example_vi": "Hôm nay có khuyến mãi.",
+   "source": "JMdict (セール); nghĩa chuẩn lớp học",
+   "verified": true
+  }
+ ]
+}

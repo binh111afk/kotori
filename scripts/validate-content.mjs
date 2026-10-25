@@ -212,6 +212,7 @@ const CURATION_EXCEPTIONS = {
   "てつだいます": ["手伝う", "てつだう"],
   "もっていきます": ["持って行く", "もっていく"],
   "もってきます": ["持って来る", "もってくる"],
+  いらっしゃいます: ["いらっしゃい", "いらっしゃいます"],
 };
 
 const wordsUnverified = new Map(vocab.words.map((w) => [w.kana, w]));
