@@ -15,7 +15,7 @@ Next.js 16 App Router + TS + Tailwind v4 (tokens `globals.css`, dark `.dark` + n
 ## Nội dung hiện có (đã seed DB, validate 184/184 JMdict)
 - Kana: 184 chữ, 10 unit, nét KanjiVG (`gen-kana.mjs`)
 - Từ vựng: **781 từ / 34 unit** (U1–U8 lõi + U9–U25 mở rộng: động từ, tính từ, cơ thể, thời tiết, nhà cửa, thành phố, lịch/gia đình, đồ ăn, trường học/công việc, màu sắc, cảm xúc, giải trí, thời gian)
-- Ngữ pháp: **39 điểm / 8 unit** + 77 bài tập 5 loại (files `grammar-n5*.json`)
+- Ngữ pháp: **59 điểm / 40 unit** (39 N5 + 20 N4) + 77 bài tập 5 loại (files `grammar-n5*.json`)
 - Kanji N5: **100 chữ** (nghĩa, on/kun, từ ghép, nét) — `/kanji` + quiz + SRS (`gen-kanji.mjs`)
 - Nghe: **4 bài** (mẹo + hội thoại furigana + 20 bài tập có audio) — `/nghe`
 - Games: **8** (`/choi`) — Nối từ, Lật thẻ, Gõ nhanh, Quiz tốc độ, Bong bóng, Nghe&Chọn, Xếp câu, Trí nhớ chuỗi
