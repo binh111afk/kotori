@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { Suspense } from "react";
-import { ArrowLeft, Lightbulb } from "@phosphor-icons/react/dist/ssr";
+import { ArrowLeft, Lightbulb, HandTap } from "@phosphor-icons/react/dist/ssr";
 import { createClient } from "@/lib/supabase/server";
 import { ExerciseRunner, type ExerciseData } from "@/components/study/exercise-runner";
-import { FuriganaText } from "@/components/study/furigana";
+import { ReadingText, buildDict, type DictEntry } from "@/components/study/reading-text";
 
 type Params = { lesson: string };
 
@@ -22,10 +22,17 @@ async function LessonContent({ lesson }: Params & { lesson: string }) {
   } = await supabase.auth.getUser();
   if (!user) redirect("/dang-nhap");
 
-  const [lessonRes, exercisesRes] = await Promise.all([
+  const [lessonRes, exercisesRes, vocabRes, kanjiRes] = await Promise.all([
     supabase.from("reading_lessons").select("*").eq("id", lesson).single(),
     supabase.from("exercises").select("id,type,payload,explanation_vi,item_ref").eq("unit_id", lesson).order("order_index"),
-  ]) as unknown as [{ data: Record<string, unknown> | null; error: unknown }, { data: ExerciseData[] | null; error: unknown }];
+    supabase.from("vocab").select("kana,kanji,romaji,meaning_vi").order("order_index"),
+    supabase.from("kanji").select("char,meaning_vi,on_reading,kun_reading").order("order_index"),
+  ]) as unknown as [
+    { data: Record<string, unknown> | null; error: unknown },
+    { data: ExerciseData[] | null; error: unknown },
+    { data: { kana: string; kanji: string | null; romaji: string; meaning_vi: string }[] | null; error: unknown },
+    { data: { char: string; meaning_vi: string; on_reading: string[]; kun_reading: string[] }[] | null; error: unknown },
+  ];
 
   if (!lessonRes.data) notFound();
 
@@ -37,8 +44,20 @@ async function LessonContent({ lesson }: Params & { lesson: string }) {
   const passages = lessonData.passages ?? [];
   const exercises = (exercisesRes.data ?? []) as ExerciseData[];
 
+  // Xây dựng dictionary tra từ: bài học + 781 từ vựng + 100 kanji
+  const dict = buildDict(
+    vocabulary,
+    (vocabRes.data ?? []) as { kana: string; kanji: string | null; romaji: string; meaning_vi: string }[],
+    (kanjiRes.data ?? []) as { char: string; meaning_vi: string; on_reading: string[]; kun_reading: string[] }[],
+  );
+
   return (
     <div className="space-y-6">
+      <p className="flex items-center gap-2 rounded-2xl bg-secondary-soft px-4 py-2.5 text-xs text-secondary-text">
+        <HandTap size={14} weight="duotone" className="shrink-0" />
+        Hover (desktop) hoặc bấm (mobile) vào từ gạch chân để xem phiên âm + nghĩa.
+      </p>
+
       <section className="rounded-3xl border border-border bg-surface p-5 shadow-soft">
         <h2 className="flex items-center gap-2 font-bold">
           <Lightbulb size={18} weight="duotone" className="text-butter" />
@@ -61,7 +80,7 @@ async function LessonContent({ lesson }: Params & { lesson: string }) {
           <div className="space-y-4">
             {p.paragraphs.map((para: Paragraph, j: number) => (
               <div key={j}>
-                <FuriganaText segments={para.segments} className="font-jp text-lg leading-loose" />
+                <ReadingText segments={para.segments} dict={dict} />
                 <p className="mt-1 text-xs text-muted">{para.vi}</p>
               </div>
             ))}
