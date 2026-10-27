@@ -1,0 +1,33 @@
+{
+  "units": [
+    {
+      "id": "u34",
+      "level": "n5",
+      "title": "Động từ bổ sung & biểu hiện",
+      "description": "Những động từ cuối cùng để hoàn thiện N5: tăng/giảm, sinh/tử, thăng trầm.",
+      "order": 44
+    }
+  ],
+  "words": [
+    { "id": "u34-01", "unit_id": "u34", "kana": "わかれます", "kanji": "分かれます", "romaji": "wakaremasu", "meaning_vi": "chia tay, tách ra", "pos": "động từ (nhóm 2)", "example_jp": "駅で分かれましょう。", "example_reading": "えきでわかれましょう。", "example_vi": "Chia tay ở nhà ga nhé.", "source": "JMdict (分かれる); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-02", "unit_id": "u34", "kana": "ころびます", "kanji": "転びます", "romaji": "korobimasu", "meaning_vi": "ngã (văng)", "pos": "động từ (nhóm 1)", "example_jp": "道で転びました。", "example_reading": "みちでころびました。", "example_vi": "Tôi đã ngã trên đường.", "source": "JMdict (転ぶ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-03", "unit_id": "u34", "kana": "おとします", "kanji": "落とします", "romaji": "otoshimasu", "meaning_vi": "làm rơi, làm rớt", "pos": "động từ (nhóm 1)", "example_jp": "財布を落としました。", "example_reading": "さいふをおとしました。", "example_vi": "Tôi đã làm rơi ví.", "source": "JMdict (落とす); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-04", "unit_id": "u34", "kana": "さげます", "kanji": "下げます", "romaji": "sagemasu", "meaning_vi": "hạ xuống, giảm", "pos": "động từ (nhóm 2)", "example_jp": "値段を下げます。", "example_reading": "ねだんをさげます。", "example_vi": "Tôi giảm giá.", "source": "JMdict (下げる); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-05", "unit_id": "u34", "kana": "ふえます", "kanji": "増えます", "romaji": "fuemasu", "meaning_vi": "tăng lên", "pos": "động từ (nhóm 2)", "example_jp": "人口が増えました。", "example_reading": "じんこうがふえました。", "example_vi": "Dân số đã tăng.", "source": "JMdict (増える); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-06", "unit_id": "u34", "kana": "へります", "kanji": "減ります", "romaji": "herimasu", "meaning_vi": "giảm bớt", "pos": "động từ (nhóm 1)", "example_jp": "体重が減りました。", "example_reading": "たいじゅうがへりました。", "example_vi": "Cân nặng đã giảm.", "source": "JMdict (減る); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-07", "unit_id": "u34", "kana": "すすみます", "kanji": "進みます", "romaji": "susumimasu", "meaning_vi": "tiến lên, tiến triển", "pos": "động từ (nhóm 1)", "example_jp": "仕事が進んでいます。", "example_reading": "しごとがすすんでいます。", "example_vi": "Công việc đang tiến triển.", "source": "JMdict (進む); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-08", "unit_id": "u34", "kana": "もどります", "kanji": "戻ります", "romaji": "modorimasu", "meaning_vi": "quay lại, trở về", "pos": "động từ (nhóm 1)", "example_jp": "教室に戻ります。", "example_reading": "きょうしつにもどります。", "example_vi": "Tôi quay lại lớp học.", "source": "JMdict (戻る); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-09", "unit_id": "u34", "kana": "なれます", "kanji": "慣れます", "romaji": "naremasu", "meaning_vi": "quen (với cái gì)", "pos": "động từ (nhóm 2)", "example_jp": "日本の生活に慣れました。", "example_reading": "にほんのせいかつになれました。", "example_vi": "Tôi đã quen cuộc sống Nhật.", "source": "JMdict (慣れる); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-10", "unit_id": "u34", "kana": "ふとります", "kanji": "太ります", "romaji": "futorimasu", "meaning_vi": "béo lên", "pos": "động từ (nhóm 1)", "example_jp": "最近、太りました。", "example_reading": "さいきん、ふとりました。", "example_vi": "Dạo này tôi béo lên.", "source": "JMdict (太る); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-11", "unit_id": "u34", "kana": "やせます", "kanji": "痩せます", "romaji": "yasemasu", "meaning_vi": "gầy đi", "pos": "động từ (nhóm 2)", "example_jp": "運動して痩せました。", "example_reading": "うんどうしてやせました。", "example_vi": "Tôi đã gầy đi nhờ vận động.", "source": "JMdict (痩せる); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-12", "unit_id": "u34", "kana": "おちます", "kanji": "落ちます", "romaji": "ochimasu", "meaning_vi": "rơi (tự rơi); trượt (thi)", "pos": "động từ (nhóm 2)", "example_jp": "葉が落ちました。", "example_reading": "はがおちました。", "example_vi": "Lá đã rơi.", "source": "JMdict (落ちる); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-13", "unit_id": "u34", "kana": "うまれます", "kanji": "生まれます", "romaji": "umaremasu", "meaning_vi": "được sinh ra", "pos": "động từ (nhóm 2)", "example_jp": "私は東京で生まれました。", "example_reading": "わたしはとうきょうでうまれました。", "example_vi": "Tôi sinh ra ở Tokyo.", "source": "JMdict (生まれる); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-14", "unit_id": "u34", "kana": "そだちます", "kanji": "育ちます", "romaji": "sodachimasu", "meaning_vi": "lớn lên, nuôi lớn", "pos": "động từ (nhóm 1)", "example_jp": "ベトナムで育ちました。", "example_reading": "ベトナムでそだちました。", "example_vi": "Tôi lớn lên ở Việt Nam.", "source": "JMdict (育つ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-15", "unit_id": "u34", "kana": "しにます", "kanji": "死にます", "romaji": "shinimasu", "meaning_vi": "chết, qua đời", "pos": "động từ (nhóm 1)", "example_jp": "おじいさんが死にました。", "example_reading": "おじいさんがしにました。", "example_vi": "Ông tôi đã qua đời.", "source": "JMdict (死ぬ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-16", "unit_id": "u34", "kana": "いきます", "kanji": "行きます", "romaji": "ikimasu", "meaning_vi": "đi", "pos": "động từ (nhóm 1)", "example_jp": "明日、学校へ行きます。", "example_reading": "あした、がっこうへいきます。", "example_vi": "Mai tôi đi trường.", "source": "JMdict (行く); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-17", "unit_id": "u34", "kana": "きます", "kanji": "来ます", "romaji": "kimasu", "meaning_vi": "đến", "pos": "động từ (nhóm 3)", "example_jp": "友達が来ました。", "example_reading": "ともだちがきました。", "example_vi": "Bạn tôi đã đến.", "source": "JMdict (来る); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-18", "unit_id": "u34", "kana": "きえます", "kanji": "消えます", "romaji": "kiemasu", "meaning_vi": "tắt (tự tắt), biến mất", "pos": "động từ (nhóm 2)", "example_jp": "電気が消えました。", "example_reading": "でんきがきえました。", "example_vi": "Đèn đã tắt.", "source": "JMdict (消える); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-19", "unit_id": "u34", "kana": "つきます", "kanji": "着きます", "romaji": "tsukimasu", "meaning_vi": "đến nơi", "pos": "động từ (nhóm 1)", "example_jp": "東京に着きました。", "example_reading": "とうきょうにつきました。", "example_vi": "Tôi đã đến Tokyo.", "source": "JMdict (着く); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u34-20", "unit_id": "u34", "kana": "かかります", "kanji": "かかります", "romaji": "kakarimasu", "meaning_vi": "tốn (thời gian, tiền)", "pos": "động từ (nhóm 1)", "example_jp": "二時間かかります。", "example_reading": "にじかんかかります。", "example_vi": "Mất 2 tiếng.", "source": "JMdict (かかる); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

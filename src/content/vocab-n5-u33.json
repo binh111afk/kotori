@@ -1,0 +1,33 @@
+{
+  "units": [
+    {
+      "id": "u33",
+      "level": "n5",
+      "title": "Đồ vật, giấy tờ & bổ sung",
+      "description": "Những danh từ N5 còn thiếu: giấy tờ, vật dụng cá nhân và tính từ bổ sung.",
+      "order": 43
+    }
+  ],
+  "words": [
+    { "id": "u33-01", "unit_id": "u33", "kana": "まくら", "kanji": "枕", "romaji": "makura", "meaning_vi": "cái gối", "pos": "danh từ", "example_jp": "枕を高くします。", "example_reading": "まくらをたかくします。", "example_vi": "Tôi kê gối cao.", "source": "JMdict (枕); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-02", "unit_id": "u33", "kana": "ネクタイ", "kanji": null, "romaji": "nekutai", "meaning_vi": "cà vạt", "pos": "danh từ", "example_jp": "ネクタイを締めます。", "example_reading": "ネクタイをしめます。", "example_vi": "Tôi thắt cà vạt.", "source": "JMdict (ネクタイ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-03", "unit_id": "u33", "kana": "ベルト", "kanji": null, "romaji": "beruto", "meaning_vi": "thắt lưng", "pos": "danh từ", "example_jp": "ベルトをします。", "example_reading": "ベルトをします。", "example_vi": "Tôi đeo thắt lưng.", "source": "JMdict (ベルト); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-04", "unit_id": "u33", "kana": "かみ", "kanji": "紙", "romaji": "kami", "meaning_vi": "giấy", "pos": "danh từ", "example_jp": "紙を一枚ください。", "example_reading": "かみをいちまいください。", "example_vi": "Cho tôi một tờ giấy.", "source": "JMdict (紙); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-05", "unit_id": "u33", "kana": "てがみ", "kanji": "手紙", "romaji": "tegami", "meaning_vi": "thư tay", "pos": "danh từ", "example_jp": "手紙を出します。", "example_reading": "てがみをだします。", "example_vi": "Tôi gửi thư tay.", "source": "JMdict (手紙); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-06", "unit_id": "u33", "kana": "はがき", "kanji": "葉書", "romaji": "hagaki", "meaning_vi": "bưu thiếp", "pos": "danh từ", "example_jp": "はがきを送ります。", "example_reading": "はがきをおくります。", "example_vi": "Tôi gửi bưu thiếp.", "source": "JMdict (葉書); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-07", "unit_id": "u33", "kana": "ふうとう", "kanji": "封筒", "romaji": "fūtō", "meaning_vi": "phong bì", "pos": "danh từ", "example_jp": "封筒に入れます。", "example_reading": "ふうとうにいれます。", "example_vi": "Tôi cho vào phong bì.", "source": "JMdict (封筒); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-08", "unit_id": "u33", "kana": "せんたくき", "kanji": "洗濯機", "romaji": "sentakuki", "meaning_vi": "máy giặt", "pos": "danh từ", "example_jp": "洗濯機で洗います。", "example_reading": "せんたくきであらいます。", "example_vi": "Tôi giặt bằng máy giặt.", "source": "JMdict (洗濯機); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-09", "unit_id": "u33", "kana": "ビデオ", "kanji": null, "romaji": "bideo", "meaning_vi": "video", "pos": "danh từ", "example_jp": "ビデオを見ます。", "example_reading": "ビデオをみます。", "example_vi": "Tôi xem video.", "source": "JMdict (ビデオ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-10", "unit_id": "u33", "kana": "あぶない", "kanji": "危ない", "romaji": "abunai", "meaning_vi": "nguy hiểm", "pos": "tính từ い", "example_jp": "そこは危ないです。", "example_reading": "そこはあぶないです。", "example_vi": "Chỗ đó nguy hiểm.", "source": "JMdict (危ない); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-11", "unit_id": "u33", "kana": "ねむい", "kanji": "眠い", "romaji": "nemui", "meaning_vi": "buồn ngủ", "pos": "tính từ い", "example_jp": "眠いです。", "example_reading": "ねむいです。", "example_vi": "Tôi buồn ngủ.", "source": "JMdict (眠い); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-12", "unit_id": "u33", "kana": "こんど", "kanji": "今度", "romaji": "kondo", "meaning_vi": "lần tới", "pos": "danh từ (thời gian)", "example_jp": "今度、会いましょう。", "example_reading": "こんど、あいましょう。", "example_vi": "Lần tới gặp nhau nhé.", "source": "JMdict (今度); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-13", "unit_id": "u33", "kana": "さいきん", "kanji": "最近", "romaji": "saikin", "meaning_vi": "gần đây, dạo này", "pos": "danh từ (thời gian)", "example_jp": "最近、寒いです。", "example_reading": "さいきん、さむいです。", "example_vi": "Dạo này lạnh.", "source": "JMdict (最近); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-14", "unit_id": "u33", "kana": "もうすぐ", "kanji": null, "romaji": "mō sugu", "meaning_vi": "sắp, chẳng bao lâu", "pos": "trạng từ", "example_jp": "もうすぐ着きます。", "example_reading": "もうすぐつきます。", "example_vi": "Sắp đến rồi.", "source": "JMdict (もうすぐ); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-15", "unit_id": "u33", "kana": "びっくりします", "kanji": "びっくりします", "romaji": "bikkuri shimasu", "meaning_vi": "bị giật mình", "pos": "động từ (nhóm 3)", "example_jp": "びっくりしました。", "example_reading": "びっくりしました。", "example_vi": "Tôi đã giật mình.", "source": "JMdict (びっくり); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-16", "unit_id": "u33", "kana": "のど", "kanji": "喉", "romaji": "nodo", "meaning_vi": "cổ họng", "pos": "danh từ", "example_jp": "のどが痛いです。", "example_reading": "のどがいたいです。", "example_vi": "Tôi đau cổ họng.", "source": "JMdict (喉); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-17", "unit_id": "u33", "kana": "こうさてん", "kanji": "交差点", "romaji": "kōsaten", "meaning_vi": "ngã tư", "pos": "danh từ", "example_jp": "交差点を右に曲がります。", "example_reading": "こうさてんをみぎにまがります。", "example_vi": "Ở ngã tư tôi rẽ phải.", "source": "JMdict (交差点); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-18", "unit_id": "u33", "kana": "しま", "kanji": "島", "romaji": "shima", "meaning_vi": "hòn đảo", "pos": "danh từ", "example_jp": "美しい島ですね。", "example_reading": "うつくしいしまですね。", "example_vi": "Hòn đảo đẹp nhỉ.", "source": "JMdict (島); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-19", "unit_id": "u33", "kana": "けが", "kanji": "怪我", "romaji": "kega", "meaning_vi": "vết thương", "pos": "danh từ (thường + します)", "example_jp": "けがをしました。", "example_reading": "けがをしました。", "example_vi": "Tôi bị thương.", "source": "JMdict (怪我); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "u33-20", "unit_id": "u33", "kana": "べんり", "kanji": "便利", "romaji": "benri", "meaning_vi": "tiện lợi", "pos": "tính từ な", "example_jp": "スマホは便利です。", "example_reading": "スマホはべんりです。", "example_vi": "Điện thoại thông minh tiện lợi.", "source": "JMdict (便利); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}
