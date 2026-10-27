@@ -18,7 +18,7 @@ Next.js 16 App Router + TS + Tailwind v4 (tokens `globals.css`, dark `.dark` + n
 - Ngữ pháp: **39 điểm / 8 unit** + 77 bài tập 5 loại (files `grammar-n5*.json`)
 - Kanji N5: **100 chữ** (nghĩa, on/kun, từ ghép, nét) — `/kanji` + quiz + SRS (`gen-kanji.mjs`)
 - Nghe: **4 bài** (mẹo + hội thoại furigana + 20 bài tập có audio) — `/nghe`
-- Games: 4 (`/choi`) — XP kind="game", sai → SRS
+- Games: **8** (`/choi`) — Nối từ, Lật thẻ, Gõ nhanh, Quiz tốc độ, Bong bóng, Nghe&Chọn, Xếp câu, Trí nhớ chuỗi
 
 ## Trạng thái các phase
 Phase 0–8: **ĐÃ HOÀN TẤT** (0 nghiên cứu · 1 nền tảng · 2 kana+SRS · 3 bài tập+ngữ pháp · 4 streak/XP/badge/stats · 5 games · 6 luyện nghe · 7 kanji+PWA · 8 U4–U8+Playwright+security review). Chi tiết kiến trúc bảo mật: RPC SECURITY DEFINER đã verify E2E chống gian lận XP; Playwright 7/7; Vitest 28/28.
