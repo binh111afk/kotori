@@ -9,6 +9,10 @@ import { MatchGame } from "@/components/games/match-game";
 import { MemoryGame } from "@/components/games/memory-game";
 import { TypingGame } from "@/components/games/typing-game";
 import { SpeedQuizGame } from "@/components/games/speed-quiz";
+import { BubbleGame } from "@/components/games/bubble-game";
+import { ListenPickGame } from "@/components/games/listen-pick-game";
+import { SentenceGame } from "@/components/games/sentence-game";
+import { SequenceGame } from "@/components/games/sequence-game";
 
 type Params = { game: string };
 
@@ -17,6 +21,10 @@ const GAME_TITLES: Record<string, string> = {
   "lat-the": "Lật thẻ ghi nhớ",
   "go-nhanh": "Gõ nhanh",
   "quiz-toc-do": "Quiz tốc độ",
+  "bong-bong": "Bong bóng",
+  "nghe-chon": "Nghe & Chọn",
+  "xep-cau": "Xếp câu",
+  "tri-nho": "Trí nhớ chuỗi",
 };
 
 export function generateStaticParams() {
@@ -80,6 +88,30 @@ async function GameContent({ game }: Params & { game: string }) {
           userId={user.id}
         />
       );
+    case "bong-bong":
+      return <BubbleGame title={GAME_TITLES[game]} items={all} userId={user.id} />;
+    case "nghe-chon":
+      return (
+        <ListenPickGame
+          title={GAME_TITLES[game]}
+          items={all.map((it) => ({ jp: it.jp, romaji: it.romaji, id: it.id }))}
+          userId={user.id}
+        />
+      );
+    case "xep-cau":
+      return (
+        <SentenceGame
+          title={GAME_TITLES[game]}
+          sentences={all.filter((it) => it.itemType === "vocab").map((it) => ({
+            id: it.id,
+            tokens: [it.jp, "は", "です", "。"],
+            translation: `${it.vi} (câu mẫu です)`,
+          }))}
+          userId={user.id}
+        />
+      );
+    case "tri-nho":
+      return <SequenceGame title={GAME_TITLES[game]} kanaChars={kanaItems.map((k) => ({ char: k.jp, romaji: k.romaji, id: k.id }))} userId={user.id} />;
     case "quiz-toc-do":
       return (
         <SpeedQuizGame

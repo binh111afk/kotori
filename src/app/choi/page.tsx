@@ -9,6 +9,10 @@ import {
   HandTap,
   Lightning,
   PuzzlePiece,
+  Balloon,
+  Ear,
+  PencilSimpleLine,
+  Brain,
 } from "@phosphor-icons/react/dist/ssr";
 
 export const metadata: Metadata = { title: "Chơi" };
@@ -42,6 +46,34 @@ const games = [
     icon: Lightning,
     tint: "bg-butter-soft text-butter",
   },
+  {
+    slug: "bong-bong",
+    name: "Bong bóng",
+    desc: "Bong bóng bay lên — bấm đúng bong bóng chứa nghĩa tiếng Việt.",
+    icon: Balloon,
+    tint: "bg-primary-soft text-primary-text",
+  },
+  {
+    slug: "nghe-chon",
+    name: "Nghe & Chọn",
+    desc: "Nghe phát âm rồi chọn đúng chữ kana — luyện tai và phản xạ.",
+    icon: Ear,
+    tint: "bg-secondary-soft text-secondary-text",
+  },
+  {
+    slug: "xep-cau",
+    name: "Xếp câu",
+    desc: "Sắp xếp các từ thành câu đúng — luyện ngữ pháp qua trò chơi.",
+    icon: PencilSimpleLine,
+    tint: "bg-mint-soft text-mint",
+  },
+  {
+    slug: "tri-nho",
+    name: "Trí nhớ chuỗi",
+    desc: "Chữ kana hiện lên từng cái — nhớ thứ tự rồi bấm lại. Mỗi vòng dài hơn!",
+    icon: Brain,
+    tint: "bg-butter-soft text-butter",
+  },
 ];
 
 export default function GameLobbyPage() {
@@ -71,11 +103,11 @@ async function GameCards() {
 
   return (
     <div className="mt-6 grid gap-3 sm:grid-cols-2">
-      {games.map((g) => (
-        <Link
-          key={g.slug}
-          href={`/choi/${g.slug}`}
-          className="rounded-3xl border border-border bg-surface p-5 shadow-soft transition-transform hover:-translate-y-0.5 hover:shadow-lift"
+        {games.map((g, i) => (
+          <Link
+            key={g.slug}
+            href={`/choi/${g.slug}`}
+            className={`rounded-3xl border border-border bg-surface p-5 shadow-soft transition-transform hover:-translate-y-0.5 hover:shadow-lift ${i >= 4 ? "sm:opacity-90" : ""}`}
         >
           <span className={`mb-3 inline-grid size-11 place-items-center rounded-2xl ${g.tint}`}>
             <g.icon size={22} weight="duotone" />

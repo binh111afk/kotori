@@ -1,0 +1,161 @@
+{
+  "units": [
+    { "id": "r1", "title": "Đọc 1 — Ngày của Mai", "order": 51 },
+    { "id": "r2", "title": "Đọc 2 — Gia đình tôi", "order": 52 },
+    { "id": "r3", "title": "Đọc 3 — Đi mua sắm", "order": 53 },
+    { "id": "r4", "title": "Đọc 4 — Lớp học tiếng Nhật", "order": 54 }
+  ],
+  "lessons": [
+    {
+      "id": "r1",
+      "unit_id": "r1",
+      "title": "マイさんの一日",
+      "topic": "Thói quen hằng ngày, giờ giấc",
+      "vocabulary": [
+        { "jp": "起きます", "r": "おきます", "vi": "thức dậy" },
+        { "jp": "電車", "r": "でんしゃ", "vi": "tàu điện" },
+        { "jp": "勉強", "r": "べんきょう", "vi": "học" },
+        { "jp": "晩ご飯", "r": "ばんごはん", "vi": "bữa tối" },
+        { "jp": "寝ます", "r": "ねます", "vi": "ngủ" }
+      ],
+      "passages": [
+        {
+          "title": "マイさんの朝",
+          "paragraphs": [
+            { "segments": [{ "t": "マイ", "r": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "毎朝", "r": "まいあさ" }, { "t": "六", "r": "ろく" }, { "t": "時", "r": "じ" }, { "t": "に" }, { "t": "起", "r": "お" }, { "t": "きます。" }], "vi": "Sáng nào Mai cũng thức dậy lúc 6 giờ." },
+            { "segments": [{ "t": "それから、" }, { "t": "朝", "r": "あさ" }, { "t": "ご飯", "r": "はん" }, { "t": "を" }, { "t": "食", "r": "た" }, { "t": "べて、" }, { "t": "電車", "r": "でんしゃ" }, { "t": "で" }, { "t": "学校", "r": "がっこう" }, { "t": "へ" }, { "t": "行", "r": "い" }, { "t": "きます。" }], "vi": "Sau đó, Mai ăn sáng rồi đi trường bằng tàu điện." },
+            { "segments": [{ "t": "学校", "r": "がっこう" }, { "t": "は" }, { "t": "九", "r": "く" }, { "t": "時", "r": "じ" }, { "t": "に" }, { "t": "始", "r": "はじ" }, { "t": "まります。" }], "vi": "Trường học bắt đầu lúc 9 giờ." }
+          ]
+        },
+        {
+          "title": "マイさんの夜",
+          "paragraphs": [
+            { "segments": [{ "t": "三", "r": "さん" }, { "t": "時", "r": "じ" }, { "t": "に授業", "r": "じゅぎょう" }, { "t": "が終", "r": "お" }, { "t": "わります。" }], "vi": "Lúc 3 giờ, giờ học kết thúc." },
+            { "segments": [{ "t": "その後、" }, { "t": "図書館", "r": "としょかん" }, { "t": "で" }, { "t": "日本語", "r": "にほんご" }, { "t": "を勉強", "r": "べんきょう" }, { "t": "します。" }], "vi": "Sau đó, Mai học tiếng Nhật ở thư viện." },
+            { "segments": [{ "t": "晩ご飯", "r": "ばんごはん" }, { "t": "の後", "r": "あと" }, { "t": "に" }, { "t": "テレビ" }, { "t": "を" }, { "t": "見", "r": "み" }, { "t": "ます。" }], "vi": "Sau bữa tối, Mai xem tivi." },
+            { "segments": [{ "t": "十一", "r": "じゅういち" }, { "t": "時", "r": "じ" }, { "t": "に" }, { "t": "寝", "r": "ね" }, { "t": "ます。" }], "vi": "Lúc 11 giờ Mai đi ngủ." }
+          ]
+        }
+      ],
+      "source": "kotori — đọc hiểu dựa trên ngữ pháp U3 (Minna bài 4–5)",
+      "verified": true,
+      "order_index": 1
+    },
+    {
+      "id": "r2",
+      "unit_id": "r2",
+      "title": "私の家族",
+      "topic": "Gia đình, nghề nghiệp, nơi sống",
+      "vocabulary": [
+        { "jp": "家族", "r": "かぞく", "vi": "gia đình" },
+        { "jp": "四人", "r": "よにん", "vi": "bốn người" },
+        { "jp": "医者", "r": "いしゃ", "vi": "bác sĩ" },
+        { "jp": "会社員", "r": "かいしゃいん", "vi": "nhân viên công ty" },
+        { "jp": "小学生", "r": "しょうがくせい", "vi": "học sinh tiểu học" }
+      ],
+      "passages": [
+        {
+          "title": "家族の紹介",
+          "paragraphs": [
+            { "segments": [{ "t": "私", "r": "わたし" }, { "t": "の" }, { "t": "家族", "r": "かぞく" }, { "t": "は" }, { "t": "四", "r": "よ" }, { "t": "人", "r": "にん" }, { "t": "です。" }], "vi": "Gia đình tôi có bốn người." },
+            { "segments": [{ "t": "父", "r": "ちち" }, { "t": "は" }, { "t": "医者", "r": "いしゃ" }, { "t": "です。" }, { "t": "病院", "r": "びょういん" }, { "t": "で" }, { "t": "働", "r": "はたら" }, { "t": "いています。" }], "vi": "Bố tôi là bác sĩ. Bố đang làm việc ở bệnh viện." },
+            { "segments": [{ "t": "母", "r": "はは" }, { "t": "は" }, { "t": "会社員", "r": "かいしゃいん" }, { "t": "です。" }], "vi": "Mẹ tôi là nhân viên công ty." },
+            { "segments": [{ "t": "妹", "r": "いもうと" }, { "t": "は" }, { "t": "小学", "r": "しょう" }, { "t": "生", "r": "がく" }, { "t": "です。" }], "vi": "Em gái tôi học tiểu học." }
+          ]
+        },
+        {
+          "title": "家族の趣味",
+          "paragraphs": [
+            { "segments": [{ "t": "私", "r": "わたし" }, { "t": "の" }, { "t": "趣味", "r": "しゅみ" }, { "t": "は" }, { "t": "音楽", "r": "おんがく" }, { "t": "です。" }], "vi": "Sở thích của tôi là âm nhạc." },
+            { "segments": [{ "t": "父", "r": "ちち" }, { "t": "の" }, { "t": "趣味", "r": "しゅみ" }, { "t": "は" }, { "t": "ゴルフ" }, { "t": "です。" }], "vi": "Sở thích của bố là golf." },
+            { "segments": [{ "t": "妹", "r": "いもうと" }, { "t": "は" }, { "t": "犬", "r": "いぬ" }, { "t": "が" }, { "t": "大", "r": "だい" }, { "t": "好き", "r": "すき" }, { "t": "です。" }], "vi": "Em gái rất thích chó." }
+          ]
+        }
+      ],
+      "source": "kotori — đọc hiểu dựa trên ngữ pháp U3–U5 (Minna bài 4–9)",
+      "verified": true,
+      "order_index": 2
+    },
+    {
+      "id": "r3",
+      "unit_id": "r3",
+      "title": "買い物に行きます",
+      "topic": "Mua sắm, giá cả, số lượng",
+      "vocabulary": [
+        { "jp": "スーパー", "r": "スーパー", "vi": "siêu thị" },
+        { "jp": "高い", "r": "たかい", "vi": "đắt" },
+        { "jp": "安い", "r": "やすい", "vi": "rẻ" },
+        { "jp": "いくら", "r": "いくら", "vi": "bao nhiêu" },
+        { "jp": "美味しい", "r": "おいしい", "vi": "ngon" }
+      ],
+      "passages": [
+        {
+          "title": "スーパーで",
+          "paragraphs": [
+            { "segments": [{ "t": "今日", "r": "きょう" }, { "t": "は" }, { "t": "スーパー" }, { "t": "へ" }, { "t": "行", "r": "い" }, { "t": "きます。" }], "vi": "Hôm nay tôi đi siêu thị." },
+            { "segments": [{ "t": "りんご" }, { "t": "を" }, { "t": "三", "r": "みっ" }, { "t": "つ" }, { "t": "と" }, { "t": "牛乳", "r": "ぎゅうにゅう" }, { "t": "を" }, { "t": "買", "r": "か" }, { "t": "います。" }], "vi": "Tôi mua ba quả táo và sữa." },
+            { "segments": [{ "t": "りんご" }, { "t": "は" }, { "t": "一", "r": "いっ" }, { "t": "個", "r": "こ" }, { "t": "百", "r": "ひゃく" }, { "t": "円", "r": "えん" }, { "t": "です。" }], "vi": "Táo một quả 100 yên." }
+          ]
+        },
+        {
+          "title": "安い店",
+          "paragraphs": [
+            { "segments": [{ "t": "隣", "r": "となり" }, { "t": "の" }, { "t": "店", "r": "みせ" }, { "t": "は" }, { "t": "もっと安", "r": "やす" }, { "t": "いです。" }], "vi": "Cửa hàng bên cạnh rẻ hơn." },
+            { "segments": [{ "t": "でも、" }, { "t": "この" }, { "t": "スーパー" }, { "t": "の" }, { "t": "りんご" }, { "t": "は" }, { "t": "とても美味", "r": "おい" }, { "t": "しいです。" }], "vi": "Nhưng táo ở siêu thị này rất ngon." },
+            { "segments": [{ "t": "全部", "r": "ぜんぶ" }, { "t": "で" }, { "t": "五", "r": "ご" }, { "t": "百", "r": "ひゃく" }, { "t": "円", "r": "えん" }, { "t": "でした。" }], "vi": "Tất cả hết 500 yên." }
+          ]
+        }
+      ],
+      "source": "kotori — đọc hiểu dựa trên ngữ pháp U4–U8 (Minna bài 11–12)",
+      "verified": true,
+      "order_index": 3
+    },
+    {
+      "id": "r4",
+      "unit_id": "r4",
+      "title": "日本語の教室",
+      "topic": "Lớp học, bạn học, môn học",
+      "vocabulary": [
+        { "jp": "教室", "r": "きょうしつ", "vi": "phòng học" },
+        { "jp": "先生", "r": "せんせい", "vi": "giáo viên" },
+        { "jp": "難しい", "r": "むずかしい", "vi": "khó" },
+        { "jp": "楽しい", "r": "たのしい", "vi": "vui" },
+        { "jp": "毎日", "r": "まいにち", "vi": "mỗi ngày" }
+      ],
+      "passages": [
+        {
+          "title": "教室で",
+          "paragraphs": [
+            { "segments": [{ "t": "私", "r": "わたし" }, { "t": "は" }, { "t": "毎日", "r": "まいにち" }, { "t": "日本語", "r": "にほんご" }, { "t": "を勉強", "r": "べんきょう" }, { "t": "しています。" }], "vi": "Mỗi ngày tôi học tiếng Nhật." },
+            { "segments": [{ "t": "教室", "r": "きょうしつ" }, { "t": "に" }, { "t": "学生", "r": "がくせい" }, { "t": "が" }, { "t": "十", "r": "じゅう" }, { "t": "人", "r": "にん" }, { "t": "います。" }], "vi": "Trong lớp có mười học sinh." },
+            { "segments": [{ "t": "皆", "r": "みんな" }, { "t": "さん" }, { "t": "は" }, { "t": "とても" }, { "t": "まじめです。" }], "vi": "Mọi người đều chăm chỉ." }
+          ]
+        },
+        {
+          "title": "先生について",
+          "paragraphs": [
+            { "segments": [{ "t": "山田", "r": "やまだ" }, { "t": "先生", "r": "せんせい" }, { "t": "は" }, { "t": "やさしいです。" }], "vi": "Thầy Yamada rất hiền." },
+            { "segments": [{ "t": "日本語", "r": "にほんご" }, { "t": "は" }, { "t": "難", "r": "むずか" }, { "t": "しいです。" }, { "t": "でも、" }, { "t": "楽", "r": "たの" }, { "t": "しいです。" }], "vi": "Tiếng Nhật khó. Nhưng vui." },
+            { "segments": [{ "t": "漢字", "r": "かんじ" }, { "t": "は" }, { "t": "あまり" }, { "t": "難", "r": "むずか" }, { "t": "しくないです。" }], "vi": "Chữ Hán không khó mấy." }
+          ]
+        }
+      ],
+      "source": "kotori — đọc hiểu dựa trên ngữ pháp U5 (Minna bài 8–9)",
+      "verified": true,
+      "order_index": 4
+    }
+  ],
+  "exercises": [
+    { "id": "x-r1-1", "unit_id": "r1", "grammar_id": null, "type": "choice", "payload": { "question": "Mai dậy lúc mấy giờ?", "options": ["六時", "七時", "九時"], "answerIndex": 0 }, "explanation_vi": "Mai dậy lúc 6 giờ (六時に起きます).", "source": "kotori — đọc hiểu r1", "verified": true, "order_index": 66 },
+    { "id": "x-r1-2", "unit_id": "r1", "grammar_id": null, "type": "choice", "payload": { "question": "Mai đi trường bằng gì?", "options": ["電車", "バス", "自転車"], "answerIndex": 0 }, "explanation_vi": "Mai đi trường bằng tàu điện (電車で学校へ行きます).", "item_ref": "u3-15", "source": "kotori — đọc hiểu r1", "verified": true, "order_index": 67 },
+    { "id": "x-r1-3", "unit_id": "r1", "grammar_id": null, "type": "choice", "payload": { "question": "Mai làm gì sau giờ học?", "options": ["図書館で勉強します", "家で寝ます", "テレビを見ます"], "answerIndex": 0 }, "explanation_vi": "Sau giờ học, Mai học tiếng Nhật ở thư viện.", "source": "kotori — đọc hiểu r1", "verified": true, "order_index": 68 },
+    { "id": "x-r2-1", "unit_id": "r2", "grammar_id": null, "type": "choice", "payload": { "question": "Gia đình Mai có mấy người?", "options": ["四人", "三人", "五人"], "answerIndex": 0 }, "explanation_vi": "Gia đình Mai có bốn người (家族は四人です).", "source": "kotori — đọc hiểu r2", "verified": true, "order_index": 69 },
+    { "id": "x-r2-2", "unit_id": "r2", "grammar_id": null, "type": "choice", "payload": { "question": "Bố Mai làm nghề gì?", "options": ["医者", "会社員", "教師"], "answerIndex": 0 }, "explanation_vi": "Bố Mai là bác sĩ (父は医者です).", "item_ref": "u12-16", "source": "kotori — đọc hiểu r2", "verified": true, "order_index": 70 },
+    { "id": "x-r3-1", "unit_id": "r3", "grammar_id": null, "type": "choice", "payload": { "question": "Mai mua mấy quả táo?", "options": ["三つ", "二つ", "四つ"], "answerIndex": 0 }, "explanation_vi": "Mai mua ba quả táo (りんごを三つ).", "source": "kotori — đọc hiểu r3", "verified": true, "order_index": 71 },
+    { "id": "x-r3-2", "unit_id": "r3", "grammar_id": null, "type": "choice", "payload": { "question": "Tất cả hết bao nhiêu tiền?", "options": ["五百円", "三百円", "一千円"], "answerIndex": 0 }, "explanation_vi": "Tất cả hết 500 yên (全部で五百円でした).", "source": "kotori — đọc hiểu r3", "verified": true, "order_index": 72 },
+    { "id": "x-r3-3", "unit_id": "r3", "grammar_id": null, "type": "choice", "payload": { "question": "Táo ở đâu ngon hơn?", "options": ["スーパー", "隣の店", "コンビニ"], "answerIndex": 0 }, "explanation_vi": "Táo ở siêu thị ngon hơn (このスーパーのりんごはとても美味しいです).", "source": "kotori — đọc hiểu r3", "verified": true, "order_index": 73 },
+    { "id": "x-r4-1", "unit_id": "r4", "grammar_id": null, "type": "choice", "payload": { "question": "Trong lớp có mấy học sinh?", "options": ["十人", "二十人", "五人"], "answerIndex": 0 }, "explanation_vi": "Trong lớp có mười học sinh (教室に学生が十人います).", "source": "kotori — đọc hiểu r4", "verified": true, "order_index": 74 },
+    { "id": "x-r4-2", "unit_id": "r4", "grammar_id": null, "type": "choice", "payload": { "question": "Thầy Yamada như thế nào?", "options": ["やさしい", "怖い", "高い"], "answerIndex": 0 }, "explanation_vi": "Thầy Yamada hiền (やさしいです).", "item_ref": "u5-16", "source": "kotori — đọc hiểu r4", "verified": true, "order_index": 75 },
+    { "id": "x-r4-3", "unit_id": "r4", "grammar_id": null, "type": "choice", "payload": { "question": "Tiếng Nhật như thế nào?", "options": ["難しい。でも、楽しい", "簡単で面白い", "やさしくない"], "answerIndex": 0 }, "explanation_vi": "Tiếng Nhật khó nhưng vui (難しいです。でも、楽しいです).", "source": "kotori — đọc hiểu r4", "verified": true, "order_index": 76 }
+  ]
+}

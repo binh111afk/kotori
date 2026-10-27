@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Suspense } from "react";
-import { ChartBar, Headphones, Medal } from "@phosphor-icons/react/dist/ssr";
+import { ChartBar, Headphones, BookOpen, Medal } from "@phosphor-icons/react/dist/ssr";
 import { createClient } from "@/lib/supabase/server";
 import kanaData from "@/content/kana.json";
 import vocabData from "@/content/vocab-n5.json";
@@ -220,7 +220,7 @@ export default function StudyDashboardPage() {
         ))}
       </div>
 
-      <FadeIn className="mt-6">
+      <FadeIn className="mt-3 grid gap-3 sm:grid-cols-2">
         <Link
           href="/nghe"
           className="flex items-center gap-4 rounded-3xl border border-border bg-surface p-5 shadow-soft transition-transform hover:-translate-y-0.5"
@@ -232,6 +232,20 @@ export default function StudyDashboardPage() {
             <p className="font-bold">Luyện nghe</p>
             <p className="text-sm text-muted">
               Hội thoại ngắn theo đúng bài đã học — mẹo nghe, chậm/thường, transcript.
+            </p>
+          </div>
+        </Link>
+        <Link
+          href="/doc"
+          className="flex items-center gap-4 rounded-3xl border border-border bg-surface p-5 shadow-soft transition-transform hover:-translate-y-0.5"
+        >
+          <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-primary-soft text-primary-text">
+            <BookOpen size={22} weight="duotone" />
+          </span>
+          <div>
+            <p className="font-bold">Đọc hiểu</p>
+            <p className="text-sm text-muted">
+              Đoạn văn ngắn furigana từng chữ — từ mới chú thích, kiểm tra hiểu bài.
             </p>
           </div>
         </Link>

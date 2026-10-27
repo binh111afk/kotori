@@ -24,12 +24,13 @@ const client = new pg.Client({
 await client.connect();
 
 const contentDir = join(root, "src", "content");
-const files = readdirSync(contentDir).filter((f) => f.endsWith(".json") && /^(vocab|grammar|listening|kanji)-/.test(f) && !f.includes("strokes")).sort();
+const files = readdirSync(contentDir).filter((f) => f.endsWith(".json") && /^(vocab|grammar|listening|kanji|reading)-/.test(f) && !f.includes("strokes")).sort();
 let vocabCount = 0;
 let grammarCount = 0;
 let exerciseCount = 0;
 let listeningCount = 0;
 let kanjiCount = 0;
+let readingCount = 0;
 
 for (const file of files) {
   const data = JSON.parse(readFileSync(join(contentDir, file), "utf8"));
@@ -73,7 +74,28 @@ for (const file of files) {
     }
   }
 
-  if (file.startsWith("listening-")) {
+  if (file.startsWith("reading-")) {
+    for (const l of data.lessons) {
+      await client.query(
+        `insert into public.reading_lessons (id, unit_id, level, title, topic, vocabulary, passages, source, verified, order_index)
+         values ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10)
+         on conflict (id) do update set unit_id=excluded.unit_id, level=excluded.level, title=excluded.title, topic=excluded.topic, vocabulary=excluded.vocabulary, passages=excluded.passages, source=excluded.source, verified=excluded.verified, order_index=excluded.order_index`,
+        [l.id, l.unit_id, "n5", l.title, l.topic, JSON.stringify(l.vocabulary), JSON.stringify(l.passages), l.source, l.verified, l.order_index]
+      );
+      readingCount++;
+    }
+    for (const x of data.exercises) {
+      await client.query(
+        `insert into public.exercises (id, unit_id, grammar_id, type, payload, explanation_vi, item_ref, source, verified, order_index)
+         values ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10)
+         on conflict (id) do update set unit_id=excluded.unit_id, grammar_id=excluded.grammar_id, type=excluded.type, payload=excluded.payload, explanation_vi=excluded.explanation_vi, item_ref=excluded.item_ref, source=excluded.source, verified=excluded.verified, order_index=excluded.order_index`,
+        [x.id, x.unit_id, x.grammar_id ?? null, x.type, JSON.stringify(x.payload), x.explanation_vi ?? null, x.item_ref ?? null, x.source, x.verified, x.order_index ?? exerciseCount]
+      );
+      exerciseCount++;
+    }
+  }
+
+  if (file.startsWith('listening-')) {
     for (const l of data.lessons) {
       await client.query(
         `insert into public.listening_lessons (id, unit_id, level, title, topic, theory, dialogue, source, verified, order_index)
