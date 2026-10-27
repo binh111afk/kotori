@@ -1,0 +1,249 @@
+{
+  "units": [
+    { "id": "n4-u1", "title": "N4 Ngữ pháp 1 — Khả năng & khả năng hoá", "order": 51 },
+    { "id": "n4-u2", "title": "N4 Ngữ pháp 2 — Điều kiện たら・ば・なら", "order": 52 },
+    { "id": "n4-u3", "title": "N4 Ngữ pháp 3 — て-form nâng cao", "order": 53 },
+    { "id": "n4-u4", "title": "N4 Ngữ pháp 4 — Bị động 受身", "order": 54 },
+    { "id": "n4-u5", "title": "N4 Ngữ pháp 5 — Khiến động 使役", "order": 55 },
+    { "id": "n4-u6", "title": "N4 Ngữ pháp 6 — Truyền đạt & suy đoán", "order": 56 },
+    { "id": "n4-u7", "title": "N4 Ngữ pháp 7 — song song & liệt kê", "order": 57 },
+    { "id": "n4-u8", "title": "N4 Ngữ pháp 8 — Tổng hợp & bổ trợ", "order": 58 }
+  ],
+  "points": [
+    {
+      "id": "gn4-1-1", "unit_id": "n4-u1", "title": "Khả động: ～ことができる",
+      "structure": "[Động từ nguyên mẫu] ことができます",
+      "explanation_vi": "Nói \"làm được việc gì\" bằng cách đặt động từ nguyên mẫu (plain form) + ことができます. Tương đương khả động nhưng trang trọng hơn, dùng cho việc trừu tượng: 日本語を話すことができます.",
+      "mistakes_vi": ["Dùng ます-form trước こと: 「話しますことが」 sai — phải là nguyên mẫu 話すること.", "Quên が: 「ことをできます」 sai."],
+      "examples": [
+        { "segments": [{ "t": "日本語", "r": "にほんご" }, { "t": "を" }, { "t": "話", "r": "はな" }, { "t": "す" }, { "t": "ことが" }, { "t": "できます。" }], "vi": "Tôi nói được tiếng Nhật." },
+        { "segments": [{ "t": "ここで" }, { "t": "写真", "r": "しゃしん" }, { "t": "を" }, { "t": "撮", "r": "と" }, { "t": "ることが" }, { "t": "できません。" }], "vi": "Ở đây không được chụp ảnh." }
+      ],
+      "source": "Minna II bài 13–14; Genki II bài 13", "verified": true
+    },
+    {
+      "id": "gn4-1-2", "unit_id": "n4-u1", "title": "Khả động 3 nhóm: ～られる",
+      "structure": "Nhóm 1: い→える (買う→買える) · Nhóm 2: る→られる (食べる→食べられる) · Nhóm 3: する→できる, 来る→来られる",
+      "explanation_vi": "Khả động (potential form) nói \"làm ĐƯỢC\" gì đó. Nhóm 1 đổi âm cuối hàng い sang hàng え + る. Nhóm 2 bỏ る thêm られる. Đối tượng dùng が thay を: 日本語が話せます.",
+      "mistakes_vi": ["Dùng を: 「日本語を話せます」 sai — khả động dùng が.", "Nhóm 1 quên đổi nguyên âm: 「買うれる」 sai — phải là 買える."],
+      "examples": [
+        { "segments": [{ "t": "私", "r": "わたし" }, { "t": "は" }, { "t": "漢字", "r": "かんじ" }, { "t": "が" }, { "t": "読", "r": "よ" }, { "t": "めます。" }], "vi": "Tôi đọc được kanji." },
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "泳", "r": "およ" }, { "t": "げます。" }], "vi": "Mai bơi được." }
+      ],
+      "source": "Minna II bài 13; Genki II bài 13", "verified": true
+    },
+    {
+      "id": "gn4-2-1", "unit_id": "n4-u2", "title": "～たら: nếu/ khi (điều kiện tổng quát)",
+      "structure": "[Động từ た-form] ら、～",
+      "explanation_vi": "たら là điều kiện tổng quát nhất: 雨が降ったら、行きません (nếu mưa thì không đi). Cũng dùng cho việc chắc chắn xảy ra: 家に帰ったら、電話します (về nhà thì tôi gọi). た-form = plain form quá khứ.",
+      "mistakes_vi": ["Dùng ます-form: 「行きますたら」 sai — phải là た-form 行ったら.", "Nhầm たら với ても (nhưng dù) — nghĩa ngược nhau."],
+      "examples": [
+        { "segments": [{ "t": "雨", "r": "あめ" }, { "t": "が" }, { "t": "降", "r": "ふ" }, { "t": "ったら、" }, { "t": "出", "r": "で" }, { "t": "かけません。" }], "vi": "Nếu mưa thì tôi không ra ngoài." },
+        { "segments": [{ "t": "家", "r": "いえ" }, { "t": "に" }, { "t": "帰", "r": "かえ" }, { "t": "ったら、" }, { "t": "電話", "r": "でんわ" }, { "t": "します。" }], "vi": "Về nhà thì tôi sẽ gọi." }
+      ],
+      "source": "Minna II bài 24; Genki II bài 16", "verified": true
+    },
+    {
+      "id": "gn4-2-2", "unit_id": "n4-u2", "title": "～ば: nếu (điều kiện giả định)",
+      "structure": "[Động từ] ば-form、～",
+      "explanation_vi": "ば-form: nhóm 1 đổi âm い→えば (買う→買えば, 行く→行けば); nhóm 2 thêm れば (食べる→食べれば); する→すれば, 来る→くれば, いい→よければ. Nhấn mạnh điều kiện giả định: 時間があれば、行きます.",
+      "mistakes_vi": ["Nhóm 1 quên đổi nguyên âm hàng: 「買えば」 sai — phải là 買えば (う→えば).", "いい có ば-form bất quy tắc: よければ."],
+      "examples": [
+        { "segments": [{ "t": "時間", "r": "じかん" }, { "t": "があれば、" }, { "t": "行", "r": "い" }, { "t": "きます。" }], "vi": "Nếu có thời gian thì tôi đi." },
+        { "segments": [{ "t": "安", "r": "やす" }, { "t": "ければ、" }, { "t": "買", "r": "か" }, { "t": "います。" }], "vi": "Nếu rẻ thì tôi mua." }
+      ],
+      "source": "Minna II bài 24; Genki II bài 16", "verified": true
+    },
+    {
+      "id": "gn4-2-3", "unit_id": "n4-u2", "title": "～なら: nếu là (trả lời theo ngữ cảnh)",
+      "structure": "[Danh từ/Động từ nguyên mẫu] なら、～",
+      "explanation_vi": "なら dùng khi trả lời dựa trên thông tin vừa nghe: 「日本語を勉強しています」→「日本語なら、この学校がいいですよ」. Nếu là chủ đề đã biết thì dùng なら để đưa lời khuyên.",
+      "mistakes_vi": ["Nhầm なら với たら — なら là \"nếu là trường hợp đó\" chứ không phải điều kiện thời gian."],
+      "examples": [
+        { "segments": [{ "t": "日本語", "r": "にほんご" }, { "t": "なら、" }, { "t": "この" }, { "t": "学校", "r": "がっこう" }, { "t": "がいいですよ。" }], "vi": "Nếu học tiếng Nhật thì trường này tốt đấy." },
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "なら、" }, { "t": "大丈夫", "r": "だいじょうぶ" }, { "t": "ですよ。" }], "vi": "Nếu là Mai thì không sao đâu." }
+      ],
+      "source": "Minna II bài 25", "verified": true
+    },
+    {
+      "id": "gn4-3-1", "unit_id": "n4-u3", "title": "～てしまいます: hoàn toàn / tiếc nuối",
+      "structure": "[Động từ て-form] しまいます",
+      "explanation_vi": "Hai nghĩa: (1) HOÀN TOÀN làm xong: 宿題をしてしまいました (đã làm xong bài tập). (2) TIẾC NUỐI: 財布を忘れてしまいました (đã lỡ quên ví). Nghĩa nào phụ thuộc ngữ cảnh.",
+      "mistakes_vi": ["Nhầm てしまいました (đã...) với ています (đang...) — hoàn toàn khác nhau.", "Quên て: 「忘れしまいました」 sai — phải là 忘れてしまいました."],
+      "examples": [
+        { "segments": [{ "t": "宿題", "r": "しゅくだい" }, { "t": "を" }, { "t": "して" }, { "t": "しまいました。" }], "vi": "Tôi đã làm xong bài tập." },
+        { "segments": [{ "t": "財布", "r": "さいふ" }, { "t": "を" }, { "t": "忘", "r": "わす" }, { "t": "れて" }, { "t": "しまいました。" }], "vi": "Tôi đã lỡ quên ví." }
+      ],
+      "source": "Minna II bài 26; Genki II bài 14", "verified": true
+    },
+    {
+      "id": "gn4-3-2", "unit_id": "n4-u3", "title": "～ておきます: làm trước (chuẩn bị)",
+      "structure": "[Động từ て-form] おきます",
+      "explanation_vi": "Làm trước để chuẩn bị: チケットを買っておきます (tôi sẽ mua vé trước). Cũng dùng để giữ trạng thái: 窓を開けておきます (mở cửa sổ để sẵn).",
+      "mistakes_vi": ["Nhầm với てみます (thử làm) — おきます là làm TRƯỚC, みます là THỬ."],
+      "examples": [
+        { "segments": [{ "t": "チケット" }, { "t": "を" }, { "t": "買", "r": "か" }, { "t": "って" }, { "t": "おきます。" }], "vi": "Tôi sẽ mua vé trước." },
+        { "segments": [{ "t": "お湯", "r": "おゆ" }, { "t": "を" }, { "t": "沸", "r": "わ" }, { "t": "かして" }, { "t": "おきます。" }], "vi": "Tôi đun nước sôi để sẵn." }
+      ],
+      "source": "Minna II bài 26; Genki II bài 14", "verified": true
+    },
+    {
+      "id": "gn4-3-3", "unit_id": "n4-u3", "title": "～てみます: thử làm",
+      "structure": "[Động từ て-form] みます",
+      "explanation_vi": "Thử làm một lần để xem sao: この料理を食べてみます (tôi thử món này xem). Khác ておきます (làm trước để chuẩn bị).",
+      "mistakes_vi": ["Nhầm てみます (thử) với てみます 間ます? No — みます ở đây là 見ます nhưng nghĩa là \"thử\"."],
+      "examples": [
+        { "segments": [{ "t": "この" }, { "t": "料理", "r": "りょうり" }, { "t": "を" }, { "t": "食", "r": "た" }, { "t": "べて" }, { "t": "みます。" }], "vi": "Tôi thử món này xem." },
+        { "segments": [{ "t": "日本語", "r": "にほんご" }, { "t": "で" }, { "t": "話", "r": "はな" }, { "t": "して" }, { "t": "みましょう。" }], "vi": "Thử nói bằng tiếng Nhật nhé!" }
+      ],
+      "source": "Minna II bài 26; Genki II bài 14", "verified": true
+    },
+    {
+      "id": "gn4-4-1", "unit_id": "n4-u4", "title": "Bị động 受身: ～られます",
+      "structure": "Nhóm 1: い→れます (言う→言われる) · Nhóm 2: る→られます (食べる→食べられます) · Nhóm 3: する→されます, 来る→来られます",
+      "explanation_vi": "Bị động nói \"BỊ\" ai đó làm: 先生に褒められました (được thầy khen). Người tác động + に: 友達に招待されました. Lưu ý 言う → 言われる (giống khả động nhưng nghĩa khác).",
+      "mistakes_vi": ["Nhầm bị động với khả động — cùng đuôi られます nhưng nghĩa khác (bị vs làm được).", "Quên に cho người tác động: 「先生褒められました」 sai."],
+      "examples": [
+        { "segments": [{ "t": "先生", "r": "せんせい" }, { "t": "に" }, { "t": "褒", "r": "ほ" }, { "t": "められました。" }], "vi": "Tôi được thầy khen." },
+        { "segments": [{ "t": "この" }, { "t": "寺", "r": "てら" }, { "t": "は" }, { "t": "五", "r": "ご" }, { "t": "百年", "r": "ひゃくねん" }, { "t": "前に" }, { "t": "建", "r": "た" }, { "t": "てられました。" }], "vi": "Chùa này được xây cách đây 500 năm." }
+      ],
+      "source": "Minna II bài 30; Genki II bài 21", "verified": true
+    },
+    {
+      "id": "gn4-5-1", "unit_id": "n4-u5", "title": "Khiến động 使役: ～させます",
+      "structure": "Nhóm 1: い→させます (行く→行かせます) · Nhóm 2: る→させます (食べる→食べさせます) · Nhóm 3: する→させます, 来る→来させます",
+      "explanation_vi": "Khiến động = \"khiến/bắt ai làm gì\": 母は子供に野菜を食べさせます (mẹ bắt con ăn rau). Người bị khiến + に (hoặc を cho 使います).",
+      "mistakes_vi": ["Dùng を cho người bị khiến: 「子供を野菜を食べさせます」 sai — người là に.", "Nhầm させます (khiến) với られます (bị)."],
+      "examples": [
+        { "segments": [{ "t": "母", "r": "はは" }, { "t": "は" }, { "t": "子", "r": "こ" }, { "t": "供", "r": "ども" }, { "t": "に" }, { "t": "野菜", "r": "やさい" }, { "t": "を" }, { "t": "食", "r": "た" }, { "t": "べさせます。" }], "vi": "Mẹ bắt con ăn rau." },
+        { "segments": [{ "t": "先生", "r": "せんせい" }, { "t": "は" }, { "t": "学生", "r": "がくせい" }, { "t": "に" }, { "t": "本", "r": "ほん" }, { "t": "を" }, { "t": "読", "r": "よ" }, { "t": "ませます。" }], "vi": "Thầy bắt học sinh đọc sách." }
+      ],
+      "source": "Minna II bài 31; Genki II bài 22", "verified": true
+    },
+    {
+      "id": "gn4-6-1", "unit_id": "n4-u6", "title": "～と思います: tôi nghĩ rằng",
+      "structure": "[Plain form] と 思います",
+      "explanation_vi": "Bày tỏ quan điểm: 日本語は難しいと思います (tôi nghĩ tiếng Nhật khó). Trước 思います dùng PLAIN FORM (khẳng định: だ, phủ định: ない, quá khứ: だった).",
+      "mistakes_vi": ["Dùng です-form: 「難しいですと思います」 sai — phải là plain form 難しい + と.", "Quên と: 「難しい思います」 sai."],
+      "examples": [
+        { "segments": [{ "t": "日本語", "r": "にほんご" }, { "t": "は" }, { "t": "難", "r": "むずか" }, { "t": "しい" }, { "t": "と" }, { "t": "思", "r": "おも" }, { "t": "います。" }], "vi": "Tôi nghĩ tiếng Nhật khó." },
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "来", "r": "く" }, { "t": "る" }, { "t": "と" }, { "t": "思", "r": "おも" }, { "t": "います。" }], "vi": "Tôi nghĩ Mai sẽ đến." }
+      ],
+      "source": "Minna II bài 27; Genki II bài 15", "verified": true
+    },
+    {
+      "id": "gn4-6-2", "unit_id": "n4-u6", "title": "～と言いました: ai đó nói rằng",
+      "structure": "[Plain form] と 言いました",
+      "explanation_vi": "Truyền đạt lời người khác nói: マイさんは「日本へ行きたい」と言いました (Mai nói muốn đi Nhật). Dùng plain form trước と言いました.",
+      "mistakes_vi": ["Dùng ます-form: 「行きますと言いました」 sai — phải là plain 行きたいと言いました."],
+      "examples": [
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "「" }, { "t": "日本", "r": "にほん" }, { "t": "へ" }, { "t": "行", "r": "い" }, { "t": "きたい" }, { "t": "」と" }, { "t": "言", "r": "い" }, { "t": "いました。" }], "vi": "Mai đã nói muốn đi Nhật." }
+      ],
+      "source": "Minna II bài 27; Genki II bài 15", "verified": true
+    },
+    {
+      "id": "gn4-6-3", "unit_id": "n4-u6", "title": "～そうです: nghe nói rằng",
+      "structure": "[Động từ ます bỏ ます / Tính từ bỏ です] + そうです",
+      "explanation_vi": "Truyền đạt thông tin nghe từ nguồn khác (hearsay): 雨が降るそうです (nghe nói trời mưa). KHÁC với そうです nghĩa \"trông có vẻ\" (mục 見た目).",
+      "mistakes_vi": ["Nhầm hearsay そうです (nghe nói) với appearance そうです (trông có vẻ) — cùng chữ nhưng ngữ pháp khác.", "Quên bỏ です: 「難しいですそうです」 sai."],
+      "examples": [
+        { "segments": [{ "t": "雨", "r": "あめ" }, { "t": "が" }, { "t": "降", "r": "ふ" }, { "t": "る" }, { "t": "そうです。" }], "vi": "Nghe nói trời mưa." },
+        { "segments": [{ "t": "マイ" }, { "t": "さん" }, { "t": "は" }, { "t": "元気", "r": "げんき" }, { "t": "だ" }, { "t": "そうです。" }], "vi": "Nghe nói Mai khỏe." }
+      ],
+      "source": "Minna II bài 33; Genki II bài 17", "verified": true
+    },
+    {
+      "id": "gn4-6-4", "unit_id": "n4-u6", "title": "～ようです / ～みたいです: có vẻ như",
+      "structure": "[Động từ plain / Tính từ plain] ようです / みたいです",
+      "explanation_vi": "Suy đoán dựa trên quan sát: 雨が降るようです (có vẻ trời mưa), かれは疲れているようです (anh ấy có vẻ mệt). みたいです thân mật hơn ようです.",
+      "mistakes_vi": ["Dùng です-form: 「疲れていますようです」 sai — phải là plain 疲れている + ようです.", "Nhầm ようです (suy đoán từ quan sát) với そうです (nghe nói từ nguồn khác)."],
+      "examples": [
+        { "segments": [{ "t": "雨", "r": "あめ" }, { "t": "が" }, { "t": "降", "r": "ふ" }, { "t": "っている" }, { "t": "ようです。" }], "vi": "Có vẻ đang mưa." },
+        { "segments": [{ "t": "かれ" }, { "t": "は" }, { "t": "疲", "r": "つか" }, { "t": "れて" }, { "t": "いる" }, { "t": "みたいです。" }], "vi": "Anh ấy có vẻ mệt." }
+      ],
+      "source": "Minna II bài 35; Genki II bài 18", "verified": true
+    },
+    {
+      "id": "gn4-7-1", "unit_id": "n4-u7", "title": "～ながら: vừa ... vừa ...",
+      "structure": "[Động từ て-form bỏ て] ながら、～",
+      "explanation_vi": "Làm HAI việc CÙNG LÚC: 音楽を聞きながら勉強します (vừa nghe nhạc vừa học). Động từ chính (việc chính) ở sau ながら.",
+      "mistakes_vi": ["Để việc chính trước ながら: 「勉強しながら音楽を聞きます」 có thể đúng nhưng nhấn mạnh khác — việc chính luôn ở SAU.", "Dùng て-form: 「聞いてながら」 sai — bỏ て, dùng ます-stem + ながら."],
+      "examples": [
+        { "segments": [{ "t": "音楽", "r": "おんがく" }, { "t": "を" }, { "t": "聞", "r": "き" }, { "t": "きながら" }, { "t": "勉強", "r": "べんきょう" }, { "t": "します。" }], "vi": "Vừa nghe nhạc vừa học." },
+        { "segments": [{ "t": "テレビ" }, { "t": "を" }, { "t": "見", "r": "み" }, { "t": "ながら" }, { "t": "ご飯", "r": "ごはん" }, { "t": "を" }, { "t": "食", "r": "た" }, { "t": "べます。" }], "vi": "Vừa xem tivi vừa ăn cơm." }
+      ],
+      "source": "Minna II bài 28; Genki II bài 16", "verified": true
+    },
+    {
+      "id": "gn4-7-2", "unit_id": "n4-u7", "title": "～たり～たりする: làm này làm kia",
+      "structure": "[Động từ た-form] たり、[Động từ た-form] たり します",
+      "explanation_vi": "Liệt kê nhiều hành động (không đầy đủ): 日曜日は本を読んだり、音楽を聞いたりします (chủ nhật đọc sách, nghe nhạc...). Kết thúc bằng します.",
+      "mistakes_vi": ["Quên します ở cuối: 「本を読んだり、音楽を聞いたり」 chưa hoàn chỉnh.", "Dùng ます-form: 「読みたり」 sai — phải là た-form 読んだり."],
+      "examples": [
+        { "segments": [{ "t": "日曜日", "r": "にちようび" }, { "t": "は" }, { "t": "本", "r": "ほん" }, { "t": "を" }, { "t": "読", "r": "よ" }, { "t": "んだり、" }, { "t": "音楽", "r": "おんがく" }, { "t": "を" }, { "t": "聞", "r": "き" }, { "t": "いたり" }, { "t": "します。" }], "vi": "Chủ nhật tôi đọc sách, nghe nhạc..." },
+        { "segments": [{ "t": "休", "r": "やす" }, { "t": "みの" }, { "t": "日", "r": "ひ" }, { "t": "は" }, { "t": "映画", "r": "えいが" }, { "t": "を見", "r": "み" }, { "t": "たり、" }, { "t": "散歩", "r": "さんぽ" }, { "t": "したり" }, { "t": "します。" }], "vi": "Ngày nghỉ tôi xem phim, đi dạo..." }
+      ],
+      "source": "Minna II bài 28; Genki II bài 16", "verified": true
+    },
+    {
+      "id": "gn4-8-1", "unit_id": "n4-u8", "title": "～すぎます: quá lắm",
+      "structure": "[Động từ ます bỏ ます / Tính từ bỏ い] + すぎます",
+      "explanation_vi": "Quá lắm: 食べすぎます (ăn quá nhiều), 高すぎます (quá đắt). Tính từ な dùng な + すぎます: 静かすぎます.",
+      "mistakes_vi": ["Tính từ い giữ い: 「高いすぎます」 sai — bỏ い: 高すぎます.", "Tính từ な quên な: 「静かすぎます」 đúng nhưng phải nhớ thêm な khi bổ nghĩa danh từ."],
+      "examples": [
+        { "segments": [{ "t": "食", "r": "た" }, { "t": "べ" }, { "t": "すぎます。" }], "vi": "Ăn quá nhiều." },
+        { "segments": [{ "t": "この" }, { "t": "カメラ" }, { "t": "は" }, { "t": "高", "r": "たか" }, { "t": "すぎます。" }], "vi": "Máy ảnh này quá đắt." }
+      ],
+      "source": "Minna II bài 29; Genki II bài 16", "verified": true
+    },
+    {
+      "id": "gn4-8-2", "unit_id": "n4-u8", "title": "～前に / ～てから: trước / sau khi",
+      "structure": "〜前に、～ / 〜てから、～",
+      "explanation_vi": "前に = TRƯỚC khi (dùng nguyên mẫu động từ): 寝る前に、歯を磨きます. てから = SAU khi (dùng て-form): 手を洗ってから、ご飯を食べます.",
+      "mistakes_vi": ["Dùng て-form với 前に: 「寝て前に」 sai — 前に dùng nguyên mẫu 寝る前に.", "Đảo thứ tự: 「手を洗ってからご飯を食べます」 nghĩa là RỬA TAY TRƯỚC RỒI ĂN — không phải ngược lại."],
+      "examples": [
+        { "segments": [{ "t": "寝", "r": "ね" }, { "t": "る" }, { "t": "前に、" }, { "t": "歯", "r": "は" }, { "t": "を" }, { "t": "磨", "r": "みが" }, { "t": "きます。" }], "vi": "Trước khi ngủ tôi đánh răng." },
+        { "segments": [{ "t": "手", "r": "て" }, { "t": "を" }, { "t": "洗", "r": "あら" }, { "t": "ってから、" }, { "t": "ご飯", "r": "ごはん" }, { "t": "を" }, { "t": "食", "r": "た" }, { "t": "べます。" }], "vi": "Rửa tay xong rồi ăn cơm." }
+      ],
+      "source": "Minna II bài 27; Genki II bài 16", "verified": true
+    },
+    {
+      "id": "gn4-8-3", "unit_id": "n4-u8", "title": "～なければなりません: phải làm",
+      "structure": "[Động từ ない-form bỏ い] なければなりません",
+      "explanation_vi": "Nghĩa vụ \"phải làm\": 薬を飲まなければなりません (phải uống thuốc). Cách nói nhẹ hơn: 〜ないといけません / 〜なきゃいけません (thân mật).",
+      "mistakes_vi": ["Dùng ます-form: 「飲みますなければ」 sai — phải là ない-form 飲まない→飲まなければ.", "Nhầm なければなりません (phải) với てもいいです (được phép) — nghĩa ngược."],
+      "examples": [
+        { "segments": [{ "t": "薬", "r": "くすり" }, { "t": "を" }, { "t": "飲", "r": "の" }, { "t": "まなければなりません。" }], "vi": "Tôi phải uống thuốc." },
+        { "segments": [{ "t": "明日", "r": "あした" }, { "t": "は" }, { "t": "早", "r": "はや" }, { "t": "く" }, { "t": "起", "r": "お" }, { "t": "きなければなりません。" }], "vi": "Ngày mai tôi phải dậy sớm." }
+      ],
+      "source": "Minna II bài 29; Genki II bài 17", "verified": true
+    },
+    {
+      "id": "gn4-8-4", "unit_id": "n4-u8", "title": "～なくてもいいです: không cần làm",
+      "structure": "[Động từ ない-form bỏ い] なくてもいいです",
+      "explanation_vi": "Không bắt buộc: 今日は来なくてもいいです (hôm nay không đến cũng được). NGƯỢC nghĩa với なければなりません.",
+      "mistakes_vi": ["Nhầm với てはいけません (không được) — なくてもいい là KHÔNG CẦN, てはいけません là KHÔNG ĐƯỢC."],
+      "examples": [
+        { "segments": [{ "t": "今日", "r": "きょう" }, { "t": "は" }, { "t": "来", "r": "こ" }, { "t": "なくてもいいです。" }], "vi": "Hôm nay không đến cũng được." },
+        { "segments": [{ "t": "お金", "r": "おかね" }, { "t": "は" }, { "t": "払", "r": "はら" }, { "t": "わなくてもいいです。" }], "vi": "Không cần trả tiền." }
+      ],
+      "source": "Minna II bài 29", "verified": true
+    }
+  ],
+  "exercises": [
+    { "id": "x-n4-1-1", "unit_id": "n4-u1", "grammar_id": "gn4-1-2", "type": "choice", "payload": { "question": "Khả động của 買います (mua) là gì?", "options": ["買えます", "買われる", "買わせます"], "answerIndex": 0 }, "explanation_vi": "Nhóm 1: い→え + る: 買う→買える.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 77 },
+    { "id": "x-n4-1-2", "grammar_id": "gn4-1-1", "unit_id": "n4-u1", "type": "fill", "payload": { "before": "日本語を話す", "after": "できます。", "accepted": ["ことが"], "full": "日本語を話すことができます。", "translation": "Tôi nói được tiếng Nhật." }, "explanation_vi": "Plain form + こと + が + できます.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 78 },
+    { "id": "x-n4-2-1", "grammar_id": "gn4-2-1", "unit_id": "n4-u2", "type": "fill", "payload": { "before": "雨が降", "after": "、出かけません。", "accepted": ["ったら"], "full": "雨が降ったら、出かけません。", "translation": "Nếu mưa thì không ra ngoài." }, "explanation_vi": "た-form = plain quá khứ + ら.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 79 },
+    { "id": "x-n4-2-2", "grammar_id": "gn4-2-2", "unit_id": "n4-u2", "type": "fill", "payload": { "before": "時間が", "after": "、行きます。", "accepted": ["あれば"], "full": "時間があれば、行きます。", "translation": "Nếu có thời gian thì đi." }, "explanation_vi": "ば-form: ある→あれば.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 80 },
+    { "id": "x-n4-3-1", "grammar_id": "gn4-3-1", "unit_id": "n4-u3", "type": "choice", "payload": { "question": "「Tôi lỡ quên ví」 — câu nào đúng?", "options": ["財布を忘れてしまいました。", "財布を忘れておきました。", "財布を忘れてみました。"], "answerIndex": 0 }, "explanation_vi": "てしまいました = tiếc nuối (lỡ quên).", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 81 },
+    { "id": "x-n4-3-2", "grammar_id": "gn4-3-2", "unit_id": "n4-u3", "type": "choice", "payload": { "question": "「Tôi sẽ mua vé trước」 — câu nào đúng?", "options": ["チケットを買っておきます。", "チケットを買ってしまいます。", "チケットを買ってみます。"], "answerIndex": 0 }, "explanation_vi": "ておきます = làm trước để chuẩn bị.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 82 },
+    { "id": "x-n4-4-1", "grammar_id": "gn4-4-1", "unit_id": "n4-u4", "type": "choice", "payload": { "question": "Bị động của 言います (nói) là gì?", "options": ["言われます", "言えます", "言わせます"], "answerIndex": 0 }, "explanation_vi": "Nhóm 1 bị động: い→れ + る: 言う→言われる.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 83 },
+    { "id": "x-n4-5-1", "grammar_id": "gn4-5-1", "unit_id": "n4-u5", "type": "choice", "payload": { "question": "Khiến động của 行きます (đi) là gì?", "options": ["行かせます", "行かれます", "行けます"], "answerIndex": 0 }, "explanation_vi": "Nhóm 1 khiến: い→さ + せる: 行く→行かせる.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 84 },
+    { "id": "x-n4-6-1", "grammar_id": "gn4-6-1", "unit_id": "n4-u6", "type": "fill", "payload": { "before": "日本語は難しい", "after": "思います。", "accepted": ["と"], "full": "日本語は難しいと思います。", "translation": "Tôi nghĩ tiếng Nhật khó." }, "explanation_vi": "Plain form + と + 思います.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 85 },
+    { "id": "x-n4-7-1", "grammar_id": "gn4-7-1", "unit_id": "n4-u7", "type": "fill", "payload": { "before": "音楽を聞き", "after": "勉強します。", "accepted": ["ながら"], "full": "音楽を聞きながら勉強します。", "translation": "Vừa nghe nhạc vừa học." }, "explanation_vi": "ます-stem + ながら = vừa...vừa...", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 86 },
+    { "id": "x-n4-7-2", "grammar_id": "gn4-7-2", "unit_id": "n4-u7", "type": "fill", "payload": { "before": "日曜日は映画を見", "after": "します。", "accepted": ["たり"], "full": "日曜日は映画を見たりします。", "translation": "Chủ nhật tôi xem phim..." }, "explanation_vi": "た-form + り…たり + します.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 87 },
+    { "id": "x-n4-8-1", "grammar_id": "gn4-8-1", "unit_id": "n4-u8", "type": "fill", "payload": { "before": "このカメラは高", "after": "ます。", "accepted": ["すぎ"], "full": "このカメラは高すぎます。", "translation": "Máy ảnh này quá đắt." }, "explanation_vi": "Tính từ い bỏ い + すぎます.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 88 },
+    { "id": "x-n4-8-2", "grammar_id": "gn4-8-3", "unit_id": "n4-u8", "type": "fill", "payload": { "before": "薬を飲ま", "after": "なりません。", "accepted": ["なければ"], "full": "薬を飲まなければなりません。", "translation": "Tôi phải uống thuốc." }, "explanation_vi": "ない-form bỏ い + なければなりません.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 89 },
+    { "id": "x-n4-8-3", "grammar_id": "gn4-8-4", "unit_id": "n4-u8", "type": "choice", "payload": { "question": "「Hôm nay không cần đến」 — câu nào đúng?", "options": ["今日は来なくてもいいです。", "今日は来てはいけません。", "今日は来なければなりません。"], "answerIndex": 0 }, "explanation_vi": "なくてもいいです = không cần làm.", "source": "kotori — soạn theo Minna II", "verified": true, "order_index": 90 }
+  ]
+}

@@ -136,6 +136,60 @@ async function DueCount() {
   );
 }
 
+async function N4GrammarSection() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) redirect("/dang-nhap");
+
+  const { data: points } = await supabase
+    .from("grammar_points")
+    .select("unit_id")
+    .eq("level", "n4")
+    .order("order_index");
+
+  const n4UnitIds = [...new Set((points ?? []).map((u: { unit_id: string }) => u.unit_id))];
+
+  const n4Units: { id: string; title: string }[] = [
+    { id: "n4-u1", title: "Khả năng & khả năng hoá" },
+    { id: "n4-u2", title: "Điều kiện たら・ば・なら" },
+    { id: "n4-u3", title: "て-form nâng cao" },
+    { id: "n4-u4", title: "Bị động 受身" },
+    { id: "n4-u5", title: "Khiến động 使役" },
+    { id: "n4-u6", title: "Truyền đạt & suy đoán" },
+    { id: "n4-u7", title: "Song song & liệt kê" },
+    { id: "n4-u8", title: "Tổng hợp & bổ trợ" },
+  ].filter((u) => n4UnitIds.includes(u.id));
+
+  const tints = ["bg-primary-soft", "bg-secondary-soft", "bg-mint-soft", "bg-butter-soft"];
+
+  return (
+    <>
+      <FadeIn className="mt-10">
+        <h1 className="text-xl font-bold tracking-tight">JLPT N4 — Ngữ pháp</h1>
+        <p className="mt-1 text-sm text-muted">
+          19 điểm ngữ pháp N4 mới: khả động, bị động, khiếN động, điều kiện, truyền đạt…
+        </p>
+      </FadeIn>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">
+        {n4Units.map((u, i) => (
+          <Link
+            key={u.id}
+            href={`/hoc/${u.id}`}
+            className={`rounded-3xl border border-border p-5 shadow-soft transition-transform hover:-translate-y-0.5 ${tints[i % tints.length]}`}
+          >
+            <p className="font-bold">{u.title}</p>
+            <p className="mt-0.5 text-sm text-muted">
+              {(points ?? []).filter((g: { unit_id: string }) => g.unit_id === u.id).length} điểm ngữ pháp
+            </p>
+          </Link>
+        ))}
+      </div>
+    </>
+  );
+}
+
 export default function StudyDashboardPage() {
   const kanaUnits = Object.entries(kanaData.units)
     .map(([id, u]) => ({ id, ...u, count: kanaData.items.filter((i) => i.unit_id === id).length }))
@@ -205,20 +259,9 @@ export default function StudyDashboardPage() {
         </Link>
       </FadeIn>
 
-      <FadeIn className="mt-10">
-        <h1 className="text-xl font-bold tracking-tight">JLPT N4 — sắp mở</h1>
-        <p className="mt-1 text-sm text-muted">
-          Khung lộ trình N4 đã sẵn sàng, nội dung đang được biên soạn sau N5.
-        </p>
-      </FadeIn>
-      <div className="mt-4 grid gap-3 opacity-60 sm:grid-cols-2">
-        {["N4 — Động từ dạngて nâng cao & tính từ", "N4 — Kinh nghiệm & sở thích (こと・の)", "N4 — Điều kiện & trần thuật"].map((t) => (
-          <div key={t} className="rounded-3xl border border-dashed border-border p-5">
-            <p className="font-bold text-muted">{t}</p>
-            <p className="mt-0.5 text-sm text-muted/70">Sắp mở — hoàn thiện sau N5</p>
-          </div>
-        ))}
-      </div>
+      <Suspense fallback={<div aria-hidden className="mt-10 h-40 animate-pulse rounded-3xl bg-surface-2" />}>
+        <N4GrammarSection />
+      </Suspense>
 
       <FadeIn className="mt-3 grid gap-3 sm:grid-cols-2">
         <Link

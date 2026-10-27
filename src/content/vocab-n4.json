@@ -1,0 +1,24 @@
+{
+  "units": [
+    { "id": "n4-v1", "level": "n4", "title": "N4 Từ vựng 1 — Công việc & kế hoạch", "order": 61, "description": "Động từ và danh từ về công việc, dự định, kế hoạch tương lai." },
+    { "id": "n4-v2", "level": "n4", "title": "N4 Từ vựng 2 — Cảm xúc & suy nghĩ", "order": 62, "description": "Từ vựng diễn tả cảm xúc, suy nghĩ, ý kiến." },
+    { "id": "n4-v3", "level": "n4", "title": "N4 Từ vựng 3 — Giao thông & di chuyển", "order": 63, "description": "Phương tiện, chuyển nhà, du lịch." },
+    { "id": "n4-v4", "level": "n4", "title": "N4 Từ vựng 4 — Sức khỏe & cơ thể (2)", "order": 64, "description": "Bệnh tật, khám chữa bệnh, sức khỏe chi tiết hơn." },
+    { "id": "n4-v5", "level": "n4", "title": "N4 Từ vựng 5 — Nhà cửa & nội thất", "order": 65, "description": "Phòng ốc, nội thất, thiết bị gia đình." },
+    { "id": "n4-v6", "level": "n4", "title": "N4 Từ vựng 6 — Tự nhiên & thời tiết", "order": 66, "description": "Thiên nhiên, thời tiết chi tiết, thiên tai." },
+    { "id": "n4-v7", "level": "n4", "title": "N4 Từ vựng 7 — Số đếm & lượng từ", "order": 67, "description": "Các cách đếm và lượng từ trong tiếng Nhật." },
+    { "id": "n4-v8", "level": "n4", "title": "N4 Từ vựng 8 — Tính từ & trạng từ nâng cao", "order": 68, "description": "Tính từ và trạng từ bổ sung cho N4." }
+  ],
+  "words": [
+    { "id": "n4v1-01", "unit_id": "n4-v1", "level": "n4", "kana": "けいかく", "kanji": "計画", "romaji": "keikaku", "meaning_vi": "kế hoạch", "pos": "danh từ", "example_jp": "旅行の計画を立てます。", "example_reading": "りょこうのけいかくをたてます。", "example_vi": "Tôi lập kế hoạch du lịch.", "source": "JMdict (計画); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-02", "unit_id": "n4-v1", "level": "n4", "kana": "よてい", "kanji": "予定", "romaji": "yotei", "meaning_vi": "lịch trình, dự định", "pos": "danh từ", "example_jp": "明日は予定がありません。", "example_reading": "あしたはよていがありません。", "example_vi": "Mai tôi không có lịch.", "source": "JMdict (予定); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-03", "unit_id": "n4-v1", "level": "n4", "kana": "めあて", "kanji": "目当て", "romaji": "meate", "meaning_vi": "mục đích", "pos": "danh từ", "example_jp": "何を目当てにしていますか。", "example_reading": "なにをめあてにしていますか。", "example_vi": "Bạn hướng tới mục tiêu gì?", "source": "JMdict (目当て); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-04", "unit_id": "n4-v1", "level": "n4", "kana": "もくてき", "kanji": "目的", "romaji": "mokuteki", "meaning_vi": "mục đích", "pos": "danh từ", "example_jp": "旅行の目的は何ですか。", "example_reading": "りょこうのもくてきはなんですか。", "example_vi": "Mục đích chuyến đi là gì?", "source": "JMdict (目的); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-05", "unit_id": "n4-v1", "level": "n4", "kana": "きゅうりょう", "kanji": "給料", "romaji": "kyūryō", "meaning_vi": "lương", "pos": "danh từ", "example_jp": "給料をもらいました。", "example_reading": "きゅうりょうをもらいました。", "example_vi": "Tôi đã nhận lương.", "source": "JMdict (給料); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-06", "unit_id": "n4-v1", "level": "n4", "kana": "かいぎ", "kanji": "会議", "romaji": "kaigi", "meaning_vi": "cuộc họp", "pos": "danh từ", "example_jp": "会議に遅れました。", "example_reading": "かいぎにおくれました。", "example_vi": "Tôi trễ cuộc họp.", "source": "JMdict (会議); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-07", "unit_id": "n4-v1", "level": "n4", "kana": "たいかい", "kanji": "大会", "romaji": "taikai", "meaning_vi": "giải đấu, đại hội", "pos": "danh từ", "example_jp": "大会に出ます。", "example_reading": "たいかいにでます。", "example_vi": "Tôi tham gia giải đấu.", "source": "JMdict (大会); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-08", "unit_id": "n4-v1", "level": "n4", "kana": "べんかい", "kanji": "弁解", "romaji": "benkai", "meaning_vi": "biện minh", "pos": "danh từ", "example_jp": "言い訳をしないでください。", "example_reading": "いいわけをしないでください。", "example_vi": "Vui lòng đừng biện minh.", "source": "JMdict (弁解); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-09", "unit_id": "n4-v1", "level": "n4", "kana": "いけん", "kanji": "意見", "romaji": "iken", "meaning_vi": "ý kiến", "pos": "danh từ", "example_jp": "意見を言います。", "example_reading": "いけんをいいます。", "example_vi": "Tôi nêu ý kiến.", "source": "JMdict (意見); nghĩa chuẩn lớp học", "verified": true },
+    { "id": "n4v1-10", "unit_id": "n4-v1", "level": "n4", "kana": "かんがえ", "kanji": "考え", "romaji": "kangae", "meaning_vi": "suy nghĩ, quan điểm", "pos": "danh từ", "example_jp": "あなたの考えを教えてください。", "example_reading": "あなたのかんがえをおしえてください。", "example_vi": "Vui lòng cho tôi biết suy nghĩ của bạn.", "source": "JMdict (考え); nghĩa chuẩn lớp học", "verified": true }
+  ]
+}

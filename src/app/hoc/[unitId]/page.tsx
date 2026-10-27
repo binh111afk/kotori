@@ -6,6 +6,7 @@ import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { createClient } from "@/lib/supabase/server";
 import kanaData from "@/content/kana.json";
 import vocabData from "@/content/vocab-n5.json";
+import grammarN4Data from "@/content/grammar-n4.json";
 import {
   UnitStudy,
   type UnitPayload,
@@ -18,11 +19,14 @@ import type { GrammarPointData } from "@/components/study/grammar-lessons";
 type Params = { unitId: string };
 
 const kanaUnits = kanaData.units as Record<string, { title: string; order: number }>;
+const n4Units = grammarN4Data.units as unknown as Record<string, { title: string; order: number }>;
 
 export function generateStaticParams() {
-  return [...Object.keys(kanaData.units), ...vocabData.units.map((u) => u.id)].map((unitId) => ({
-    unitId,
-  }));
+  return [
+    ...Object.keys(kanaData.units),
+    ...vocabData.units.map((u) => u.id),
+    ...Object.keys(grammarN4Data.units),
+  ].map((unitId) => ({ unitId }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/hoc/[unitId]">): Promise<Metadata> {
@@ -84,6 +88,30 @@ async function UnitContent({ unitId }: Params & { unitId: string }) {
     };
     grammarPoints = (grammarRes.data ?? []) as GrammarPointData[];
     grammarExercises = (exercisesRes.data ?? []) as ExerciseData[];
+  } else if (unitId.startsWith("n4-u")) {
+    // N4 grammar unit — fetch grammar points + exercises from DB
+    const [grammarRes, exercisesRes] = await Promise.all([
+      supabase
+        .from("grammar_points")
+        .select("id,title,structure,explanation_vi,mistakes_vi,examples,source")
+        .eq("unit_id", unitId)
+        .order("order_index"),
+      supabase
+        .from("exercises")
+        .select("id,type,payload,explanation_vi,item_ref")
+        .eq("unit_id", unitId)
+        .order("order_index"),
+    ]);
+    const points = (grammarRes.data ?? []) as GrammarPointData[];
+    grammarPoints = points;
+    grammarExercises = (exercisesRes.data ?? []) as ExerciseData[];
+    unit = {
+      kind: "vocab",
+      id: unitId,
+      title: points[0]?.title ?? unitId,
+      description: unitId,
+      items: [],
+    };
   }
 
   if (!unit) notFound();
@@ -103,8 +131,9 @@ export default async function UnitPage({ params }: PageProps<"/hoc/[unitId]">) {
   const { unitId } = await params;
   const kanaUnit = kanaUnits[unitId];
   const vocabUnit = vocabData.units.find((u) => u.id === unitId);
-  const title = kanaUnit?.title ?? vocabUnit?.title ?? "Bài học";
-  const back = unitId.startsWith("k") ? "Bảng kana" : "Từ vựng N5";
+  const n4Unit = n4Units[unitId];
+  const title = kanaUnit?.title ?? n4Unit?.title ?? vocabUnit?.title ?? "Bài học";
+  const back = unitId.startsWith("k") ? "Bảng kana" : unitId.startsWith("n4") ? "Ngữ pháp N4" : "Từ vựng N5";
 
   return (
     <div className="py-6">
