@@ -7,6 +7,7 @@ import { ChartBar, Headphones, BookOpen, Medal } from "@phosphor-icons/react/dis
 import { createClient } from "@/lib/supabase/server";
 import kanaData from "@/content/kana.json";
 import vocabData from "@/content/vocab-n5.json";
+import vocabN4Data from "@/content/vocab-n4.json";
 import { loadStats } from "@/lib/study/stats-loader";
 import { levelProgress } from "@/lib/study/level";
 import { evaluateBadges } from "@/lib/study/badges";
@@ -169,7 +170,7 @@ async function N4GrammarSection() {
       <FadeIn className="mt-10">
         <h1 className="text-xl font-bold tracking-tight">JLPT N4 — Ngữ pháp</h1>
         <p className="mt-1 text-sm text-muted">
-          19 điểm ngữ pháp N4 mới: khả động, bị động, khiếN động, điều kiện, truyền đạt…
+          {(points ?? []).length} điểm ngữ pháp N4: khả động, bị động, sai khiến, điều kiện, truyền đạt…
         </p>
       </FadeIn>
       <div className="mt-4 grid gap-3 sm:grid-cols-2">
@@ -197,6 +198,9 @@ export default function StudyDashboardPage() {
   const vocabUnits = [...vocabData.units]
     .map((u) => ({ ...u, count: vocabData.words.filter((w) => w.unit_id === u.id).length }))
     .sort((a, b) => a.order - b.order);
+  const n4VocabUnits = vocabN4Data.units
+    .map((u) => ({ ...u, count: vocabN4Data.words.filter((w) => w.unit_id === u.id).length }))
+    .filter((u) => u.count > 0);
 
   return (
     <div className="mx-auto w-full max-w-4xl px-4 py-10 sm:px-6">
@@ -262,6 +266,25 @@ export default function StudyDashboardPage() {
       <Suspense fallback={<div aria-hidden className="mt-10 h-40 animate-pulse rounded-3xl bg-surface-2" />}>
         <N4GrammarSection />
       </Suspense>
+
+      <FadeIn className="mt-10">
+        <h1 className="text-xl font-bold tracking-tight">JLPT N4 — Từ vựng</h1>
+        <p className="mt-1 text-sm text-muted">
+          {vocabN4Data.words.length} từ N4 theo chủ đề — flashcard có phát âm và câu ví dụ.
+        </p>
+      </FadeIn>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">
+        {n4VocabUnits.map((u, i) => (
+          <Link
+            key={u.id}
+            href={`/hoc/${u.id}`}
+            className={`rounded-3xl border border-border p-5 shadow-soft transition-transform hover:-translate-y-0.5 ${kanaTints[(i + 2) % kanaTints.length]}`}
+          >
+            <p className="font-bold">{u.title.replace(/^N4 /, "")}</p>
+            <p className="mt-0.5 text-sm text-muted">{u.count} từ · {u.description}</p>
+          </Link>
+        ))}
+      </div>
 
       <FadeIn className="mt-3 grid gap-3 sm:grid-cols-2">
         <Link

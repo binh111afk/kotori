@@ -34,6 +34,7 @@ let readingCount = 0;
 
 for (const file of files) {
   const data = JSON.parse(readFileSync(join(contentDir, file), "utf8"));
+  const level = file.includes("-n4") ? "n4" : "n5";
 
   if (file.startsWith("vocab-")) {
     const sql =
@@ -44,7 +45,7 @@ for (const file of files) {
       await client.query(sql, [
         w.id,
         w.unit_id,
-        "n5",
+        level,
         w.kana,
         w.kanji ?? null,
         w.romaji,
@@ -122,7 +123,7 @@ for (const file of files) {
         `insert into public.grammar_points (id, unit_id, level, title, structure, explanation_vi, mistakes_vi, examples, source, verified, order_index)
          values ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)
          on conflict (id) do update set unit_id=excluded.unit_id, level=excluded.level, title=excluded.title, structure=excluded.structure, explanation_vi=excluded.explanation_vi, mistakes_vi=excluded.mistakes_vi, examples=excluded.examples, source=excluded.source, verified=excluded.verified, order_index=excluded.order_index`,
-        [g.id, g.unit_id, "n5", g.title, g.structure, g.explanation_vi, JSON.stringify(g.mistakes_vi), JSON.stringify(g.examples), g.source, g.verified, g.order_index ?? grammarCount],
+        [g.id, g.unit_id, level, g.title, g.structure, g.explanation_vi, JSON.stringify(g.mistakes_vi), JSON.stringify(g.examples), g.source, g.verified, g.order_index ?? grammarCount],
       );
       grammarCount++;
     }
