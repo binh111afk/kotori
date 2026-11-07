@@ -23,13 +23,15 @@ interface WordState {
  */
 export function ReadingText({
   segments,
-  dict,
+  dict: dictObj,
   className,
 }: {
   segments: FuriganaSegment[];
-  dict: Map<string, DictEntry>;
+  dict: Record<string, DictEntry>;
   className?: string;
 }) {
+  // Map từ plain object (RSC không serialize được Map qua props)
+  const dict = useMemo(() => new Map(Object.entries(dictObj)), [dictObj]);
   const [active, setActive] = useState<WordState | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 

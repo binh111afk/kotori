@@ -45,11 +45,13 @@ async function LessonContent({ lesson }: Params & { lesson: string }) {
   const exercises = (exercisesRes.data ?? []) as ExerciseData[];
 
   // Xây dựng dictionary tra từ: bài học + 781 từ vựng + 100 kanji
-  const dict = buildDict(
+  // RSC không serialize được Map → chuyển thành plain object
+  const dictMap = buildDict(
     vocabulary,
     (vocabRes.data ?? []) as { kana: string; kanji: string | null; romaji: string; meaning_vi: string }[],
     (kanjiRes.data ?? []) as { char: string; meaning_vi: string; on_reading: string[]; kun_reading: string[] }[],
   );
+  const dict = Object.fromEntries(dictMap.entries());
 
   return (
     <div className="space-y-6">
